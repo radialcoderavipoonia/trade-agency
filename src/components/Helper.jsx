@@ -1,3 +1,59 @@
+import starterbusinessenterpriseimg from "../assets/images/png/starter_pricing_box.png";
+import righticon from "../assets/images/png/righticon.png";
+import righticongray from "../assets/images/png/righticongray.png"
+export const Pricing = [
+  {
+    id: 1,
+    imgicon: starterbusinessenterpriseimg,
+    heading: "Starter",
+    button: "POPULAR PLAN",
+    include: "Whats Included :",
+    rightimgicon: righticon,
+    allbasic: "All basic CRM features",
+    contacts: "Up to 10,000 contacts",
+    rightimgicongray: righticongray,
+    normalsupport: "Normal support",
+    mobileapp: "Mobile app",
+    dollar: "$99.00",
+    spanmonth: "/ Month",
+    getstartedbutton: "Get Started",
+    nocreditcard: "No credit card required",
+  },
+  {
+    id: 2,
+    imgicon: starterbusinessenterpriseimg,
+    heading: "Business",
+    button: "POPULAR PLAN",
+    include: "Whats Included :",
+    rightimgicon: righticon,
+    allbasic: "All basic CRM features",
+    contacts: "Up to 10,000 contacts",
+    rightimgicongray: righticongray,
+    normalsupport: "Normal support",
+    mobileapp: "Mobile app",
+    dollar: "$99.00",
+    spanmonth: "/ Month",
+    getstartedbutton: "Get Started",
+    nocreditcard: "No credit card required",
+  },
+  {
+    id: 3,
+    imgicon: starterbusinessenterpriseimg,
+    heading: "Enterprise",
+    button: "POPULAR PLAN",
+    include: "Whats Included :",
+    rightimgicon: righticon,
+    allbasic: "All basic CRM features",
+    contacts: "Up to 10,000 contacts",
+    rightimgicongray: righticongray,
+    normalsupport: "Normal support",
+    mobileapp: "Mobile app",
+    dollar: "$99.00",
+    spanmonth: "/ Month",
+    getstartedbutton: "Get Started",
+    nocreditcard: "No credit card required",
+  },
+];
 export const Facebook = () => {
     return (
         <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
