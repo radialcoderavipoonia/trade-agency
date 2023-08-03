@@ -83,6 +83,7 @@ const PricingPlan = () => {
           <div className="d-flex justify-content-center pt_43">
             <button className="quote_button border-0 ff_inter fs_1x8l text-white fw-semibold">Get a Quote</button>
           </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo omnis eum iure distinctio harum quaerat beatae. Aliquid explicabo itaque laudantium!</p>
         </div>
       </section>
     </>
