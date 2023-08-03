@@ -1,12 +1,69 @@
+/* nav */
+.z_10 {
+    z-index: 10;
+}
+
+.lh_normal {
+    line-height: normal;
+}
+
+.me_40 {
+    margin-right: 40px;
+}
+
+.ms_8 {
+    margin-left: 8px;
+}
+
+.login_btn {
+    padding: 18px 40px;
+    background: #1D1D27;
+    box-shadow: 0px 25px 43px 0px rgba(10, 131, 247, 0.25);
+}
+
+.ms_20 {
+    margin-left: 20px;
+}
+
+.login_btn_open {
+    padding: 18px 40px;
+    background: #206DFD;
+}
+
+.me_10 {
+    margin-right: 10px;
+}
+
+/* hero */
+.hero_bg {
+    background-image: url(../src/assets/images/png/hero_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.pt_64 {
+    padding-top: 64px;
+}
+
+
+
+.p_45_30 {
+    padding: 45px 30px;
+}
+
+@media (min-width:1200px) {}
+
 @media (max-width: 1200px) {
     .nav_show {
         position: fixed;
         opacity: 0;
         background-color: transparent;
         transition: all 0.6s linear;
-        left: 0%;
-        width: 100%;
-        align-items: center;
+        left: 64%;
+        margin-left: 6px;
+        /* width: ; */
+        align-items: end;
         justify-content: center;
         flex-direction: column;
         z-index: -4;
@@ -17,16 +74,13 @@
 
     .nav_show.showw {
         opacity: 10;
-        min-height: 100vh;
+        /* min-height: 50%; */
         z-index: 6;
         clip-path: circle(75%);
-        background-color: black !important;
-        background-image: url(../src/assets/images/png/hero_bg.png);
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-color: #111116 !important;
     }
 
-    .vh_100_992 {
-        min-height: 100vh;
+    .fb_img svg path:first-child {
+        fill: #000000;
     }
 }

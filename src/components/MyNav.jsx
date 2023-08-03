@@ -1,9 +1,14 @@
 import React from "react";
-import nav_btn from "../assets/images/png/nav_logo.png";
-import search from "../assets/images/svg/search_icon.svg";
 import { ImCross } from "react-icons/im";
-import { AiOutlineAlignRight } from "react-icons/ai";
 import { Container } from "react-bootstrap";
+import {
+  Facebook,
+  Instagram,
+  LoginBtnIcon,
+  Menuicon,
+  NavIn,
+  Tweeter,
+} from "./Icons";
 const MyNav = () => {
   const [First, setFirst] = React.useState(true);
   function clickshow() {
@@ -16,100 +21,72 @@ const MyNav = () => {
   }
   return (
     <>
-      <div className="nav_bg">
+      <div className="pt_64">
         <Container className="">
           {/* btn */}
-          <div className=" d-flex justify-content-between d-xl-none align-items-center px-md-4 py-3">
-            <span>
-              <a href="#">
-                <img
-                  src={nav_btn}
-                  alt="nav_btn"
-                  className="w-100 position-relative z_10"
-                />
-              </a>
-            </span>
+          <div className=" d-flex justify-content-between d-xl-none align-items-center">
+            <p className="mb-0 ff_oswald fs_2x5l text-white fw-semibold lh_normal">
+              Web Design
+            </p>
             <h2
               onClick={clickshow}
-              className="pointer position-relative z_10 text-white ps-4 mb-0"
+              className="pointer position-relative z_10 ps-4 mb-0 text-white"
             >
-              {First ? <AiOutlineAlignRight /> : <ImCross />}
+              {First ? <Menuicon /> : <ImCross />}
             </h2>
           </div>
           {/* nav */}
           <div className={`nav_show ${First ? "" : "ps-0 showw"}`}>
-            <div className="bg_nav_black py-4 vh_100_1920 position-relative">
-              <div className="mx-md-5 mx-sm-3 mx-1">
+            <div className="py-4 h-100 position-relative">
+              <div className="p_45_30">
                 <div className="nav_container">
-                  <div className=" d-flex align-items-center flex-xl-row flex-column justify-content-center justify-content-xl-between  vh_100_992">
-                    <span className=" d-xl-block d-none me-3">
-                      <img src={nav_btn} alt="nav_logo" className="w-100 me-3" />
-                    </span>
-                    {/* search */}
-                    <div className="rounded-pill d-flex align-items-center nav_input me-lg-4">
-                      <input
-                        type="text"
-                        placeholder="Search here..."
-                        className="input_width bg-transparent border-0 d-xxl-block d-none opacity_06 fst-italic clr_white"
-                      />
-                      <span className="pointer">
-                        <img src={search} alt="search" className="w-100" />
-                      </span>
-                    </div>
+                  <div className=" d-flex align-items-xl-center align-items-start flex-xl-row flex-column justify-content-center justify-content-xl-between  vh_100_992">
+                    <p className=" d-xl-block mb-0 d-none ff_oswald fs_2x5l text-white fw-semibold lh_normal">
+                      Web Design
+                    </p>
                     {/* option */}
-                    <ul className="d-flex align-items-center mb-xl-0 flex-xl-row flex-column ps-0 gap-xl-0 gap-2 mb-4">
+                    <button className="text-white d-xlnone fs_2xl fw-bold lh_normal ff_rubik login_btn_open rounded-pill border-0">
+                      <span className="me_10">
+                        <LoginBtnIcon />
+                      </span>
+                      Login
+                    </button>
+                    <ul className="d-flex align-items-xl-center mb-xl-0 flex-xl-row flex-column ps-0">
                       <li>
                         <a
                           href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
+                          className=" ff_rubik fs_1x8l fw-bold text-white me_40"
                           onClick={clickshow}
                         >
-                          About
+                          MINECRAFT HOSTING
                         </a>
                       </li>
                       <li>
                         <a
                           href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
+                          className=" ff_rubik fs_1x8l fw-bold text-white me_40"
                           onClick={clickshow}
                         >
-                          Features
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
-                          onClick={clickshow}
-                        >
-                          Pricing
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
-                          onClick={clickshow}
-                        >
-                          Support
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
-                          onClick={clickshow}
-                        >
-                          FAQs
+                          GAME HOSTING
                         </a>
                       </li>
                     </ul>
-                    <div className=" d-flex flex-xl-row flex-column">
-                      <button className="ff_way clr_white fw_400 fs_sm login_btn bg-transparent position-relative button_hover overflow-hidden">
+                    <div className=" d-flex align-items-center">
+                      <span className="fb_img">
+                        <Facebook />
+                      </span>
+                      <span className="ms_8">
+                        <Instagram />
+                      </span>
+                      <span className="ms_8">
+                        <Tweeter />
+                      </span>
+                      <span className="ms_8">
+                        <NavIn />
+                      </span>
+                      <button className="text-white d-xl-block d-none fs_2xl fw-bold lh_normal ff_rubik login_btn rounded-pill border-0 ms_20">
+                        <LoginBtnIcon />
                         Login
-                      </button>
-                      <button className="ff_way clr_white fw_400 fs_sm sign_btn ms-xl-3 mt-xl-0 mt-4 bg_orange border-0 position-relative button_hover overflow-hidden">
-                        SignUp
                       </button>
                     </div>
                   </div>
