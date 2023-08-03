@@ -1,11 +1,94 @@
-/* padding  */
-.pt_43{
-    padding-top: 43px;
+html{
+  overflow-x: hidden;
 }
-.pb_43{
-    padding-bottom: 43px;
+/* padding  */
+.pt_43 {
+  padding-top: 43px;
+}
+.pb_43 {
+  padding-bottom: 43px;
+}
+.pt_14{
+  padding-top: 14px;
+}
+.py_32{
+    padding: 32px 0;
+}
+.py_40{
+  padding: 40px 0;
+}
+.pt_43{
+  padding-top: 43px;
+}
+.pt_33{
+  padding-top: 33px;
+}
+.px_32{
+  padding: 0 32px;
+}
+.pt_20{
+  padding-top: 20px;
 }
 /* max width  */
-.mw_647{
-    max-width: 647px;
+.mw_647 {
+  max-width: 647px;
+}
+/* boxes  */
+.pricing_plan_box {
+  border-radius: 15px;
+  background: #111116 !important;
+  box-shadow: 8px 24px 96px 0px rgba(68, 77, 163, 0.08) !important;
+  height: 100%;
+  padding: 32px;
+}
+/* border  */
+.border_started_button{
+  border: 1px solid #0E4BFE;
+}
+/* border radius  */
+.br_45{
+    border-radius: 45px;
+}
+.br_10{
+  border-radius: 10px;
+}
+/* pricing plan section  */
+.pp_button{
+    background: rgba(132, 160, 232, 0.10);
+    padding: 10px 22px;
+} 
+/* button  */
+.quote_button{
+border-radius: 90px;
+background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+padding: 18px 35px;
+}
+/* color  */
+.pricing_box_secondary_color{
+  color: #6E6E71 !important;
+}
+/* before after  */
+.top_bottom_zigzag_img::after{
+  content: '';
+  position: absolute;
+  top: -15%;
+  right: -16%;
+  background-image: url("./assets/images/png/pricingplan_giggaz_top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 451px;
+  height: 226px;
+  z-index: -1;
+}
+.top_bottom_zigzag_img::before{
+  content: '';
+  position: absolute;
+  bottom: 6%;
+  left: -6%;
+  background-image: url("./assets/images/png/pricingplan_giggaz_bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 451px;
+  height: 226px;
+  z-index: -1;
 }
