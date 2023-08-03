@@ -1,3 +1,9 @@
+.bg_img_main {
+    background-image: url(./assets/images/png/Main_hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* game hosting */
 .bg_img_game_hosting {
     background-image: url(./assets/images/png/game_hosting_bg.png);
@@ -18,4 +24,22 @@
     background: white;
     padding: 12px;
     outline: none;
+}
+
+.bg_color {
+    background-color: #1E1E29;
+}
+
+/* our location */
+.our_location_box_shadow {
+    border-radius: 20px;
+    background-color: black;
+    background-blend-mode: soft-light, normal;
+    box-shadow: 8px 24px 96px 0px rgba(68, 77, 163, 0.08);
+}
+
+.bg_img_our_location {
+    background-image: url(./assets/images/png/our_location_bg_img.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }

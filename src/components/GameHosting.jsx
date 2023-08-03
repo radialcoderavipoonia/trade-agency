@@ -4,7 +4,7 @@ import Growth_img from "../assets/images/png/game_hosting_costomer_growth_img.pn
 const GameHosting = () => {
   return (
     <>
-      <section className="bg-dark">
+      <section className="py-5">
         <div className="custome_container container">
           <div className="text-center pb-4">
             <h2 className="fw-bold fs_4xl text-white ff_rubik mb-0">
@@ -17,7 +17,7 @@ const GameHosting = () => {
               egestas pellentesque magna.
             </p>
           </div>
-          <div className="bg_img_game_hosting mt-4 mt-lg-5 pt-4">
+          <div className="bg_img_game_hosting mt-4 mt-lg-5 pt-4 mx-lg-5">
             <div className="d-flex align-items-center">
                 <div className="d-flex align-items-center gap-2 m-4">
                   <span className="game_hosting_white_circel"></span>
