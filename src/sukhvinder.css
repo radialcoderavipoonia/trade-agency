@@ -1,3 +1,32 @@
-.fhdgfjdsnxma{
-    display: none;
+@media (max-width: 1200px) {
+    .nav_show {
+        position: fixed;
+        opacity: 0;
+        background-color: transparent;
+        transition: all 0.6s linear;
+        left: 0%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: -4;
+        clip-path: circle(0px at calc(100% - 45px) 45px);
+        top: 0;
+        z-index: 20;
+    }
+
+    .nav_show.showw {
+        opacity: 10;
+        min-height: 100vh;
+        z-index: 6;
+        clip-path: circle(75%);
+        background-color: black !important;
+        background-image: url(../src/assets/images/png/hero_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .vh_100_992 {
+        min-height: 100vh;
+    }
 }
