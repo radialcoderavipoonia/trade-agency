@@ -23,7 +23,6 @@ const MyNav = () => {
     <>
       <div className="pt_64">
         <Container className="">
-          {/* btn */}
           <div className=" d-flex justify-content-between d-xl-none align-items-center">
             <p className="mb-0 ff_oswald fs_2x5l text-white fw-semibold lh_normal">
               Web Design
@@ -45,7 +44,7 @@ const MyNav = () => {
                       Web Design
                     </p>
                     {/* option */}
-                    <button className="text-white d-xlnone fs_2xl fw-bold lh_normal ff_rubik login_btn_open rounded-pill border-0">
+                    <button className="text-white d-xl-none fs_2xl fw-bold lh_normal ff_rubik login_btn_open rounded-pill border-0">
                       <span className="me_10">
                         <LoginBtnIcon />
                       </span>
