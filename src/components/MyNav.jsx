@@ -4,6 +4,7 @@ import search from "../assets/images/svg/search_icon.svg";
 import { ImCross } from "react-icons/im";
 import { AiOutlineAlignRight } from "react-icons/ai";
 import { Container } from "react-bootstrap";
+import PricingPlan from "./PricingPlan";
 const MyNav = () => {
   const [First, setFirst] = React.useState(true);
   function clickshow() {
