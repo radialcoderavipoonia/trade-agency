@@ -60,9 +60,8 @@
         opacity: 0;
         background-color: transparent;
         transition: all 0.6s linear;
-        left: 64%;
-        margin-left: 6px;
-        /* width: ; */
+        left: 0%;
+         width: 500px;
         align-items: end;
         justify-content: center;
         flex-direction: column;
@@ -74,7 +73,7 @@
 
     .nav_show.showw {
         opacity: 10;
-        /* min-height: 50%; */
+        min-height: 50%;
         z-index: 6;
         clip-path: circle(75%);
         background-color: black !important;
