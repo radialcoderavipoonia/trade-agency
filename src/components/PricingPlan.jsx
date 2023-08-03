@@ -12,6 +12,7 @@ const PricingPlan = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo omnis eum iure distinctio harum quaerat beatae. Aliquid explicabo itaque laudantium!</p>
         </div>
       </section>
     </>
