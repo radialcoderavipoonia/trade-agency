@@ -77,14 +77,11 @@
         /* min-height: 50%; */
         z-index: 6;
         clip-path: circle(75%);
-<<<<<<< HEAD
         background-color: black !important;
         /* background-image: url(../src/assets/images/png/hero_bg.png); */
         background-repeat: no-repeat;
         background-size: cover;
-=======
         background-color: #111116 !important;
->>>>>>> b00567518b462c204802995218feb9822b19dc01
     }
 
     .fb_img svg path:first-child {
