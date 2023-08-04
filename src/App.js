@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import PricingPlan from './components/PricingPlan';
-// import MyNav from './components/MyNav'
+import MyNav from './components/MyNav'
 import GameHosting from './components/GameHosting';
 import OurLocations from './components/OurLocations';
 // import { Hero } from "./components/Hero";
@@ -10,7 +10,7 @@ import OurLocations from './components/OurLocations';
 function App() {
   return (
     <>
-      {/* <MyNav /> */}
+      <MyNav />
       {/* <PricingPlan/> */}
       <GameHosting />
       <OurLocations/>

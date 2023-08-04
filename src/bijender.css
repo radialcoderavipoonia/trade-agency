@@ -27,11 +27,11 @@
 }
 
 /* our location */
-.our_location_box_shadow {
+.our_location_bg_img_black {
+    background-image: url("./assets/images/png/our_location_bg_img_black.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 20px;
-    background-color: black;
-    background-blend-mode: soft-light, normal;
-    box-shadow: 8px 24px 96px 0px rgba(68, 77, 163, 0.08);
 }
 
 .bg_img_our_location {
@@ -39,6 +39,20 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.pt_20{
+
+.pt_20 {
     padding-top: 20px;
+}
+
+/* .mb_46 {
+    margin-bottom: 46px;
+} */
+
+.z_index_1 {
+    z-index: 1;
+    top: -20%;
+}
+
+.z_index_minus {
+    z-index: -1;
 }
