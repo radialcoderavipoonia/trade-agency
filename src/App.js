@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BasicFeatures from "./components/BasicFeatures";
+// import BasicFeatures from "./components/BasicFeatures";
+import ModPack from "./components/ModPack";
 // import Testimonials from "./components/Testimonials";
 // import PricingPlan from "./components/PricingPlan";
 // import MyNav from "./components/MyNav";
@@ -17,7 +18,8 @@ function App() {
       {/* <OurLocations /> */}
       {/* <Hero /> */}
       {/* <Testimonials/> */}
-      <BasicFeatures/>
+      {/* <BasicFeatures /> */}
+      <ModPack/>
     </>
   );
 }
