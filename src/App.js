@@ -5,22 +5,18 @@ import ModPack from "./components/ModPack";
 import Testimonials from "./components/Testimonials";
 import PricingPlan from "./components/PricingPlan";
 // import MyNav from "./components/MyNav";
-// import GameHosting from './components/GameHosting';
-// import OurLocations from "./components/OurLocations";
-// import { Hero } from "./components/Hero";
+import GameHosting from './components/GameHosting';
+import OurLocations from "./components/OurLocations";
+import { Hero } from "./components/Hero";
 
 function App() {
   return (
     <>
       {/* <MyNav /> */}
       <PricingPlan />
-      {/* <GameHosting /> */}
-      {/* <OurLocations /> */}
-      {/* <PricingPlan /> */}
-      {/* <GameHosting /> */}
-      {/* <Testimonials /> */}
-      {/* <BasicFeatures />/ */}
-      {/* <Hero /> */}
+      <OurLocations />
+      <GameHosting />
+      <Hero />
       <Testimonials/>
       <BasicFeatures />
       <ModPack/>
