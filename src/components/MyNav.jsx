@@ -11,18 +11,18 @@ import {
   Tweeter,
 } from "./Icons";
 const MyNav = () => {
-  const [First, setFirst] = React.useState(true);
+  const [NavShow, setNavShow] = React.useState(true);
   function clickshow() {
-    setFirst(!First);
+    setNavShow(!NavShow);
   }
-  if (!First) {
+  if (!NavShow) {
     document.body.classList.add("overflow-hidden");
   } else {
     document.body.classList.remove("overflow-hidden");
   }
   return (
     <>
-      <div className="pt_64 flex-grow-0">
+      <div className="pt_64 flex-grow-0 pt_12_lg">
         <Container className=" custom_container">
           <div className=" d-flex justify-content-between d-xl-none align-items-center">
             <p className="mb-0 ff_oswald fs_2x5l text-white fw-semibold lh_normal">
@@ -32,11 +32,11 @@ const MyNav = () => {
               onClick={clickshow}
               className="pointer position-relative z_10 ps-4 mb-0 text-white"
             >
-              {First ? <Menuicon /> : <ImCross />}
+              {NavShow ? <Menuicon /> : <ImCross />}
             </h2>
           </div>
           {/* nav */}
-          <div className={`nav_show ${First ? "" : "ps-0 showw"}`}>
+          <div className={`nav_show ${NavShow ? "" : "ps-0 showw"}`}>
             <div className="h-100 position-relative">
               <div className=" d-flex align-items-xl-center align-items-start flex-xl-row flex-column justify-content-center justify-content-xl-between">
                 <p className=" d-xl-block mb-0 d-none ff_oswald fs_2x5l text-white fw-semibold lh_normal">
@@ -49,7 +49,7 @@ const MyNav = () => {
                   </span>
                   Login
                 </button>
-                <ul className="d-flex align-items-xl-center mb-0 flex-xl-row flex-column ps-0">
+                <ul className="d-flex align-items-xl-center mb-0 flex-xl-row flex-column ps-0 py_30_xl">
                   <li>
                     <a
                       href="#"
@@ -62,7 +62,7 @@ const MyNav = () => {
                   <li>
                     <a
                       href="#"
-                      className=" ff_rubik fs_1x8l fw-bold text-white me_40"
+                      className=" ff_rubik fs_1x8l fw-bold text-white me_40 my_15_xl"
                       onClick={clickshow}
                     >
                       GAME HOSTING

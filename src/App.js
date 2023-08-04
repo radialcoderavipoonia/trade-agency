@@ -10,13 +10,13 @@ function App() {
   return (
     <>
       <Hero />
-      <PricingPlan/>
-      <GameHosting />
-      <OurLocations />
-      <PricingPlan />
-      <GameHosting />
-      <Testimonials />
-      <BasicFeatures />
+      {/* <PricingPlan/> */}
+      {/* <GameHosting /> */}
+      {/* <OurLocations /> */}
+      {/* <PricingPlan /> */}
+      {/* <GameHosting /> */}
+      {/* <Testimonials /> */}
+      {/* <BasicFeatures />/ */}
     </>
   );
 }
