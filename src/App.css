@@ -46,6 +46,7 @@
   --clr-whiteFE:#FEFEFF;
    --clr-whiteFC:#FCFCFF;
   --clr-blue0D:#0D6EFD;
+  --clr-blue0062:#0062FF;
   --clr-grayF9: #f9f9f9;
   --clr-gray9A:#9A9EA6;
   --clr-gray80:#808C95;
@@ -116,6 +117,9 @@
 }
 .color_gray9a{
   color: var(--clr-gray9A);
+}
+.color_blue0062{
+  color: var( --clr-blue0062);
 }
 .color_whitefc{
   color: var(--clr-whiteFC);

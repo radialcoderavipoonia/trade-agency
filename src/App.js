@@ -5,6 +5,12 @@ import PricingPlan from "./components/PricingPlan";
 import GameHosting from "./components/GameHosting";
 import OurLocations from "./components/OurLocations";
 import { Hero } from "./components/Hero";
+import PricingPlan from './components/PricingPlan';
+import Testimonials from "./components/Testimonials";
+// import MyNav from './components/MyNav'
+// import GameHosting from './components/GameHosting';
+// import OurLocations from './components/OurLocations';
+// import { Hero } from "./components/Hero";
 
 function App() {
   return (
@@ -14,6 +20,11 @@ function App() {
       <PricingPlan />
       <GameHosting />
       <OurLocations />
+      <PricingPlan/>
+      {/* <GameHosting /> */}
+      {/* <OurLocations/> */}
+      {/* <Hero /> */}
+      <Testimonials/>
     </>
   );
 }

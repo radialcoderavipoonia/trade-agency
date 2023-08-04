@@ -1,10 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Pricing } from "./Helper";
+
 const PricingPlan = () => {
   return (
     <>
-      <section className="bg-black">
+      <section className="">
         <div className="custom_container container">
           <h2 className="ff_rubik fw-bold fs_4xl pt_43 mb-0 text-center color_whitefc">
             Awesome <span className="color_blueod">Pricing Plan</span>
@@ -17,7 +18,7 @@ const PricingPlan = () => {
             {Pricing.map((plan) => {
               return (
                 <Col lg={4} key={plan.id}>
-                  <div className="pricing_plan_box">
+                  <div className="pricing_customer_box p_32">
                     <div className="d-flex justify-content-between align-items-center">
                       <img src={plan.imgicon} alt="starter image" />
                       <button className="pp_button br_45 border-0 fw-bold ff_inter fs_1x2l color_blue0d6 d-none">
@@ -83,7 +84,6 @@ const PricingPlan = () => {
           <div className="d-flex justify-content-center pt_43">
             <button className="quote_button border-0 ff_inter fs_1x8l text-white fw-semibold">Get a Quote</button>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo omnis eum iure distinctio harum quaerat beatae. Aliquid explicabo itaque laudantium!</p>
         </div>
       </section>
     </>
