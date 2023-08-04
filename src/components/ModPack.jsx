@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { Modpack } from "./Helper";
+import { Modpack } from "./common/Helper";
 
 const ModPack = () => {
   return (

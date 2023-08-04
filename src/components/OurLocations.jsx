@@ -1,8 +1,8 @@
 import React from "react";
 import Bg_black from "../assets/images/png/our_location_bg_img_black.png";
 import { Col, Row } from "react-bootstrap";
-import { Location } from "./Helper";
-import Map_Img from "../assets/images/webp/map_img.webp"
+import { Location } from "./common/Helper";
+import Map_Img from "../assets/images/webp/map_img.webp";
 const OurLocations = () => {
   return (
     <>
@@ -37,7 +37,9 @@ const OurLocations = () => {
       </div>
       <section className="bg_img_our_location min-vh-100 z_index_minus position-relative">
         <div className="custom_container">
-          <div><img className="w-100" src={Map_Img} alt="Map_Img" /></div>
+          <div>
+            <img className="w-100" src={Map_Img} alt="Map_Img" />
+          </div>
         </div>
       </section>
     </>
