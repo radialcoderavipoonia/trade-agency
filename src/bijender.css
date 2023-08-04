@@ -26,10 +26,6 @@
     outline: none;
 }
 
-.bg_color {
-    background-color: #1E1E29;
-}
-
 /* our location */
 .our_location_box_shadow {
     border-radius: 20px;
@@ -42,4 +38,7 @@
     background-image: url(./assets/images/png/our_location_bg_img.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+.pt_20{
+    padding-top: 20px;
 }

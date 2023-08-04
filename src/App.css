@@ -5,24 +5,31 @@
 .ff_oswald {
   font-family: "Oswald", sans-serif;
 }
+
 .ff_dmsans {
   font-family: "DM Sans", sans-serif;
 }
+
 .ff_inter {
   font-family: "Inter", sans-serif;
 }
+
 .ff_opensans {
   font-family: "Open Sans", sans-serif;
 }
+
 .ff_overpass {
   font-family: "Overpass", sans-serif;
 }
+
 .ff_roboto {
   font-family: "Roboto", sans-serif;
 }
+
 .ff_rubik {
   font-family: "Rubik", sans-serif;
 }
+
 /* root  */
 :root {
   --fs-1x2l: 12px;
@@ -40,108 +47,142 @@
   --fs-6xl: 60px;
   --bg-black: #131318;
   --bg-voilet00C: #00cdfa;
-  --clr-lightgreenA4:#A4D6C5;
+  --clr-lightgreenA4: #A4D6C5;
   --clr-darkgrayB2B: #b2b8c8;
   --clr-whiteFB: #fbfbfb;
-  --clr-whiteFE:#FEFEFF;
-   --clr-whiteFC:#FCFCFF;
-  --clr-blue0D:#0D6EFD;
+  --clr-whiteFE: #FEFEFF;
+  --clr-whiteFC: #FCFCFF;
+  --clr-blue0D: #0D6EFD;
   --clr-grayF9: #f9f9f9;
-  --clr-gray9A:#9A9EA6;
-  --clr-gray80:#808C95;
+  --clr-gray9A: #9A9EA6;
+  --clr-gray80: #808C95;
   --clr-blue0D6: #0d6efd;
   --clr-blue2F7: #2f7fee;
   --clr-blue0F4: #0f4bfd;
-  --clr-lightgreen8B:#8BA3B7;
-  --clr-whiteEA:#EAEEF1;
+  --clr-lightgreen8B: #8BA3B7;
+  --clr-whiteEA: #EAEEF1;
+  --clr-whiteC6: #c6c6c7;
 }
+
 /* font size  */
 .fs_1x2l {
   font-size: var(--fs-1x2l);
 }
+
 .fs_1x4l {
   font-size: var(--fs-1x4l);
 }
+
 .fs_1x5l {
   font-size: var(--fs-1x5l);
 }
+
 .fs_1x6l {
   font-size: var(--fs-1x6l);
 }
+
 .fs_1x7l {
   font-size: var(--fs-1x7l);
 }
+
 .fs_1x8l {
   font-size: var(--fs-1x8l);
 }
+
 .fs_2xl {
   font-size: var(--fs-2xl);
 }
+
 .fs_2x2l {
   font-size: var(--fs-2x2l);
 }
+
 .fs_2x4l {
   font-size: var(--fs-2x4l);
 }
+
 .fs_2x5l {
   font-size: var(--fs-2x5l);
 }
+
 .fs_3x2l {
   font-size: var(--fs-3x2l);
 }
+
 .fs_4xl {
   font-size: var(--fs-4xl);
 }
+
 .fs_6xl {
   font-size: var(--fs-6xl);
 }
+
 /* color  */
 .color_blue0d6 {
   color: var(--clr-blue0D6);
 }
-.color_blueod{
+
+.color_whitec6 {
+  color: var(--clr-whiteC6);
+}
+
+.color_blueod {
   color: var(--clr-blue0D);
 }
+
 .color_blue0f4 {
   color: var(--clr-blue0F4);
 }
+
 .color_blue2f7 {
   color: var(--clr-blue2F7);
 }
+
 .color_grayf9 {
   color: var(--clr-grayF9);
 }
+
 .color_whitefb {
   color: var(--clr-whiteFB);
 }
-.color_gray9a{
+
+.color_gray9a {
   color: var(--clr-gray9A);
 }
-.color_whitefc{
+
+.color_whitefc {
   color: var(--clr-whiteFC);
 }
-.color_whitefe{
+
+.color_whitefe {
   color: var(--clr-whiteFE);
 }
-.color_gray80{
+
+.color_gray80 {
   color: var(--clr-gray80);
 }
-.color_whiteea{
+
+.color_whiteea {
   color: var(--clr-whiteEA);
 }
+
 .color_darkgrayb2b {
   color: var(--clr-darkgrayB2B);
 }
-.color_lightgreena4{
+
+.color_lightgreena4 {
   color: var(--clr-lightgreenA4);
 }
-.color_lightgreen8b{
+
+.color_lightgreen8b {
   color: var(--clr-lightgreen8B);
 }
+
 /* background color  */
 .bg_black {
   background-color: var(--bg-black);
 }
+
 .bg_voilet00c {
   background-color: var(--bg-voilet00C);
 }
