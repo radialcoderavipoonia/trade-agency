@@ -2,7 +2,7 @@ import React from "react";
 import MyNav from "./MyNav";
 import scrool from "../assets/images/svg/Scroll.svg";
 import { Col, Container, Row } from "react-bootstrap";
-import { ViewArrow } from "./Icons";
+import { ViewArrow } from "./common/Icons";
 import heroImg from "../assets/images/svg/hero_img.svg";
 export const Hero = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { Pricing } from "./Helper";
+import { Pricing } from "./common/Helper";
 
 const PricingPlan = () => {
   return (
@@ -82,7 +82,9 @@ const PricingPlan = () => {
             })}
           </Row>
           <div className="d-flex justify-content-center pt_43">
-            <button className="quote_button border-0 ff_inter fs_1x8l text-white fw-semibold">Get a Quote</button>
+            <button className="quote_button border-0 ff_inter fs_1x8l text-white fw-semibold">
+              Get a Quote
+            </button>
           </div>
         </div>
       </section>

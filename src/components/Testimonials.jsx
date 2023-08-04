@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { Clients } from "./Helper";
+import { Clients } from "./common/Helper";
 import friendlyimg from "../assets/images/png/testimonialFriendly_img.png";
 import trustimg from "../assets/images/png/testimonial_trustpilot_img.png";
 import stars from "../assets/images/png/testimonial_stars.png";

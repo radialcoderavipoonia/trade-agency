@@ -96,10 +96,19 @@
     padding-bottom: 200px;
 }
 
-.overflow_hidden {
-    overflow: hidden !important;
+.product_nav {
+    background-image: url(../src/assets/images/webp/productbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
 
+.mx_500 {
+    max-width: 500px;
+}
+.pointer{
+    cursor: pointer;
+}
 @media (min-width:1200px) and (max-width:1920px) {
     .min-vh-100-custom {
         min-height: 100vh;
@@ -151,7 +160,8 @@
     .py_30_xl {
         padding: 30px 0;
     }
-    .my_15_xl{
+
+    .my_15_xl {
         margin: 15px 0;
     }
 }
@@ -192,7 +202,8 @@
     .h_300_xsm {
         height: 300px;
     }
-    .nav_show{
+
+    .nav_show {
         width: 100%;
     }
 }

@@ -9,7 +9,8 @@ import {
   Menuicon,
   NavIn,
   Tweeter,
-} from "./Icons";
+} from "./common/Icons";
+import { Link } from "react-router-dom";
 const MyNav = () => {
   const [NavShow, setNavShow] = React.useState(true);
   function clickshow() {
@@ -25,9 +26,12 @@ const MyNav = () => {
       <div className="pt_64 flex-grow-0 pt_12_lg">
         <Container className=" custom_container">
           <div className=" d-flex justify-content-between d-xl-none align-items-center">
-            <p className="mb-0 ff_oswald fs_2x5l text-white fw-semibold lh_normal">
+            <Link
+              to="/"
+              className="mb-0 ff_oswald fs_2x5l text-white fw-semibold lh_normal pointer"
+            >
               Web Design
-            </p>
+            </Link>
             <h2
               onClick={clickshow}
               className="pointer position-relative z_10 ps-4 mb-0 text-white"
@@ -39,9 +43,12 @@ const MyNav = () => {
           <div className={`nav_show ${NavShow ? "" : "ps-0 showw"}`}>
             <div className="h-100 position-relative">
               <div className=" d-flex align-items-xl-center align-items-start flex-xl-row flex-column justify-content-center justify-content-xl-between">
-                <p className=" d-xl-block mb-0 d-none ff_oswald fs_2x5l text-white fw-semibold lh_normal">
+                <Link
+                  to="/"
+                  className=" d-xl-block mb-0 d-none ff_oswald fs_2x5l text-white fw-semibold lh_normal"
+                >
                   Web Design
-                </p>
+                </Link>
                 {/* option */}
                 <button className="text-white d-xl-none fs_2xl fw-bold lh_normal ff_rubik login_btn_open rounded-pill border-0">
                   <span className="me_10">
@@ -51,22 +58,22 @@ const MyNav = () => {
                 </button>
                 <ul className="d-flex align-items-xl-center mb-0 flex-xl-row flex-column ps-0 py_30_xl">
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="/"
                       className=" ff_rubik fs_1x8l fw-bold text-white me_40"
                       onClick={clickshow}
                     >
                       MINECRAFT HOSTING
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="/product"
                       className=" ff_rubik fs_1x8l fw-bold text-white me_40 my_15_xl"
                       onClick={clickshow}
                     >
                       GAME HOSTING
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div className=" d-flex align-items-center">
