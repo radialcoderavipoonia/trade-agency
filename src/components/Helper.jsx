@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import starterbusinessenterpriseimg from "../assets/images/png/starter_pricing_box.png";
 import righticon from "../assets/images/png/righticon.png";
 import righticongray from "../assets/images/png/righticongray.png"
@@ -70,3 +71,15 @@ export const Facebook = () => {
   );
   };
 
+=======
+import california from "../assets/images/png/california.png"
+// our location**********************************************
+export const Location = [
+    {
+        id: 1,
+        imgcalifornia: california,
+        paracalifornia: "Los Angeles, California",
+        textcalifornia:"240ms",
+    }
+];
+>>>>>>> eb766f437cd896237d395b099053a5b197047041
