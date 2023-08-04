@@ -6,6 +6,7 @@ import GameHosting from './components/GameHosting';
 import OurLocations from './components/OurLocations';
 // import { Hero } from "./components/Hero";
 
+
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <GameHosting />
       <OurLocations/>
       {/* <Hero /> */}
+     
     </>
   );
 }
