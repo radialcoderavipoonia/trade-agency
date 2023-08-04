@@ -1,6 +1,6 @@
 import React from "react";
 import { Facebook, Insta } from "./Helper";
-import Growth_img from "../assets/images/png/game_hosting_costomer_growth_img.png";
+import Growth_img from "../assets/images/webp/game_hosting_costomer_growth_img.webp";
 const GameHosting = () => {
   return (
     <>

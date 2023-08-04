@@ -2,7 +2,7 @@ import React from "react";
 import Bg_black from "../assets/images/png/our_location_bg_img_black.png";
 import { Col, Row } from "react-bootstrap";
 import { Location } from "./Helper";
-import Map_Img from "../assets/images/png/map_img.png"
+import Map_Img from "../assets/images/webp/map_img.webp"
 const OurLocations = () => {
   return (
     <>

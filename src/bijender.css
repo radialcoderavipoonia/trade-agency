@@ -6,7 +6,7 @@
 
 /* game hosting */
 .bg_img_game_hosting {
-    background-image: url(./assets/images/png/game_hosting_bg.png);
+    background-image: url(./assets/images/webp/game_hosting_bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
