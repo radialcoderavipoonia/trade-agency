@@ -5,20 +5,25 @@ import GameHosting from "./components/GameHosting";
 import { Hero } from "./components/Hero";
 import Testimonials from "./components/Testimonials";
 import BasicFeatures from "./components/BasicFeatures";
-import OurLocations from "./components/OurLocations";
-import Newsletter from "./components/Newsletter";
+import ModPack from "./components/ModPack";
+import Testimonials from "./components/Testimonials";
+import PricingPlan from "./components/PricingPlan";
+// import MyNav from "./components/MyNav";
+// import GameHosting from './components/GameHosting';
+// import OurLocations from "./components/OurLocations";
+// import { Hero } from "./components/Hero";
+
 function App() {
   return (
     <>
-      {/* <Hero /> */}
-      {/* <PricingPlan/> */}
-      <GameHosting />
-      <Newsletter/>
-      {/* <OurLocations /> */}
-      {/* <PricingPlan /> */}
+      {/* <MyNav /> */}
+      <PricingPlan />
       {/* <GameHosting /> */}
-      {/* <Testimonials /> */}
-      {/* <BasicFeatures /> */}
+      {/* <OurLocations /> */}
+      {/* <Hero /> */}
+      <Testimonials/>
+      <BasicFeatures />
+      <ModPack/>
     </>
   );
 }
