@@ -106,8 +106,45 @@
 .mx_500 {
     max-width: 500px;
 }
-.pointer{
+
+.pointer {
     cursor: pointer;
+}
+
+.backtotop_btn {
+    cursor: pointer;
+    background-color: var(--clr-blue2F7);
+    border-radius: 5px;
+    animation: topanimation 4s linear infinite;
+}
+
+@keyframes topanimation {
+    0% {
+        transform: rotate(-90deg) translateX(0%) scale(0.9);
+    }
+
+    50% {
+        transform: rotate(-90deg) translateX(30%) scale(1.1);
+    }
+
+    100% {
+        transform: rotate(-90deg) translateX(0%) scale(0.9);
+    }
+}
+.hover_line:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.hover_line::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background: var(--clr-whiteFB);
+    bottom: -6px;
+    left: 50%;
+    transition: 0.6s ease-in-out;
 }
 @media (min-width:1200px) and (max-width:1920px) {
     .min-vh-100-custom {

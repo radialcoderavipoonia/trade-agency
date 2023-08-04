@@ -45,7 +45,7 @@ const MyNav = () => {
               <div className=" d-flex align-items-xl-center align-items-start flex-xl-row flex-column justify-content-center justify-content-xl-between">
                 <Link
                   to="/"
-                  className=" d-xl-block mb-0 d-none ff_oswald fs_2x5l text-white fw-semibold lh_normal"
+                  className="d-xl-block mb-0 d-none ff_oswald fs_2x5l text-white fw-semibold lh_normal"
                 >
                   Web Design
                 </Link>
@@ -60,7 +60,7 @@ const MyNav = () => {
                   <li>
                     <Link
                       to="/"
-                      className=" ff_rubik fs_1x8l fw-bold text-white me_40"
+                      className="hover_line position-relative ff_rubik fs_1x8l fw-bold text-white me_40"
                       onClick={clickshow}
                     >
                       MINECRAFT HOSTING
@@ -69,7 +69,7 @@ const MyNav = () => {
                   <li>
                     <Link
                       to="/product"
-                      className=" ff_rubik fs_1x8l fw-bold text-white me_40 my_15_xl"
+                      className="hover_line position-relative ff_rubik fs_1x8l fw-bold text-white me_40 my_15_xl"
                       onClick={clickshow}
                     >
                       GAME HOSTING

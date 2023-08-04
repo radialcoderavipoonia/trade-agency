@@ -164,33 +164,6 @@ export const ViewArrow = () => {
   );
 };
 // verfied img
-// export const VerfiedImg = () => {
-//   return (
-//     <svg
-//       width="24"
-//       height="26"
-//       viewBox="0 0 24 26"
-//       fill="none"
-//       xmlns="http://www.w3.org/2000/svg"
-//     >
-//       <g id="Icon ">
-//         <path
-//           id="Oval"
-//           opacity="0.15"
-//           fill-rule="evenodd"
-//           clip-rule="evenodd"
-//           d="M12 24.6376C18.6274 24.6376 24 19.265 24 12.6376C24 6.01016 18.6274 0.637573 12 0.637573C5.37258 0.637573 0 6.01016 0 12.6376C0 19.265 5.37258 24.6376 12 24.6376Z"
-//           fill="#36B37E"
-//         />
-//         <path
-//           id="Icon"
-//           d="M10.3986 16.4618L7.13684 13.2196C7.04569 13.1284 7.00012 13.0113 7.00012 12.868C7.00012 12.7248 7.04569 12.6076 7.13684 12.5165L7.8595 11.8133C7.95064 11.7092 8.06457 11.6571 8.20129 11.6571C8.33801 11.6571 8.45845 11.7092 8.56262 11.8133L10.7501 14.0008L15.4376 9.31335C15.5418 9.20919 15.6622 9.1571 15.7989 9.1571C15.9356 9.1571 16.0496 9.20919 16.1407 9.31335L16.8634 10.0165C16.9545 10.1076 17.0001 10.2248 17.0001 10.368C17.0001 10.5113 16.9545 10.6285 16.8634 10.7196L11.1017 16.4618C11.0105 16.5659 10.8933 16.618 10.7501 16.618C10.6069 16.618 10.4897 16.5659 10.3986 16.4618Z"
-//           fill="#36B37E"
-//         />
-//       </g>
-//     </svg>
-//   );
-// };
 export const VerfiedImg = (
   <svg
     width="24"
@@ -216,6 +189,7 @@ export const VerfiedImg = (
     </g>
   </svg>
 );
+// arrow img
 export const ArrowImg = (
   <svg
     width="24"
@@ -232,3 +206,76 @@ export const ArrowImg = (
     />
   </svg>
 );
+// back to top btn
+export const BackToTopImg = () => {
+  return (
+    <svg
+      width="131"
+      height="131"
+      viewBox="0 0 131 131"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_d_29_22975)">
+        <rect
+          x="40.5"
+          y="32.925"
+          width="50"
+          height="50"
+          rx="6"
+          fill="#034EF7"
+        />
+      </g>
+      <path
+        d="M59.1592 57.925H71.8403"
+        stroke="white"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M65.5 51.5813L71.8406 57.9219L65.5 64.2625"
+        stroke="white"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <defs>
+        <filter
+          id="filter0_d_29_22975"
+          x="0.5"
+          y="0.925049"
+          width="130"
+          height="130"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="8" />
+          <feGaussianBlur stdDeviation="20" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0.239216 0 0 0 0 0.282353 0 0 0 0 0.384314 0 0 0 0.2 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_29_22975"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_29_22975"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+};
