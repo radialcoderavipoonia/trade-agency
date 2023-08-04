@@ -7,7 +7,7 @@ import profileimg1 from "../assets/images/webp/customer_img1.webp";
 import profileimg2 from "../assets/images/webp/customer_img2.webp";
 import profileimg3 from "../assets/images/webp/customer_img3.webp";
 import profileimg4 from "../assets/images/webp/customer_img4.webp";
-import flag from "../assets/images/png/california.png";
+import flag from "../assets/images/webp/california.webp";
 import flagGermany from "../assets/images/webp/flag_germany.webp";
 import flagUk from "../assets/images/webp/flag_uk.webp";
 import flagAus from "../assets/images/webp/flag_aus.webp";
