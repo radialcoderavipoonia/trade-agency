@@ -1,5 +1,6 @@
 import React from "react";
 import { Facebook, Insta } from "./Helper";
+import { Facebook, Insta } from "./common/Helper";
 import Growth_img from "../assets/images/webp/game_hosting_costomer_growth_img.webp";
 const GameHosting = () => {
   return (
@@ -19,16 +20,16 @@ const GameHosting = () => {
           </div>
           <div className="bg_img_game_hosting mt-4 mt-lg-5 pt-4 mx-lg-5">
             <div className="d-flex align-items-center">
-                <div className="d-flex align-items-center gap-2 m-4">
-                  <span className="game_hosting_white_circel"></span>
-                  <span className="game_hosting_white_circel"></span>
-                  <span className="game_hosting_white_circel"></span>
-                </div>
-                <input
-                  type="text"
-                  className="fw-normal ff_dmsans color_darkgrayb2b w-100 game_hosting_input_bg border-0 fs_1x7l me-4"
-                  placeholder="www.ComeUp.ai"
-                />
+              <div className="d-flex align-items-center gap-2 m-4">
+                <span className="game_hosting_white_circel"></span>
+                <span className="game_hosting_white_circel"></span>
+                <span className="game_hosting_white_circel"></span>
+              </div>
+              <input
+                type="text"
+                className="fw-normal ff_dmsans color_darkgrayb2b w-100 game_hosting_input_bg border-0 fs_1x7l me-4"
+                placeholder="www.ComeUp.ai"
+              />
             </div>
             <div className="mx-4 py-4">
               <img className="w-100" src={Growth_img} alt="Growth_img" />

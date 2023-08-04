@@ -11,23 +11,33 @@ import OurLocations from "./components/OurLocations";
 import MyFooter from "./components/MyFooter";
 // import { Hero } from "./components/Hero";
 
+// function App() {
+  // return (
+  //   <>
+  //     {/* <MyNav /> */}
+  //     {/* <PricingPlan /> */}
+  //     <GameHosting />
+  //     <OurLocations />
+  //     {/* <PricingPlan /> */}
+  //     {/* <GameHosting /> */}
+  //     {/* <Testimonials /> */}
+  //     {/* <BasicFeatures />/ */}
+  //     {/* <Hero /> */}
+  //     {/* <Testimonials/> */}
+  //     {/* <BasicFeatures /> */}
+  //     {/* <ModPack /> */}
+  //     <Newsletter />
+  //     <MyFooter/>
+import { HomePage } from "./Pages/HomePage";
+import { ProductPage } from "./Pages/ProductPage";
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      {/* <MyNav /> */}
-      {/* <PricingPlan /> */}
-      <GameHosting />
-      <OurLocations />
-      {/* <PricingPlan /> */}
-      {/* <GameHosting /> */}
-      {/* <Testimonials /> */}
-      {/* <BasicFeatures />/ */}
-      {/* <Hero /> */}
-      {/* <Testimonials/> */}
-      {/* <BasicFeatures /> */}
-      {/* <ModPack /> */}
-      <Newsletter />
-      <MyFooter/>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/product" element={<ProductPage />} />
+      </Routes>
     </>
   );
 }

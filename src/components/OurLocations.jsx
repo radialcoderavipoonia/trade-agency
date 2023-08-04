@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Location } from "./Helper";
-import Map_Img from "../assets/images/png/map_img.png";
+import Map_Img from "../assets/images/webp/map_img.webp";
+import Our_location_bottom from "../assets/images/png/our_location_bottom_img.png";
 const OurLocations = () => {
   return (
     <>
@@ -34,7 +35,8 @@ const OurLocations = () => {
           </Row>
         </div>
       </div>
-      <section className="bg_img_our_location py-5">
+      <section className="bg_img_our_location py-5 position-relative">
+        <img className="position-absolute location_img_bottom d-none d-md-block" src={Our_location_bottom} alt="Our_location_bottom" />
         <div className="custom_container pt-5">
           <div className="mt-5 py-5"></div>
           <div>

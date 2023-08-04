@@ -1,12 +1,12 @@
 .bg_img_main {
-    background-image: url(./assets/images/png/Main_hero.png);
+    background-image: url(./assets/images/webp/Main.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* game hosting */
 .bg_img_game_hosting {
-    background-image: url(./assets/images/png/game_hosting_bg.png);
+    background-image: url(./assets/images/webp/game_hosting_bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
