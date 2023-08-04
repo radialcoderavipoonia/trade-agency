@@ -1,15 +1,16 @@
 import React from "react";
 import MyNav from "./MyNav";
+import scrool from "../assets/images/svg/Scroll.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { ViewArrow } from "./Icons";
-import heroImg from '../assets/images/png/heroImg.png'
+import heroImg from "../assets/images/png/heroImg.png";
 export const Hero = () => {
   return (
-    <div className="hero_bg min-vh-100 d-flex flex-column justify-content-center">
+    <div className="hero_bg h_1200_lg pb_200 min-vh-100-custom d-flex flex-column justify-content-center">
       <MyNav />
-      <Container className=" custom_container flex-grow-1 d-flex">
-        <Row className=" align-items-center">
-          <Col xs={6}>
+      <Container className="custom_container flex-grow-1 d-flex">
+        <Row className="align-items-lg-center align-items-start">
+          <Col lg={6} xs={12}>
             <div className=" d-flex align-items-center">
               <div className="hosting_box_hero bg_voilet00c"></div>
               <p className="text-white mb-0 ps-3 fs_1x5l fw-medium ff_inter lh_normal letter_s4 text-uppercase">
@@ -32,8 +33,20 @@ export const Hero = () => {
                 </span>
               </p>
             </div>
+            <div className="d-lg-flex d-none flex-column justify-content-center align-items-center">
+              <span>
+                <img src={scrool} alt="scrool" className="w-100" />
+              </span>
+              <p className=" text-white ff_inter fs_2xl fw-medium mb-0 letter_s2 rotate_90 mt_31">
+                Scroll
+              </p>
+            </div>
           </Col>
-          <Col xs={6}>
+          <Col
+            lg={6}
+            xs={12}
+            className=" d-flex justify-content-start h_300_xsm"
+          >
             <span>
               <img src={heroImg} alt="heroImg" className="w-100" />
             </span>

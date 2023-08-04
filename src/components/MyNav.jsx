@@ -70,16 +70,24 @@ const MyNav = () => {
                 </ul>
                 <div className=" d-flex align-items-center">
                   <span className="fb_img">
-                    <Facebook />
+                    <a href="#">
+                      <Facebook />
+                    </a>
                   </span>
                   <span className="ms_8">
-                    <Instagram />
+                    <a href="#">
+                      <Instagram />
+                    </a>
                   </span>
                   <span className="ms_8">
-                    <Tweeter />
+                    <a href="#">
+                      <Tweeter />
+                    </a>
                   </span>
                   <span className="ms_8">
-                    <NavIn />
+                    <a href="#">
+                      <NavIn />
+                    </a>
                   </span>
                   <button className="text-white d-xl-block d-none fs_2xl fw-bold lh_normal ff_rubik login_btn rounded-pill border-0 ms_20">
                     <LoginBtnIcon />
