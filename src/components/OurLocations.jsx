@@ -5,7 +5,7 @@ import Map_Img from "../assets/images/png/map_img.png";
 const OurLocations = () => {
   return (
     <>
-      <div className="custom_container container ">
+      <div className="custom_container container">
         <div className="text-center py-lg-5 our_location_bg_img_black z_index_1 transform_top_location">
           <h2 className="fw-bold fs_4xl ff_rubik text-white mb-0 pt-4">
             Our <span className="color_blue0d6"> Locations</span>
