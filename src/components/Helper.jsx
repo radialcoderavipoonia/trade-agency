@@ -3,7 +3,12 @@ import righticon from "../assets/images/png/righticon.png";
 import righticongray from "../assets/images/png/righticongray.png";
 import clientstars from "../assets/images/png/5Stars.png";
 import california from "../assets/images/png/california.png";
+import profileimg1 from "../assets/images/png/customer_img1.png";
+import profileimg2 from "../assets/images/png/customer_img2.png";
+import profileimg3 from "../assets/images/png/customer_img3.png";
+import profileimg4 from "../assets/images/png/customer_img4.png";
 
+import { VerfiedImg } from "./Icons";
 export const Pricing = [
   {
     id: 1,
@@ -87,5 +92,43 @@ export const Location = [
     imgcalifornia: california,
     paracalifornia: "Los Angeles, California",
     textcalifornia: "240ms",
+  },
+  {
+    customerpara:
+      "I received great customer service from the specialists who helped me. I would recommend to anyone who wants quality.",
+    customersimg: profileimg1,
+    customername: "Viola Manisa",
+    verifiedcustomer: "Verified customer",
+    verified: VerfiedImg,
+  },
+  {
+    id: 1,
+    fivestarts: clientstars,
+    customerpara:
+      "Very responsive and competent! I've never dealt with an insurance company this customer-friendly in my entire life.",
+    customersimg: profileimg2,
+    customername: "Bryan Arnoldy",
+    verifiedcustomer: "Verified customer",
+    verified: VerfiedImg,
+  },
+  {
+    id: 1,
+    fivestarts: clientstars,
+    customerpara:
+      "My experience with this platform so far has been great. Everything is easy, from signing the contract to making an appointment.",
+    customersimg: profileimg3,
+    customername: "Joshua William",
+    verifiedcustomer: "Verified customer",
+    verified: VerfiedImg,
+  },
+  {
+    id: 1,
+    fivestarts: clientstars,
+    customerpara:
+      "It's the best online insurance you can find. Easy, without hidden costs and you can be very sure. your data is completely save.",
+    customersimg: profileimg4,
+    customername: "George Scott",
+    verifiedcustomer: "Verified customer",
+    verified: VerfiedImg,
   },
 ];
