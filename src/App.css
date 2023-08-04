@@ -40,7 +40,7 @@
   --fs-1x8l: 18px;
   --fs-2xl: 20px;
   --fs-2x2l: 22px;
-  --fs-2x4l: 24px;
+  --fs-2x4l: 24px;  
   --fs-2x5l: 25px;
   --fs-3x2l: 32px;
   --fs-4xl: 40px;
@@ -53,6 +53,10 @@
   --clr-whiteFE: #FEFEFF;
   --clr-whiteFC: #FCFCFF;
   --clr-blue0D: #0D6EFD;
+  --clr-whiteFE:#FEFEFF;
+   --clr-whiteFC:#FCFCFF;
+  --clr-blue0D:#0D6EFD;
+  --clr-blue0062:#0062FF;
   --clr-grayF9: #f9f9f9;
   --clr-gray9A: #9A9EA6;
   --clr-gray80: #808C95;
@@ -150,7 +154,10 @@
   color: var(--clr-gray9A);
 }
 
-.color_whitefc {
+.color_blue0062{
+  color: var( --clr-blue0062);
+}
+.color_whitefc{
   color: var(--clr-whiteFC);
 }
 
