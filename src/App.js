@@ -6,17 +6,19 @@ import { Hero } from "./components/Hero";
 import Testimonials from "./components/Testimonials";
 import BasicFeatures from "./components/BasicFeatures";
 import OurLocations from "./components/OurLocations";
+import Newsletter from "./components/Newsletter";
 function App() {
   return (
     <>
-      <Hero />
-      <PricingPlan/>
+      {/* <Hero /> */}
+      {/* <PricingPlan/> */}
       <GameHosting />
-      <OurLocations />
-      <PricingPlan />
-      <GameHosting />
-      <Testimonials />
-      <BasicFeatures />
+      <Newsletter/>
+      {/* <OurLocations /> */}
+      {/* <PricingPlan /> */}
+      {/* <GameHosting /> */}
+      {/* <Testimonials /> */}
+      {/* <BasicFeatures /> */}
     </>
   );
 }

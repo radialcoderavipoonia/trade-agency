@@ -1,13 +1,12 @@
 import React from "react";
-import Bg_black from "../assets/images/png/our_location_bg_img_black.png";
 import { Col, Row } from "react-bootstrap";
 import { Location } from "./Helper";
-import Map_Img from "../assets/images/png/map_img.png"
+import Map_Img from "../assets/images/png/map_img.png";
 const OurLocations = () => {
   return (
     <>
-      <div className="custom_container container mt-5 pt-xl-5">
-        <div className="text-center py-lg-5 our_location_bg_img_black z_index_1">
+      <div className="custom_container container ">
+        <div className="text-center py-lg-5 our_location_bg_img_black z_index_1 transform_top_location">
           <h2 className="fw-bold fs_4xl ff_rubik text-white mb-0 pt-4">
             Our <span className="color_blue0d6"> Locations</span>
           </h2>
@@ -19,7 +18,7 @@ const OurLocations = () => {
               return (
                 <Col md={6} lg={4} key={our.id}>
                   <div className="d-flex align-items-center ps-3 ps-lg-4 ps-xl-5 pt-lg-5 pt-3">
-                    <img src={our.imgflag} alt="" />
+                    <img src={our.imgflag} alt="img" />
                     <div className="ps-3 text-start">
                       <p className="mb-0 fw-bold fs_1x8l text-white">
                         {our.paracountryname}
@@ -35,9 +34,16 @@ const OurLocations = () => {
           </Row>
         </div>
       </div>
-      <section className="bg_img_our_location min-vh-100 z_index_minus position-relative">
-        <div className="custom_container">
-          <div><img className="w-100" src={Map_Img} alt="Map_Img" /></div>
+      <section className="bg_img_our_location py-5">
+        <div className="custom_container pt-5">
+          <div className="mt-5 py-5"></div>
+          <div>
+            <img
+              className="w-100 py-5 mt-5 map _h"
+              src={Map_Img}
+              alt="Map_Img"
+            />
+          </div>
         </div>
       </section>
     </>

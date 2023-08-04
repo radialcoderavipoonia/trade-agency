@@ -28,7 +28,7 @@
 
 /* our location */
 .our_location_bg_img_black {
-    background-image: url("./assets/images/png/our_location_bg_img_black.png");
+    background-image: url("./assets/images/webp/our_location_bg_img_black.webp");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -51,4 +51,12 @@
 
 .z_index_minus {
     z-index: -1;
+}
+
+.transform_top_location {
+    transform: translateY(200px);
+}
+
+.map_h {
+    height: 408px;
 }

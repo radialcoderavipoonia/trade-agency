@@ -1,11 +1,11 @@
 import React from "react";
 import { Facebook, Insta } from "./Helper";
-import Growth_img from "../assets/images/png/game_hosting_costomer_growth_img.png";
+import Growth_img from "../assets/images/webp/game_hosting_costomer_growth_img.webp";
 const GameHosting = () => {
   return (
     <>
       <section className="py-5">
-        <div className="custome_container container">
+        <div className="custom_container container">
           <div className="text-center pb-4">
             <h2 className="fw-bold fs_4xl text-white ff_rubik mb-0">
               Game Hosting,
