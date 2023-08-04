@@ -1,41 +1,22 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import PricingPlan from './components/PricingPlan';
-// import MyNav from './components/MyNav'
-// import GameHosting from "./components/GameHosting";
+import PricingPlan from './components/PricingPlan';
+import GameHosting from "./components/GameHosting";
 import { Hero } from "./components/Hero";
-// import PricingPlan from './components/PricingPlan';
-// import Testimonials from "./components/Testimonials";
-// import MyNav from './components/MyNav'
+import Testimonials from "./components/Testimonials";
 import BasicFeatures from "./components/BasicFeatures";
-// import Testimonials from "./components/Testimonials";
-// import PricingPlan from "./components/PricingPlan";
-// import MyNav from "./components/MyNav";
-// import GameHosting from './components/GameHosting';
-// import OurLocations from "./components/OurLocations";
-// import { Hero } from "./components/Hero";
-// import OurLocations from './components/OurLocations';
-import MyNav from './components/MyNav'
-import GameHosting from './components/GameHosting';
-import OurLocations from './components/OurLocations';
-// import { Hero } from "./components/Hero";
-
+import OurLocations from "./components/OurLocations";
 function App() {
   return (
     <>
-      <MyNav />
-      {/* <PricingPlan/> */}
-      {/* <GameHosting /> */}
-      {/* <OurLocations /> */}
-      {/* <PricingPlan/> */}
-      {/* <PricingPlan /> */}
-      {/* <GameHosting /> */}
-      {/* <OurLocations /> */}
-      {/* <Hero /> */}
-      {/* <Testimonials/> */}
-      {/* <OurLocations/> */}
       <Hero />
-      <BasicFeatures />
+      <PricingPlan/>
+      <GameHosting />
+      <OurLocations />
+      <PricingPlan />
+      <GameHosting />
+      <Testimonials />
+      {/* <BasicFeatures /> */}
     </>
   );
 }
