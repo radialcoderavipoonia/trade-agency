@@ -75,10 +75,38 @@
     height: 55px;
     width: 55px;
 }
-.view_transform{
+
+.view_transform {
     transform: translateX(-30px);
 }
-@media (min-width:1200px) {}
+
+.ms_10 {
+    margin-left: 10px;
+}
+
+.letter_s2 {
+    letter-spacing: 2px;
+}
+
+.rotate_90 {
+    transform: rotate(90deg);
+}
+
+.pb_200 {
+    padding-bottom: 200px;
+}
+
+@media (min-width:1200px) and (max-width:1920px) {
+    .min-vh-100-custom {
+        min-height: 100vh;
+    }
+}
+
+@media (max-width:1920px) {
+    .hero_bg {
+        background-size: cover;
+    }
+}
 
 @media (max-width: 1200px) {
     .nav_show {
@@ -87,7 +115,7 @@
         background-color: transparent;
         transition: all 0.6s linear;
         left: 0%;
-        width: 500px;
+        width: 100%;
         align-items: end;
         justify-content: center;
         flex-direction: column;
@@ -103,6 +131,10 @@
         z-index: 6;
         clip-path: circle(75%);
         background-color: black !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         /* background-image: url(../src/assets/images/png/hero_bg.png); */
         background-repeat: no-repeat;
         background-size: cover;
@@ -111,5 +143,21 @@
 
     .fb_img svg path:first-child {
         fill: #000000;
+    }
+}
+
+@media (min-width:992px) {
+    .h_1200_lg {
+        height: 1200px;
+    }
+}
+
+@media (max-width:576px) {
+    .hero_bg {
+        background-size: cover;
+    }
+
+    .h_300_xsm {
+        height: 300px;
     }
 }
