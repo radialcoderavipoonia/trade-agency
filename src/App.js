@@ -15,12 +15,15 @@ import BasicFeatures from "./components/BasicFeatures";
 // import OurLocations from "./components/OurLocations";
 // import { Hero } from "./components/Hero";
 // import OurLocations from './components/OurLocations';
+import MyNav from './components/MyNav'
+import GameHosting from './components/GameHosting';
+import OurLocations from './components/OurLocations';
 // import { Hero } from "./components/Hero";
 
 function App() {
   return (
     <>
-      {/* <MyNav /> */}
+      <MyNav />
       {/* <PricingPlan/> */}
       {/* <GameHosting /> */}
       {/* <OurLocations /> */}
