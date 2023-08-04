@@ -46,12 +46,38 @@
     padding-top: 64px;
 }
 
-
-
 .p_45_30 {
     padding: 45px 30px;
 }
 
+.hosting_box_hero {
+    height: 12px;
+    width: 12px;
+}
+
+.letter_s4 {
+    letter-spacing: 4px;
+}
+
+.lh_70 {
+    line-height: 70px;
+}
+
+.mt_31 {
+    margin-top: 31px;
+}
+
+.lh_33px {
+    line-height: 33px;
+}
+
+.view_hero_circle {
+    height: 55px;
+    width: 55px;
+}
+.view_transform{
+    transform: translateX(-30px);
+}
 @media (min-width:1200px) {}
 
 @media (max-width: 1200px) {
@@ -61,7 +87,7 @@
         background-color: transparent;
         transition: all 0.6s linear;
         left: 0%;
-         width: 500px;
+        width: 500px;
         align-items: end;
         justify-content: center;
         flex-direction: column;
