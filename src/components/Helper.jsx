@@ -103,3 +103,10 @@ export const Clients = [
     verified: VerfiedImg,
   },
 ];
+export const features = [
+  {
+    id: 1,
+    featurescardimg: imgna,
+    
+  },
+];
