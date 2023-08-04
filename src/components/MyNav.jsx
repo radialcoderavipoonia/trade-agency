@@ -1,7 +1,7 @@
 import React from "react";
-import { ImCross } from "react-icons/im";
+// import { ImCross } from "react-icons/im";
 import { Container } from "react-bootstrap";
-import PricingPlan from "./PricingPlan";
+// import PricingPlan from "./PricingPlan";
 import {
   Facebook,
   Instagram,
