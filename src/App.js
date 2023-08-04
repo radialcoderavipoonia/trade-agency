@@ -16,7 +16,7 @@ function App() {
       <PricingPlan />
       <GameHosting />
       <Testimonials />
-      {/* <BasicFeatures /> */}
+      <BasicFeatures />
     </>
   );
 }

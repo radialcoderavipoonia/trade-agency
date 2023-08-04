@@ -1,5 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
+import { features } from './Helper';
+
 const BasicFeatures = () => {
   return (
     <>
@@ -17,7 +19,11 @@ const BasicFeatures = () => {
                       return (
                           <Col lg={4} key={basic.id} className='pt_15'>
                               <div className='feature_card_box'>
-                                  
+                                  <div className='d-flex align-items-center justify-content-between'>
+                                      <div className='d-flex align-items-center'>
+                                        <img src={basic.featurescardimg} alt="features card images" />  
+                                      </div>
+                                  </div>
                               </div>
                           </Col>
                       );

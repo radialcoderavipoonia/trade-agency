@@ -7,7 +7,10 @@ import profileimg1 from "../assets/images/png/customer_img1.png";
 import profileimg2 from "../assets/images/png/customer_img2.png";
 import profileimg3 from "../assets/images/png/customer_img3.png";
 import profileimg4 from "../assets/images/png/customer_img4.png";
-
+import flag from "../assets/images/png/california.png";
+import flagGermany from "../assets/images/png/flag_germany.png";
+import flagUk from "../assets/images/png/flag_uk.png";
+import flagAus from "../assets/images/png/flag_aus.png";
 import { VerfiedImg } from "./Icons";
 export const Pricing = [
   {
@@ -84,11 +87,6 @@ export const Facebook = () => {
     </svg>
   );
 };
-
-import flag from "../assets/images/png/california.png";
-import flagGermany from "../assets/images/png/flag_germany.png";
-import flagUk from "../assets/images/png/flag_uk.png";
-import flagAus from "../assets/images/png/flag_aus.png";
 // our location**********************************************
 export const Location = [
   {
@@ -167,5 +165,11 @@ export const Location = [
     imgflag: flagAus,
     paracountryname: "Sydney, Australia",
     textms: "240ms",
+  },
+];
+export const features = [
+  {
+    id: 1,
+    // featurescardimg: imgna,
   },
 ];
