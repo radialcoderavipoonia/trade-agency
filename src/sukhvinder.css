@@ -78,6 +78,9 @@
 .view_transform{
     transform: translateX(-30px);
 }
+.ms_10{
+    margin-left: 10px;
+}
 @media (min-width:1200px) {}
 
 @media (max-width: 1200px) {

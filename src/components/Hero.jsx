@@ -1,13 +1,14 @@
 import React from "react";
 import MyNav from "./MyNav";
 import { Col, Container, Row } from "react-bootstrap";
-
+import { ViewArrow } from "./Icons";
+import heroImg from '../assets/images/png/heroImg.png'
 export const Hero = () => {
   return (
-    <div className="hero_bg min-vh-100">
+    <div className="hero_bg min-vh-100 d-flex flex-column justify-content-center">
       <MyNav />
-      <Container className=" custom_container">
-        <Row>
+      <Container className=" custom_container flex-grow-1 d-flex">
+        <Row className=" align-items-center">
           <Col xs={6}>
             <div className=" d-flex align-items-center">
               <div className="hosting_box_hero bg_voilet00c"></div>
@@ -24,8 +25,18 @@ export const Hero = () => {
             </p>
             <div className=" d-flex align-items-center">
               <div className="view_hero_circle rounded-circle bg_voilet00c"></div>
-              <p className="text-white ff_rubik fs_2xl fw-medium lh_normal mb-0 view_transform">View Projects</p>
+              <p className="text-white ff_rubik fs_2xl fw-medium lh_normal mb-0 view_transform">
+                View Projects
+                <span className=" ms_10">
+                  <ViewArrow />
+                </span>
+              </p>
             </div>
+          </Col>
+          <Col xs={6}>
+            <span>
+              <img src={heroImg} alt="heroImg" className="w-100" />
+            </span>
           </Col>
         </Row>
       </Container>
