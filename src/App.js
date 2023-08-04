@@ -1,9 +1,5 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import PricingPlan from './components/PricingPlan';
-import GameHosting from "./components/GameHosting";
-import { Hero } from "./components/Hero";
-import Testimonials from "./components/Testimonials";
 import BasicFeatures from "./components/BasicFeatures";
 import ModPack from "./components/ModPack";
 import Testimonials from "./components/Testimonials";
@@ -20,6 +16,10 @@ function App() {
       <PricingPlan />
       {/* <GameHosting /> */}
       {/* <OurLocations /> */}
+      {/* <PricingPlan /> */}
+      {/* <GameHosting /> */}
+      {/* <Testimonials /> */}
+      {/* <BasicFeatures />/ */}
       {/* <Hero /> */}
       <Testimonials/>
       <BasicFeatures />
