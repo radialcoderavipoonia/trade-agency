@@ -1,10 +1,11 @@
 import React from "react";
 import Growth_img from "../../assets/images/webp/game_hosting_costomer_growth_img.webp";
-const GameHosting = () => {
+const GameHosting = ({ backShadow }) => {
   return (
     <>
-      <section className="py-5">
-        <div className="custom_container container">
+      <section className="py-5 position-relative">
+        <div className={`position-absolute ${backShadow}`}></div>
+        <div className="custom_container container position-relative z-1">
           <div className="text-center pb-4">
             <h2 className="fw-bold fs_4xl text-white ff_rubik mb-0">
               Game Hosting,
