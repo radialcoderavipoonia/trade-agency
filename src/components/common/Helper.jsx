@@ -1,7 +1,7 @@
-import starterbusinessenterpriseimg from "../../assets/images/png/starter_pricing_box.png";
-import starterbusinessenterpriseimgsecond from "../../assets/images/png/starter_pricing_boxdiamond.png"
-import righticon from "../../assets/images/png/righticon.png";
-import righticongray from "../../assets/images/png/righticongray.png";
+import starterbusinessenterpriseimg from "../../assets/images/webp/starter_pricing_box.webp";
+import starterbusinessenterpriseimgsecond from "../../assets/images/webp/starter_pricing_boxdiamond.webp"
+import righticon from "../../assets/images/webp/righticon.webp";
+import righticongray from "../../assets/images/webp/righticongray.webp";
 import clientstars from "../../assets/images/webp/5Stars.webp";
 import california from "../../assets/images/webp/california.webp";
 import profileimg1 from "../../assets/images/webp/customer_img1.webp";
@@ -28,9 +28,9 @@ import miniimgone from "../../assets/images/webp/modpack_card_img1.webp";
 import miniimgtwo from "../../assets/images/webp/modpack_card_img2.webp";
 import miniimgthree from "../../assets/images/webp/modpack_card_img3.webp";
 import miniimgfour from "../../assets/images/webp/modpack_card_img4.webp";
-import miniimgfive from "../../assets/images/png/modpack_card_img5.png";
-import miniimgsix from "../../assets/images/png/modpack_card_img6.png";
-import messageiconimg from "../../assets/images/png/choosecard_messageicon.png";
+import miniimgfive from "../../assets/images/webp/modpack_card_img5.webp";
+import miniimgsix from "../../assets/images/webp/modpack_card_img6.webp";
+import messageiconimg from "../../assets/images/webp/choosecard_messageicon.webp";
 import { ArrowIcon } from "./Icons";
 import { VerfiedImg } from "./Icons";
 import { ArrowImg } from "./Icons";

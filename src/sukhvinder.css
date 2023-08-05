@@ -283,7 +283,7 @@
     }
 
     .bg_img_our_location {
-        background-image: url(../src/assets/images/png/mobile_map.png);
+        background-image: url(../src/assets/images/webp/mobile_map.webp);
     }
 
     .top_bottom_zigzag_img::after {

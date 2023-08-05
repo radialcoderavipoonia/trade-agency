@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Pricing } from "../common/Helper";
-import sideimgpricingplan from "../../assets/images/png/group_side_img_priceing_plan.png"
-import ImgArrowRight from "../../assets/images/png/arrow-right.png"
+import sideimgpricingplan from "../../assets/images/webp/group_side_img_priceing_plan.webp"
+import ImgArrowRight from "../../assets/images/webp/arrow-right.webp"
 import { ArrowImg } from "../common/Icons";
 import { ImArrowRight } from "react-icons/im";
 

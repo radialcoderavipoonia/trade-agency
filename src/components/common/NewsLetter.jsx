@@ -1,5 +1,5 @@
 import React from 'react'
-import newslettericon from "../../assets/images/png/newsletter_icon.png"
+import newslettericon from "../../assets/images/webp/newsletter_icon.webp"
 
 const NewsLetter = () => {
   return (
