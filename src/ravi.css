@@ -91,7 +91,9 @@ html {
 .pl_12 {
   padding-left: 12px;
 }
-
+.pl_10 {
+  padding-left: 10px;
+}
 .py_34 {
   padding: 34px 0;
 }
@@ -147,6 +149,15 @@ html {
 .top_47 {
   top: 47%;
 }
+.right_-16 {
+  right: -16%;
+}
+.right_9 {
+  right: 9%;
+}
+.bottom_-26 {
+  bottom: -26%;
+}
 .right_0 {
   right: 0;
 }
@@ -157,7 +168,7 @@ html {
 .ml_5 {
   margin-left: 5px;
 }
-.mt_32{
+.mt_32 {
   margin-top: 32px;
 }
 .mr_5 {
@@ -237,7 +248,7 @@ html {
       rgba(48, 156, 255, 0.8) 100%
     ),
     linear-gradient(0deg, #2898ff 0%, #2898ff 100%), #ff604b;
-    padding: 16px 44px;
+  padding: 16px 44px;
 }
 /* color  */
 .pricing_box_secondary_color {
@@ -348,8 +359,16 @@ html {
   font-size: var(--fs-1x6l);
   color: var(--clr-gray9A);
   background: #212132 !important;
-
 }
 .increased-width {
   width: 500px !important; /* Adjust the width value as needed */
+}
+.background_gameProduct {
+  background-image: url("./assets/images/png/bg_choose_layers.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  bottom: -30%;
 }

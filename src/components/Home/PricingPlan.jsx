@@ -1,11 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Pricing } from "../common/Helper";
+import sideimgpricingplan from "../../assets/images/png/group_side_img_priceing_plan.png"
+import ImgArrowRight from "../../assets/images/png/arrow-right.png"
+import { ArrowImg } from "../common/Icons";
+import { ImArrowRight } from "react-icons/im";
 
 const PricingPlan = () => {
   return (
     <>
-      <section className="">
+      <section className="position-relative">
         <div className="custom_container container">
           <h2 className="ff_rubik fw-bold fs_4xl pt_43 mb-0 text-center color_whitefc">
             Awesome <span className="color_blueod">Pricing Plan</span>
@@ -92,9 +96,12 @@ const PricingPlan = () => {
           </Row>
           <div className="d-sm-flex justify-content-center pt_43 d-none">
             <button className="quote_button border-0 ff_inter fs_1x8l text-white fw-semibold">
-              Get a Quote
+              Get a Quote <span className="pl_10"><img src={ImgArrowRight} alt="arrow right " /></span>
             </button>
           </div>
+        </div>
+        <div className="position-absolute right_-16 bottom_-26 d-xl-block d-none">
+          <img src={sideimgpricingplan} alt="pricing plan side img" />
         </div>
       </section>
     </>

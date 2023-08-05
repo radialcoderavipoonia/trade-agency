@@ -13,7 +13,7 @@ export const ProductPage = () => {
       <ProductNav />
       <BasicFeatures />
       <Modpack />
-      <GameHosting />
+      <GameHosting backShadow="background_gameProduct" />
       <OurLocations />
       <Testimonials />
       <div className="d-sm-none">
