@@ -5,15 +5,15 @@ import friendlyimg from "../assets/images/png/testimonialFriendly_img.png";
 import trustimg from "../assets/images/png/testimonial_trustpilot_img.png";
 import stars from "../assets/images/png/testimonial_stars.png";
 import goodicon from "../assets/images/png/testimonial_good_img.png";
-import { ArrowIcon } from "./common/Icons";
-
+import arrowleftslider from "../assets/images/png/arrow-left-slider.png";
 const Testimonials = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    arrow: false,
     responsive: [
       {
         breakpoint: 992,
@@ -21,7 +21,8 @@ const Testimonials = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          dots: false,
+          arrow: false,
         },
       },
       {
@@ -30,6 +31,7 @@ const Testimonials = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
+          arrow: false,
         },
       },
       {
@@ -37,10 +39,12 @@ const Testimonials = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrow: false,
         },
       },
     ],
   };
+  const first = React.useRef();
   return (
     <>
       <div className="custom_container my-5">
@@ -51,10 +55,10 @@ const Testimonials = () => {
           What Our Clients Say About Us
         </h2>
 
-        <Slider {...settings} className="pt_45">
+        <Slider {...settings} className="pt_45" ref={first}>
           {Clients.map((say) => {
             return (
-              <div lg={3} key={say.id} className="px_5">
+              <div lg={3} key={say.id} className="px_5 ">
                 <div className="pricing_customer_box px_20_py_12">
                   <img src={say.fivestarts} alt="five stars" />
                   <p className="py_34 mb-0 ff_opensans fs_1x5l fw-normal color_gray80">
@@ -79,9 +83,22 @@ const Testimonials = () => {
             );
           })}
         </Slider>
-        <div className="pt_38">
-          <div className="arrow_box">
-          
+        <div className="pt_38 d-flex justify-content-center align-items-center">
+          <div
+            onClick={() => first.current.slickPrev()}
+            className="arrow_box d-flex justify-content-center align-items-center mx-2"
+          >
+            <img src={arrowleftslider} alt="left arrow" />
+          </div>
+          <div
+            onClick={() => first.current.slickNext()}
+            className="arrow_box d-flex justify-content-center  align-items-center mx-2"
+          >
+            <img
+              src={arrowleftslider}
+              alt="left arrow"
+              className="trans_rotate_180"
+            />
           </div>
         </div>
         <div className="d-flex justify-content-between align-items-center pt-5 mt-1 mw_750 ms-auto me-auto">
