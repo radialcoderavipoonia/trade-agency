@@ -4,6 +4,7 @@ import PricingPlan from "../components/PricingPlan";
 import GameHosting from "../components/GameHosting";
 import OurLocations from "../components/OurLocations";
 import Testimonials from "../components/Testimonials";
+import ChooseUs from "../components/ChooseUs";
 export const HomePage = () => {
   return (
     <div className=" bg_img_main overflow-hidden">
@@ -12,6 +13,7 @@ export const HomePage = () => {
       <GameHosting />
       <OurLocations />
       <Testimonials />
+      <ChooseUs/>
     </div>
   );
 };

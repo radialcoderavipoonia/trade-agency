@@ -1,25 +1,60 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import Slider from "react-slick";
 import { Clients } from "./common/Helper";
 import friendlyimg from "../assets/images/png/testimonialFriendly_img.png";
 import trustimg from "../assets/images/png/testimonial_trustpilot_img.png";
 import stars from "../assets/images/png/testimonial_stars.png";
 import goodicon from "../assets/images/png/testimonial_good_img.png";
+import { ArrowIcon } from "./common/Icons";
 
 const Testimonials = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       <div className="custom_container my-5">
-        <p className="ff_rubik fs_1x8l fw-normal pb-1 text-center mb-0 color_blue0062">
+        <p className="ff_rubik fs_1x8l fw-normal pb-1 text-center mb-0 color_blue00">
           testimonials
         </p>
         <h2 className="text-center mb-0 pt-2 ff_rubik fs_4xl fw-bold text-white">
           What Our Clients Say About Us
         </h2>
-        <Row className="pt_45">
+
+        <Slider {...settings} className="pt_45">
           {Clients.map((say) => {
             return (
-              <Col lg={3} key={say.id}>
+              <div lg={3} key={say.id} className="px_5">
                 <div className="pricing_customer_box px_20_py_12">
                   <img src={say.fivestarts} alt="five stars" />
                   <p className="py_34 mb-0 ff_opensans fs_1x5l fw-normal color_gray80">
@@ -40,29 +75,46 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-              </Col>
+              </div>
             );
           })}
-        </Row>
+        </Slider>
+        <div className="pt_38">
+          <div className="arrow_box">
+          
+          </div>
+        </div>
         <div className="d-flex justify-content-between align-items-center pt-5 mt-1 mw_750 ms-auto me-auto">
           <div className="mw_230 text-center">
-            <img src={friendlyimg} alt="friendly img" />
+            <img
+              src={friendlyimg}
+              alt="friendly img"
+              className="w-100 mw_50_xsm mw_127"
+            />
             <p className="pt_20 mb-0 ff_opensans fs_1x6l fw-normal color_whiteea">
               <span className="fw-bold">Friendly</span> customer support team
             </p>
           </div>
-          <div className="divider_line w_40"></div>
-          <div className="mw_230 text-center">
-            <img src={trustimg} alt="friendly img" />
-            <img src={stars} alt="stars image" className="py-3" />
+          <div className="divider_line w_40 mx-1"></div>
+          <div className="mw_230 d-flex flex-column align-items-center text-center">
+            <img
+              src={trustimg}
+              alt="friendly img"
+              className="w-100 mw_50_xsm mw_127"
+            />
+            <img
+              src={stars}
+              alt="stars image"
+              className="py-3 w-100 mw_50_xsm mw_127"
+            />
             <p className=" mb-0 ff_opensans fs_1x6l fw-normal color_whiteea">
               <span className="fw-bold">4.6 out of 5 stars</span> from 8.6k
               reviews
             </p>
           </div>
-          <div className="divider_line w_40"></div>
+          <div className="divider_line w_40 mx-1"></div>
           <div className="mw_230 text-center">
-            <img src={goodicon} alt="good icon img" />
+            <img src={goodicon} alt="good icon img" className="w-100 mw_50" />
             <p className="pt_20 mb-0 ff_opensans fs_1x6l fw-normal color_whiteea">
               We’re making<span className="fw-bold"> insurance as simple </span>
               as can be

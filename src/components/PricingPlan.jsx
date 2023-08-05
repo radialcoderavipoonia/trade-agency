@@ -14,13 +14,22 @@ const PricingPlan = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
-          <Row className="py_40 justify-content-between align-items-center position-relative z-1 top_bottom_zigzag_img">
+          <Row className="py_25 justify-content-center align-items-center position-relative z-1 top_bottom_zigzag_img">
             {Pricing.map((plan) => {
               return (
-                <Col lg={4} key={plan.id}>
-                  <div className="pricing_customer_box p_32">
+                <Col lg={4} md={6} key={plan.id} className="py_15">
+                  <div className="pricing_customer_box hover_box_pricing p_32">
                     <div className="d-flex justify-content-between align-items-center">
-                      <img src={plan.imgicon} alt="starter image" />
+                      <img
+                        src={plan.imgicon}
+                        alt="starter image"
+                        className="d-block hover_none"
+                      />
+                      <img
+                        src={plan.imgiconsecond}
+                        alt="image icon second"
+                        className="d-none hover_block"
+                      />
                       <button className="pp_button br_45 border-0 fw-bold ff_inter fs_1x2l color_blue0d6 d-none">
                         {plan.button}
                       </button>
@@ -52,19 +61,19 @@ const PricingPlan = () => {
                         </div>
                         <div className="pt_14 d-flex align-items-center">
                           <img src={plan.rightimgicongray} alt="right icon" />
-                          <p className="mb-0 ps-2 ff_inter fs_1x6l fw-medium pricing_box_secondary_color">
+                          <p className="mb-0 ps-2 ff_inter hover_white fs_1x6l fw-medium pricing_box_secondary_color">
                             {plan.normalsupport}
                           </p>
                         </div>
                         <div className="pt_14 d-flex align-items-center">
                           <img src={plan.rightimgicongray} alt="right icon" />
-                          <p className="mb-0 ps-2 ff_inter fs_1x6l fw-medium pricing_box_secondary_color">
+                          <p className="mb-0 ps-2 ff_inter hover_white fs_1x6l fw-medium pricing_box_secondary_color">
                             {plan.mobileapp}
                           </p>
                         </div>
                       </div>
                       <p className="mb-0 ff_inter fs_3x2l fw-bold color_blue2f7">
-                        {plan.dollar}{" "}
+                        {plan.dollar}
                         <span className="fs_1x6l fw-normal color_whitefb">
                           {plan.spanmonth}
                         </span>
