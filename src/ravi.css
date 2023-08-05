@@ -372,3 +372,49 @@ html {
   height: 100%;
   bottom: -30%;
 }
+/* preloader  */
+
+.z_111111{
+  z-index: 111111;
+}
+.animation_preloader_2 {
+  animation: preloader 2.5s linear alternate;
+  position: relative;
+}
+@keyframes preloader {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.border_preloader {
+  border: 2px solid white !important;
+}
+.bg_gradient {
+background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+}
+.animation_preloader {
+  animation: preloaderani 2.5s linear infinite;
+}
+@keyframes preloaderani {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+}
+.animation_preloader_2 {
+  animation: preloader 2.5s linear alternate;
+  position: relative;
+}
+.h_30 {
+  height: 30px;
+}
+.w_60 {
+  width: 60px;
+}

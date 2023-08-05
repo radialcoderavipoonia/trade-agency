@@ -7,9 +7,11 @@ import Testimonials from "../components/common/Testimonials";
 import MyFooter from "../components/common/MyFooter";
 import ChooseUs from "../components/Home/ChooseUs";
 import NewsLetter from "../components/common/NewsLetter";
+import Preloader from "../components/Preloader";
 export const HomePage = () => {
   return (
     <div className="bg_img_main overflow-hidden">
+      <Preloader/>
       <Hero />
       <PricingPlan />
       <div className=" d-sm-none">
