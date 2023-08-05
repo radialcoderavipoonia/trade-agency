@@ -62,6 +62,7 @@
   --clr-gray80: #808C95;
   --clr-blue0D6: #0d6efd;
   --clr-blue2F7: #2f7fee;
+  --clr-blue00:#0062FF;
   --clr-blue0F4: #0f4bfd;
   --clr-lightgreen8B: #8BA3B7;
   --clr-whiteEA: #EAEEF1;
@@ -120,7 +121,10 @@
 .fs_6xl {
   font-size: var(--fs-6xl);
 }
-
+/* font weight  */
+.fw_300{
+  font-weight: 300;
+}
 /* color  */
 .color_blue0d6 {
   color: var(--clr-blue0D6);
@@ -141,7 +145,9 @@
 .color_blue2f7 {
   color: var(--clr-blue2F7);
 }
-
+.color_blue00{
+  color: var(--clr-blue00);
+}
 .color_grayf9 {
   color: var(--clr-grayF9);
 }

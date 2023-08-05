@@ -206,4 +206,7 @@
     .nav_show {
         width: 100%;
     }
+    .mw_50_xsm{
+        max-width: 50px !important;
+    }
 }
