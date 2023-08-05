@@ -118,6 +118,10 @@
     animation: topanimation 4s linear infinite;
 }
 
+.product_hero_img {
+    transform: translateX(-50%);
+}
+
 @keyframes topanimation {
     0% {
         transform: rotate(-90deg) translateX(0%) scale(0.9);
@@ -151,6 +155,10 @@
 .body_stop {
     overflow: hidden;
     height: 100vh;
+}
+
+.letter_s3 {
+    letter-spacing: 3px;
 }
 
 @media (min-width:1200px) and (max-width:1920px) {
@@ -209,6 +217,10 @@
     .my_15_xl {
         margin: 15px 0;
     }
+
+    .product_hero_img {
+        transform: translateX(0%);
+    }
 }
 
 @media (min-width:992px) {
@@ -239,6 +251,12 @@
     }
 }
 
+@media (max-width:768px) {
+    .hover_box_pricing:hover {
+        transform: translateY(0px);
+    }
+}
+
 @media (max-width:576px) {
     .hero_bg {
         background-size: cover;
@@ -251,7 +269,24 @@
     .nav_show {
         width: 100%;
     }
-    .mw_50_xsm{
+
+    .mw_50_xsm {
         max-width: 50px !important;
+    }
+
+    .transform_top_location {
+        transform: translateY(0px) !important;
+    }
+
+    .bg_img_our_location {
+        background-image: url(../src/assets/images/png/mobile_map.png);
+    }
+
+    .top_bottom_zigzag_img::after {
+        display: none;
+    }
+
+    .top_bottom_zigzag_img::before {
+        display: none;
     }
 }

@@ -90,7 +90,7 @@ const PricingPlan = () => {
               );
             })}
           </Row>
-          <div className="d-flex justify-content-center pt_43">
+          <div className="d-sm-flex justify-content-center pt_43 d-none">
             <button className="quote_button border-0 ff_inter fs_1x8l text-white fw-semibold">
               Get a Quote
             </button>

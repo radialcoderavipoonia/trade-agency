@@ -11,10 +11,20 @@ export const HomePage = () => {
     <div className="bg_img_main overflow-hidden">
       <Hero />
       <PricingPlan />
+      <div className=" d-sm-none">
+        <ChooseUs />
+      </div>
+      <div className=" d-sm-none">
+        <OurLocations />
+      </div>
       <GameHosting />
-      <OurLocations />
+      <div className=" d-sm-block d-none">
+        <OurLocations />
+      </div>
+      <div className=" d-sm-block d-none">
+        <ChooseUs />
+      </div>
       <Testimonials />
-      <ChooseUs/>
       <MyFooter />
     </div>
   );

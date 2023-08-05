@@ -16,7 +16,7 @@ const BackToTop = () => {
   return (
     <section>
       <Container>
-        <div className="z_10">
+        <div className="z_10 position-relative">
           <img
             height={60}
             onClick={() => onTop()}

@@ -6,8 +6,12 @@ const ModPack = () => {
   return (
     <>
       <div className="custom_container pt_28">
-        <p className="ff_rubik fs_4xl fw-bold color_whitefc lh_normal mb-0 text-center">
+        <p className="ff_rubik fs_4xl d-md-block d-none fw-bold color_whitefc lh_normal mb-0 text-center">
           GET A PRE- <span className="color_blue0d6">INSTALLED MODPACK</span>
+        </p>
+        <p className="ff_rubik d-md-none fs_4xl fw-bold color_whitefc lh_normal mb-0 text-center">
+          Awesome
+          <span className="color_blue0d6"> Pricing Plan-</span>
         </p>
         <p className="pt_24 mb-0 text-center ff_rubik fs_1x8l fw-normal color_whitefc lh_normal ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
@@ -17,7 +21,7 @@ const ModPack = () => {
         <Row className="pt_33 justify-content-between align-items-center">
           {Modpack.map((pre) => {
             return (
-              <Col lg={4} key={pre.id} className="pt_15">
+              <Col lg={4} md={6} key={pre.id} className="pt_15">
                 <div className="pricing_customer_box p_25">
                   <img src={pre.minicraftimg} alt="minicraft images" />
                   <p className="pt_27 ff_rubik fw-semibold fs_2x5l mb-0 text-white">

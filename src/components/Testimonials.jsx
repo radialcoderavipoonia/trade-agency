@@ -23,23 +23,30 @@ const Testimonials = () => {
           infinite: true,
           dots: false,
           arrow: false,
+          centerMode: true,
+          centerPadding: "10px",
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2,
+          infinite: true,
+          dots: false,
           arrow: false,
+          centerMode: true,
+          centerPadding: "10px",
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           arrow: false,
+          centerMode: true,
+          centerPadding: "10px",
         },
       },
     ],
@@ -48,7 +55,7 @@ const Testimonials = () => {
   return (
     <>
       <div className="custom_container my-5">
-        <p className="ff_rubik fs_1x8l fw-normal pb-1 text-center mb-0 color_blue00">
+        <p className="ff_rubik fs_1x8l fw-normal pb-1 text-center mb-0 color_blue00 text-uppercase letter_s3">
           testimonials
         </p>
         <h2 className="text-center mb-0 pt-2 ff_rubik fs_4xl fw-bold text-white">
@@ -58,7 +65,7 @@ const Testimonials = () => {
         <Slider {...settings} className="pt_45" ref={first}>
           {Clients.map((say) => {
             return (
-              <div lg={3} key={say.id} className="px_5 ">
+              <div lg={3} md={4} key={say.id} className="px_5">
                 <div className="pricing_customer_box px_20_py_12">
                   <img src={say.fivestarts} alt="five stars" />
                   <p className="py_34 mb-0 ff_opensans fs_1x5l fw-normal color_gray80">
@@ -83,7 +90,7 @@ const Testimonials = () => {
             );
           })}
         </Slider>
-        <div className="pt_38 d-flex justify-content-center align-items-center">
+        <div className="pt_38 d-flex d-lg-none justify-content-center align-items-center">
           <div
             onClick={() => first.current.slickPrev()}
             className="arrow_box d-flex justify-content-center align-items-center mx-2"

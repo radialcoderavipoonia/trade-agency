@@ -9,6 +9,7 @@
     background-image: url(./assets/images/webp/game_hosting_bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 .game_hosting_white_circel {
