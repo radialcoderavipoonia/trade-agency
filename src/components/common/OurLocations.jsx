@@ -7,7 +7,7 @@ const OurLocations = ({ remove_img }) => {
   return (
     <>
       <div className="custom_container container d-sm-block d-none mt_-50 mt_-100_md">
-        <div className="text-center pt-lg-5 pb-lg-4 our_location_bg_img_black z_index_1 transform_top_location">
+        <div className="text-center position-relative hover_card_line overflow-hidden pt-lg-5 pb-lg-4 our_location_bg_img_black z_index_1 transform_top_location">
           <h2 className="fw-bold fs_4xl ff_rubik text-white mb-0 pt-4 mt-2">
             Our <span className="color_blue0d6"> Locations</span>
           </h2>
@@ -45,7 +45,7 @@ const OurLocations = ({ remove_img }) => {
             <p className=" ff_inter fs_1x8l text-white fw-normal mb-0 mt-2 pt-1 pt-sm-0 mt-sm-3">
               Sparked offers hosting all around the world
             </p>
-            <Row className="pt_20 pb-lg-5 pb-4">
+            <Row className="pt_20 pb-lg-5 pb-4 ">
               {Location.map((our) => {
                 return (
                   <Col md={6} lg={4} key={our.id}>

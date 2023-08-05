@@ -14,8 +14,8 @@ const ChooseUs = () => {
           <Row className="pt_28 pt_9_xsm position-relative z-1 align-items-center justify-content-between">
             {Choose.map((us) => {
               return (
-                <Col lg={4} sm={6} xs={12} key={us.id} className="pt_17">
-                  <div className={`p_40 ${us.background}`}>
+                <Col lg={4} sm={6} xs={12} key={us.id} className="pt_17 ">
+                  <div className={`p_40  ${us.background}`}>
                     <p className="ff_inter fs_2x2l fw-semibold text-white mb-0">
                       {us.headingchoosecard}
                     </p>

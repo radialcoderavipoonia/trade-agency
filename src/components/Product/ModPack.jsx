@@ -21,7 +21,7 @@ const ModPack = () => {
             {Modpack.map((pre) => {
               return (
                 <Col lg={4} md={6} key={pre.id} className="pt_15">
-                  <div className="pricing_customer_box p_25">
+                  <div className="pricing_customer_box p_25 position-relative hover_card_line overflow-hidden">
                     <img src={pre.minicraftimg} alt="minicraft images" />
                     <p className="pt_27 ff_rubik fw-semibold fs_2x5l mb-0 text-white">
                       {pre.headingminicraft}

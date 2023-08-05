@@ -168,6 +168,58 @@
     margin-top: -50px !important;
 }
 
+.h_1100 {
+    height: 1100px;
+}
+
+.mx_1920 {
+    width: 1920px;
+}
+
+.background_size {
+    background-size: 100% 100%;
+}
+
+.hover_card_line::before {
+    content: '';
+    background: var(--clr-blue2F7);
+    width: 50%;
+    height: 100%;
+    left: -145%;
+    top: 0%;
+    opacity: 0.2;
+    transform: skew(45deg);
+    position: absolute;
+    transition: left .6s ease-in-out;
+}
+
+.hover_card_line:hover::before {
+    left: 250%;
+}
+
+.hover_card_line:hover,
+.hover_card_line:active {
+    color: #fff;
+    box-shadow: 0px -1px 10px 0 var(--clr-blue2F7);
+}
+
+.bg_popular_button {
+    transition: 0.4s linear;
+}
+
+.border_official_button {
+    transition: 0.4s linear;
+}
+
+.border_official_button:hover {
+    background: linear-gradient(27deg, rgba(0, 63, 243, 0.8) 0%, rgba(48, 156, 255, 0.8) 100%), #2898ff;
+}
+
+.bg_popular_button:hover {
+    border: 1px solid rgba(14, 75, 254, 0.55) !important;
+    background: transparent;
+}
+
 @media (min-width: 1200px) and (max-width: 1920px) {
     .min-vh-100-custom {
         min-height: 100vh;
