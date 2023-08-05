@@ -16,15 +16,13 @@ const MyFooter = () => {
                 >
                   Logo
                 </a>
-                <p className="fw-normal ff_overpass fs_1x4l color_gray9a w_457 mb-0 pt-2 mt-1 mx-auto mx-lg-0">
+                <p className="fw-normal ff_overpass fs_1x4l color_gray9a mw_457 w_100_lg mb-0 pt-2 mt-1 mx-auto mx-lg-0">
                   We ara a lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua. Ut enim ad minim veniam, quis nostrud
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo
                   consequat...
-                  <span className="cursor_pointer color_blue0d6">
-                    Read More
-                  </span>
+                  <span className="pointer color_blue0d6">Read More</span>
                 </p>
                 <div>
                   <div className="d-flex align-items-center justify-content-center justify-content-lg-start gap-2 pt-4 mt-3">

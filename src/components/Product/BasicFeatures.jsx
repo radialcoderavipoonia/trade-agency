@@ -18,7 +18,7 @@ const BasicFeatures = () => {
           {Features.map((basic) => {
             return (
               <Col lg={4} md={6} xs={12} key={basic.id} className="pt_15">
-                <div className="feature_card_box">
+                <div className="feature_card_box position-relative hover_card_line overflow-hidden">
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center">
                       <img
