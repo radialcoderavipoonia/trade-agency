@@ -6,16 +6,18 @@ import OurLocations from "../components/OurLocations";
 import Testimonials from "../components/Testimonials";
 import MyFooter from "../components/MyFooter";
 import ChooseUs from "../components/ChooseUs";
+import NewsLetter from "../components/NewsLetter";
 export const HomePage = () => {
   return (
     <div className="bg_img_main overflow-hidden">
-      <Hero />
-      <PricingPlan />
-      <GameHosting />
-      <OurLocations />
-      <Testimonials />
-      <MyFooter />
-      <ChooseUs/>
+      {/* <Hero /> */}
+      {/* <PricingPlan /> */}
+      {/* <GameHosting /> */}
+      {/* <OurLocations /> */}
+      {/* <Testimonials /> */}
+      <NewsLetter/>
+      {/* <MyFooter /> */}
+      {/* <ChooseUs/> */}
     </div>
   );
 };
