@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { Features } from "./common/Helper";
+import { Features } from "../common/Helper";
 
 const BasicFeatures = () => {
   return (

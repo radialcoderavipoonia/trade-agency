@@ -1,11 +1,12 @@
 import React from "react";
-import { Hero } from "../components/Hero";
-import PricingPlan from "../components/PricingPlan";
-import GameHosting from "../components/GameHosting";
-import OurLocations from "../components/OurLocations";
-import Testimonials from "../components/Testimonials";
-import MyFooter from "../components/MyFooter";
-import ChooseUs from "../components/ChooseUs";
+import { Hero } from "../components/Home/Hero";
+import PricingPlan from "../components/Home/PricingPlan";
+import GameHosting from "../components/common/GameHosting";
+import OurLocations from "../components/common/OurLocations";
+import Testimonials from "../components/common/Testimonials";
+import MyFooter from "../components/common/MyFooter";
+import ChooseUs from "../components/Home/ChooseUs";
+import NewsLetter from "../components/common/NewsLetter";
 export const HomePage = () => {
   return (
     <div className="bg_img_main overflow-hidden">
@@ -25,6 +26,7 @@ export const HomePage = () => {
         <ChooseUs />
       </div>
       <Testimonials />
+      <NewsLetter />
       <MyFooter />
     </div>
   );

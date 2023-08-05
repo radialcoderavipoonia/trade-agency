@@ -1,11 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
-import { Clients } from "./common/Helper";
-import friendlyimg from "../assets/images/png/testimonialFriendly_img.png";
-import trustimg from "../assets/images/png/testimonial_trustpilot_img.png";
-import stars from "../assets/images/png/testimonial_stars.png";
-import goodicon from "../assets/images/png/testimonial_good_img.png";
-import arrowleftslider from "../assets/images/png/arrow-left-slider.png";
+import { Clients } from "./Helper";
+import friendlyimg from "../../assets/images/png/testimonialFriendly_img.png";
+import trustimg from "../../assets/images/png/testimonial_trustpilot_img.png";
+import stars from "../../assets/images/png/testimonial_stars.png";
+import goodicon from "../../assets/images/png/testimonial_good_img.png";
+import arrowleftslider from "../../assets/images/png/arrow-left-slider.png";
 const Testimonials = () => {
   var settings = {
     dots: false,

@@ -8,7 +8,7 @@ import {
   Menuicon,
   NavIn,
   Tweeter,
-} from "./common/Icons";
+} from "./Icons";
 import { Link } from "react-router-dom";
 const MyNav = () => {
   const [NavShow, setNavShow] = React.useState(true);

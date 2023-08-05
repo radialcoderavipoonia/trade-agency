@@ -1,9 +1,9 @@
 import React from "react";
-import MyNav from "./MyNav";
-import scrool from "../assets/images/svg/Scroll.svg";
+import MyNav from "../common/MyNav";
+import scrool from "../../assets/images/svg/Scroll.svg";
 import { Col, Container, Row } from "react-bootstrap";
-import { ViewArrow } from "./common/Icons";
-import heroImg from "../assets/images/svg/hero_img.svg";
+import { ViewArrow } from "../common/Icons";
+import heroImg from "../../assets/images/svg/hero_img.svg";
 export const Hero = () => {
   return (
     <div className="hero_bg h_1200_lg pb_300_lg pb_200 min-vh-100-custom d-flex flex-column justify-content-center">

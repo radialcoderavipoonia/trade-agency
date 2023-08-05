@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { Location } from "./common/Helper";
-import Map_Img from "../assets/images/webp/map_img.webp";
-import Our_location_bottom from "../assets/images/png/our_location_bottom_img.png";
+import { Location } from "./Helper";
+import Map_Img from "../../assets/images/webp/map_img.webp";
+import Our_location_bottom from "../../assets/images/png/our_location_bottom_img.png";
 const OurLocations = () => {
   return (
     <>

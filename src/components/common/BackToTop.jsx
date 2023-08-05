@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
-import BackToTopimg from "../assets/images/svg/backtotop.svg";
+import BackToTopimg from "../../assets/images/svg/backtotop.svg";
 const BackToTop = () => {
   const [first, setfirst] = useState(true);
   const onTop = () => {

@@ -1,11 +1,12 @@
 import React from "react";
-import { ProductNav } from "../components/ProductNav";
-import BasicFeatures from "../components/BasicFeatures";
-import Modpack from "../components/ModPack";
-import GameHosting from "../components/GameHosting";
-import OurLocations from "../components/OurLocations";
-import Testimonials from "../components/Testimonials";
-import MyFooter from "../components/MyFooter";
+import { ProductNav } from "../components/Product/ProductNav";
+import BasicFeatures from "../components/Product/BasicFeatures";
+import Modpack from "../components/Product/ModPack";
+import GameHosting from "../components/common/GameHosting";
+import OurLocations from "../components/common/OurLocations";
+import Testimonials from "../components/common/Testimonials";
+import MyFooter from "../components/common/MyFooter";
+import NewsLetter from "../components/common/NewsLetter";
 export const ProductPage = () => {
   return (
     <div className="bg_img_main overflow-hidden">
@@ -15,6 +16,9 @@ export const ProductPage = () => {
       <GameHosting />
       <OurLocations />
       <Testimonials />
+      <div className="d-sm-none">
+        <NewsLetter />
+      </div>
       <MyFooter />
     </div>
   );

@@ -17,7 +17,7 @@
 
 .login_btn {
     padding: 18px 40px;
-    background: #1D1D27;
+    background: #1d1d27;
     box-shadow: 0px 25px 43px 0px rgba(10, 131, 247, 0.25);
 }
 
@@ -27,7 +27,7 @@
 
 .login_btn_open {
     padding: 18px 40px;
-    background: #206DFD;
+    background: #206dfd;
 }
 
 .me_10 {
@@ -161,13 +161,13 @@
     letter-spacing: 3px;
 }
 
-@media (min-width:1200px) and (max-width:1920px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
     .min-vh-100-custom {
         min-height: 100vh;
     }
 }
 
-@media (max-width:1920px) {
+@media (max-width: 1920px) {
     .hero_bg {
         background-size: cover;
     }
@@ -221,15 +221,19 @@
     .product_hero_img {
         transform: translateX(0%);
     }
+
+    .my_15_xl {
+        margin: 15px 0;
+    }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
     .h_1200_lg {
         height: 1200px;
     }
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
     .pb_300_lg {
         padding-bottom: 300px;
     }
@@ -257,7 +261,7 @@
     }
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
     .hero_bg {
         background-size: cover;
     }
@@ -288,5 +292,23 @@
 
     .top_bottom_zigzag_img::before {
         display: none;
+    }
+
+    .nav_show {
+        width: 100%;
+    }
+
+    .mw_50_xsm {
+        max-width: 50px !important;
+    }
+
+    .increased-width {
+        width: 150px !important;
+        /* Adjust the width value as needed */
+    }
+
+    .sumbit_button_placeholder {
+
+        padding: 10px 15px;
     }
 }

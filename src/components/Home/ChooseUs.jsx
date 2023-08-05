@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { Choose } from "./common/Helper";
-import bglayers from "../assets/images/png/bg_choose_layers.png"
+import { Choose } from "../common/Helper";
+import bglayers from "../../assets/images/png/bg_choose_layers.png";
 
 const ChooseUs = () => {
   return (
@@ -36,10 +36,14 @@ const ChooseUs = () => {
               );
             })}
           </Row>
-              </div>
-              <div className="position-absolute top_47 left_-5 right_0 ">
-                  <img src={bglayers} alt="bg layers choose section" className="w_110" />
-              </div>
+        </div>
+        <div className="position-absolute top_47 left_-5 right_0 ">
+          <img
+            src={bglayers}
+            alt="bg layers choose section"
+            className="w_110"
+          />
+        </div>
       </div>
     </>
   );
