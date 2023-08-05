@@ -1,4 +1,5 @@
 import starterbusinessenterpriseimg from "../../assets/images/png/starter_pricing_box.png";
+import starterbusinessenterpriseimgsecond from "../../assets/images/png/starter_pricing_boxdiamond.png"
 import righticon from "../../assets/images/png/righticon.png";
 import righticongray from "../../assets/images/png/righticongray.png";
 import clientstars from "../../assets/images/webp/5Stars.webp";
@@ -29,12 +30,15 @@ import miniimgthree from "../../assets/images/webp/modpack_card_img3.webp";
 import miniimgfour from "../../assets/images/webp/modpack_card_img4.webp";
 import miniimgfive from "../../assets/images/png/modpack_card_img5.png";
 import miniimgsix from "../../assets/images/png/modpack_card_img6.png";
+import messageiconimg from "../../assets/images/png/choosecard_messageicon.png";
+import { ArrowIcon } from "./Icons";
 import { VerfiedImg } from "./Icons";
 import { ArrowImg } from "./Icons";
 export const Pricing = [
   {
     id: 1,
     imgicon: starterbusinessenterpriseimg,
+    imgiconsecond: starterbusinessenterpriseimgsecond,
     heading: "Starter",
     button: "POPULAR PLAN",
     include: "Whats Included :",
@@ -52,6 +56,7 @@ export const Pricing = [
   {
     id: 2,
     imgicon: starterbusinessenterpriseimg,
+    imgiconsecond: starterbusinessenterpriseimgsecond,
     heading: "Business",
     button: "POPULAR PLAN",
     include: "Whats Included :",
@@ -69,6 +74,7 @@ export const Pricing = [
   {
     id: 3,
     imgicon: starterbusinessenterpriseimg,
+    imgiconsecond: starterbusinessenterpriseimgsecond,
     heading: "Enterprise",
     button: "POPULAR PLAN",
     include: "Whats Included :",
@@ -88,6 +94,42 @@ export const Clients = [
   {
     id: 1,
     fivestarts: clientstars,
+    customerpara:
+      "I received great customer service from the specialists who helped me. I would recommend to anyone who wants quality.",
+    customersimg: profileimg1,
+    customername: "Viola Manisa",
+    verified: VerfiedImg,
+    verifiedcustomer: "Verified customer",
+  },
+  {
+    id: 2,
+    fivestarts: clientstars,
+    customerpara:
+      "I received great customer service from the specialists who helped me. I would recommend to anyone who wants quality.",
+    customersimg: profileimg2,
+    customername: "Bryan Arnoldy",
+    verified: VerfiedImg,
+    verifiedcustomer: "Verified customer",
+  },
+  {
+    id: 3,
+    fivestarts: clientstars,
+    customerpara:
+      "I received great customer service from the specialists who helped me. I would recommend to anyone who wants quality.",
+    customersimg: profileimg3,
+    customername: "Joshua William",
+    verified: VerfiedImg,
+    verifiedcustomer: "Verified customer",
+  },
+  {
+    id: 4,
+    fivestarts: clientstars,
+    customerpara:
+      "I received great customer service from the specialists who helped me. I would recommend to anyone who wants quality.",
+    customersimg: profileimg4,
+    customername: "George Scott",
+    verified: VerfiedImg,
+    verifiedcustomer: "Verified customer",
   },
 ];
 export const Facebook = () => {
@@ -332,5 +374,68 @@ export const Modpack = [
     popular: "Popular",
     official: "Official",
     getstarted: "Get Started",
+  },
+];
+export const Choose = [
+  {
+    id: 1,
+    headingchoosecard: "Enterprise Hardware",
+    parachoosecard:
+      "Sales Cloud wurde mit der Mission geboren, Gründern von B2B-Start-ups dabei zu helfen, ihre Verkaufsorganisationen auf eine kapitaleffiziente skalieren",
+    messageicon: messageiconimg,
+    explore: "explore more",
+    explorearrow: ArrowIcon,
+    background: "bg_gray_card_box",
+  },
+  {
+    id: 2,
+    headingchoosecard: "Budget Friendly",
+    parachoosecard:
+      "Sales Cloud wurde mit der Mission geboren, Gründern von B2B-Start-ups dabei zu helfen, ihre Verkaufsorganisationen auf eine kapitaleffiziente skalieren",
+    messageicon: messageiconimg,
+    explore: "explore more",
+    explorearrow: ArrowIcon,
+    background: "bg_black_card_box",
+  },
+
+  {
+    id: 3,
+    headingchoosecard: "Amazing Support",
+    parachoosecard:
+      "Sales Cloud wurde mit der Mission geboren, Gründern von B2B-Start-ups dabei zu helfen, ihre Verkaufsorganisationen auf eine kapitaleffiziente skalieren",
+    messageicon: messageiconimg,
+    explore: "explore more",
+    explorearrow: ArrowIcon,
+    background: "bg_gray_card_box",
+  },
+  {
+    id: 4,
+    headingchoosecard: "Premium Locations",
+    parachoosecard:
+      "Sales Cloud wurde mit der Mission geboren, Gründern von B2B-Start-ups dabei zu helfen, ihre Verkaufsorganisationen auf eine kapitaleffiziente skalieren",
+    messageicon: messageiconimg,
+    explore: "explore more",
+    explorearrow: ArrowIcon,
+    background: "bg_black_card_box",
+  },
+  {
+    id: 5,
+    headingchoosecard: "Instant Setup",
+    parachoosecard:
+      "Sales Cloud wurde mit der Mission geboren, Gründern von B2B-Start-ups dabei zu helfen, ihre Verkaufsorganisationen auf eine kapitaleffiziente skalieren",
+    messageicon: messageiconimg,
+    explore: "explore more",
+    explorearrow: ArrowIcon,
+    background: "bg_gray_card_box",
+  },
+  {
+    id: 6,
+    headingchoosecard: "DDoS Protection",
+    parachoosecard:
+      "Sales Cloud wurde mit der Mission geboren, Gründern von B2B-Start-ups dabei zu helfen, ihre Verkaufsorganisationen auf eine kapitaleffiziente skalieren",
+    messageicon: messageiconimg,
+    explore: "explore more",
+    explorearrow: ArrowIcon,
+    background: "bg_black_card_box",
   },
 ];
