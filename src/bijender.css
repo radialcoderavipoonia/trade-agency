@@ -28,7 +28,7 @@
 
 /* our location */
 .our_location_bg_img_black {
-    background-image: url("./assets/images/png/our_location_bg_img_black.png");
+    background-image: url("./assets/images/webp/our_location_bg_img_black.webp");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -67,6 +67,28 @@
 /* footer */
 .w_457 {
     max-width: 457px;
+}
+
+.transform_top_location {
+    transform: translateY(200px);
+}
+
+.map_h {
+    height: 408px;
+}
+
+/* newsletter */
+.email_input_parent {
+    background-color: #212132;
+    max-width: 750px;
+    border-radius: 10px;
+}
+
+.email_input {
+    background-color: #212132;
+    padding: 22px 8px 22px 0px;
+    outline: none;
+
 }
 
 .cursor_pointer {
@@ -109,5 +131,10 @@ footer ul li a:hover {
 @media (max-width:991.98px) {
     .w_457 {
         max-width: 100%;
+    }
+
+    .btn_clr_newsletter {
+        border-radius: 5px;
+        background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), linear-gradient(0deg, #2898FF 0%, #2898FF 100%), #FF604B;
     }
 }

@@ -14,8 +14,8 @@ export const HomePage = () => {
       <GameHosting />
       <OurLocations />
       <Testimonials />
-      <MyFooter />
       <ChooseUs/>
+      <MyFooter />
     </div>
   );
 };
