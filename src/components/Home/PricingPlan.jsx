@@ -95,8 +95,8 @@ const PricingPlan = () => {
             })}
           </Row>
           <div className="d-sm-flex justify-content-center pt_43 d-none mt-md-4">
-            <button className="quote_button border-0 ff_inter fs_1x8l text-white fw-semibold">
-              Get a Quote{" "}
+            <button className="quote_button ff_inter fs_1x8l text-white fw-semibold bg_popular_button border_1_transparent">
+              Get a Quote
               <span className="pl_10">
                 <img src={ImgArrowRight} alt="arrow right " />
               </span>
