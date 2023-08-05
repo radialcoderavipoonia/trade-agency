@@ -5,6 +5,7 @@ import Modpack from "../components/ModPack";
 import GameHosting from "../components/GameHosting";
 import OurLocations from "../components/OurLocations";
 import Testimonials from "../components/Testimonials";
+import MyFooter from "../components/MyFooter";
 export const ProductPage = () => {
   return (
     <div className="bg_img_main overflow-hidden">
@@ -14,6 +15,7 @@ export const ProductPage = () => {
       <GameHosting />
       <OurLocations />
       <Testimonials />
+      <MyFooter />
     </div>
   );
 };

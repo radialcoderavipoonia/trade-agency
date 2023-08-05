@@ -1,7 +1,6 @@
 import React from "react";
 import { ImCross } from "react-icons/im";
 import { Container } from "react-bootstrap";
-// import PricingPlan from "./PricingPlan";
 import {
   Facebook,
   Instagram,
@@ -17,9 +16,9 @@ const MyNav = () => {
     setNavShow(!NavShow);
   }
   if (!NavShow) {
-    document.body.classList.add("overflow-hidden");
+    document.body.classList.add("body_stop");
   } else {
-    document.body.classList.remove("overflow-hidden");
+    document.body.classList.remove("body_stop");
   }
   return (
     <>
