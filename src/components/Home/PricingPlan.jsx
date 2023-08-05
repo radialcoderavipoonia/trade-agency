@@ -23,7 +23,7 @@ const PricingPlan = () => {
               return (
                 <Col lg={4} md={6} key={plan.id} className="py_15">
                   <div className="pricing_customer_box hover_box_pricing p_32 text-sm-start text-center position-relative hover_card_line overflow-hidden">
-                    <div className="d-flex justify-content-center align-items-center hover_between">
+                    <div className="d-flex justify-content-center justify-content-sm-between align-items-center hover_between">
                       <img
                         src={plan.imgicon}
                         alt="starter image"

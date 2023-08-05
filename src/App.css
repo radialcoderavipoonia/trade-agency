@@ -46,13 +46,17 @@
   --fs-4xl: 40px;
   --fs-6xl: 60px;
   --bg-black: #131318;
+  --bg-black1d: #1d1d27;
+  --bg-black21: #212132;
   --bg-voilet00C: #00cdfa;
   --clr-lightgreenA4: #A4D6C5;
   --clr-darkgrayB2B: #b2b8c8;
   --clr-whiteFB: #fbfbfb;
   --clr-whiteFE: #FEFEFF;
+  --clr-whiteFF: #FFFF;
   --clr-whiteFC: #FCFCFF;
   --clr-blue0D: #0D6EFD;
+  --clr-blue28: #2898ff;
   --clr-whiteFE: #FEFEFF;
   --clr-whiteFC: #FCFCFF;
   --clr-blue0D: #0D6EFD;
@@ -64,6 +68,7 @@
   --clr-blue2F7: #2f7fee;
   --clr-blue00: #0062FF;
   --clr-blue0F4: #0f4bfd;
+  --clr-blue026: #0268FF;
   --clr-lightgreen8B: #8BA3B7;
   --clr-whiteEA: #EAEEF1;
   --clr-whiteC6: #c6c6c7;
