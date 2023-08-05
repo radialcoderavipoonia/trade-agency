@@ -292,6 +292,7 @@ html {
   background: #18181f;
   padding: 20px;
 }
+
 /* hover  */
 .hover_box_pricing:hover .border_started_button {
   background: linear-gradient(
@@ -321,6 +322,9 @@ html {
 }
 .hover_box_pricing:hover .hover_white {
   color: white !important;
+}
+.hover_box_pricing:hover .hover_between{
+  justify-content: space-between !important;
 }
 .hover_box_pricing:hover {
   transform: translateY(-40px);

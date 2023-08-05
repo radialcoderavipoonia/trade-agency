@@ -100,7 +100,15 @@
     background-image: url(../src/assets/images/webp/productbg.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 500px;
+}
+
+.product_img_nav {
+    top: 23%;
+    max-width: 534px;
+    height: 378px;
+    left: 0;
 }
 
 .mx_500 {
@@ -156,6 +164,10 @@
     letter-spacing: 3px;
 }
 
+.mt_-50 {
+    margin-top: -50px !important;
+}
+
 @media (min-width: 1200px) and (max-width: 1920px) {
     .min-vh-100-custom {
         min-height: 100vh;
@@ -165,6 +177,12 @@
 @media (max-width: 1920px) {
     .hero_bg {
         background-size: cover;
+    }
+}
+
+@media (max-width:1400px) {
+    .mt_10_xxl {
+        margin-top: 10px !important;
     }
 }
 
@@ -225,11 +243,17 @@
         overflow: hidden;
         height: 100vh;
     }
+
+    .location_img_bottom {
+        bottom: -140px;
+        left: 2%;
+        max-width: 290px;
+    }
 }
 
 @media (min-width: 992px) {
-    .h_1200_lg {
-        height: 1200px;
+    .h_970_lg {
+        height: 970px;
     }
 }
 
@@ -253,11 +277,23 @@
     .pt_48_lg {
         padding-top: 48px;
     }
+
+    .mx_865_lg {
+        max-width: 865px;
+    }
 }
 
 @media (max-width:768px) {
     .hover_box_pricing:hover {
         transform: translateY(0px);
+    }
+
+    .mt_-50_md {
+        margin-top: -50px;
+    }
+
+    .mt_-100_md {
+        margin-top: -100px !important;
     }
 }
 
@@ -304,11 +340,54 @@
 
     .increased-width {
         width: 150px !important;
-        /* Adjust the width value as needed */
+    }
+
+    .pb_9_xsm {
+        padding-bottom: 9px !important;
+    }
+
+    .pb_0_xsm {
+        padding-bottom: 0 !important;
+    }
+
+    .pt_0_xsm {
+        padding-top: 0 !important;
     }
 
     .sumbit_button_placeholder {
 
         padding: 10px 15px;
+    }
+
+    .mt_sm_28 {
+        margin-top: 28px !important;
+    }
+
+    .py_25_xsm {
+        padding: 25px 0 !important;
+    }
+
+    .pt_9_xsm {
+        padding-top: 9px !important;
+    }
+
+    .mt_17_xsm {
+        margin-top: 17px !important;
+    }
+
+    .mt_-10_xsm {
+        margin-top: -10px !important;
+    }
+
+    .pt_21_xsm {
+        padding-top: 21px !important;
+    }
+
+    .pt_10_xsm {
+        padding-top: 10px !important;
+    }
+
+    .pt_23_xsm {
+        padding-top: 23px !important;
     }
 }

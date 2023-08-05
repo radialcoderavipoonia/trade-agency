@@ -14,8 +14,8 @@ export const ProductPage = () => {
       <BasicFeatures />
       <Modpack />
       <GameHosting backShadow="background_gameProduct" />
-      <OurLocations />
-      <Testimonials />
+      <OurLocations remove_img="opacity-0 pe-none" />
+      <Testimonials space_add="mt-sm-5 pt-4" />
       <div className="d-sm-none">
         <NewsLetter />
       </div>
