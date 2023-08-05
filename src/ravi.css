@@ -260,7 +260,7 @@ html {
   position: absolute;
   top: -15%;
   right: -16%;
-  background-image: url("./assets/images/png/pricingplan_giggaz_top.png");
+  background-image: url("./assets/images/webp/pricingplan_giggaz_top.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 451px;
@@ -272,7 +272,7 @@ html {
   position: absolute;
   bottom: 6%;
   left: -6%;
-  background-image: url("./assets/images/png/pricingplan_giggaz_bottom.png");
+  background-image: url("./assets/images/webp/pricingplan_giggaz_bottom.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 451px;
@@ -364,7 +364,7 @@ html {
   width: 500px !important; /* Adjust the width value as needed */
 }
 .background_gameProduct {
-  background-image: url("./assets/images/png/bg_choose_layers.png");
+  background-image: url("./assets/images/webp/bg_choose_layers.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

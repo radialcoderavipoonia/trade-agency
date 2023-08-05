@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Choose } from "../common/Helper";
-import bglayers from "../../assets/images/png/bg_choose_layers.png";
+import bglayers from "../../assets/images/webp/bg_choose_layers.webp";
 
 const ChooseUs = () => {
   return (

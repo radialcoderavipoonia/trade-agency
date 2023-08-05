@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Modpack } from "../common/Helper";
-import modpacktopimg from "../../assets/images/png/pricingplan_giggaz_top.png"
-import getstartedarrow from "../../assets/images/png/arrow-right.png"
+import modpacktopimg from "../../assets/images/webp/pricingplan_giggaz_top.webp"
+import getstartedarrow from "../../assets/images/webp/arrow-right.webp"
 
 const ModPack = () => {
   return (
