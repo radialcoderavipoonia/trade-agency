@@ -6,12 +6,12 @@ import bglayers from "../../assets/images/webp/bg_choose_layers.webp";
 const ChooseUs = () => {
   return (
     <>
-      <div className="position-relative py-5 ">
-        <div className="custom_container">
+      <div className="position-relative py-md-5">
+        <div className="custom_container pt-sm-5 mt-sm-5 mt_sm_28">
           <p className="ff_rubik fs_4xl fw-bold text-white text-center mb-0 lh_normal">
             Why <span className="color_blueod">Choose Us?</span>
           </p>
-          <Row className="pt_28 position-relative z-1 align-items-center justify-content-between">
+          <Row className="pt_28 pt_9_xsm position-relative z-1 align-items-center justify-content-between">
             {Choose.map((us) => {
               return (
                 <Col lg={4} sm={6} xs={12} key={us.id} className="pt_17">
@@ -37,7 +37,7 @@ const ChooseUs = () => {
             })}
           </Row>
         </div>
-        <div className="position-absolute top_47 left_-5 right_0 ">
+        <div className="position-absolute top_47 left_-5 right_0 pe-none">
           <img
             src={bglayers}
             alt="bg layers choose section"

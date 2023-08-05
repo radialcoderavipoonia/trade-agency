@@ -1,29 +1,29 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Pricing } from "../common/Helper";
-import sideimgpricingplan from "../../assets/images/webp/group_side_img_priceing_plan.webp"
-import ImgArrowRight from "../../assets/images/webp/arrow-right.webp"
+import sideimgpricingplan from "../../assets/images/webp/group_side_img_priceing_plan.webp";
+import ImgArrowRight from "../../assets/images/webp/arrow-right.webp";
 import { ArrowImg } from "../common/Icons";
 import { ImArrowRight } from "react-icons/im";
 
 const PricingPlan = () => {
   return (
     <>
-      <section className="position-relative">
+      <section className="position-relative mt_-50_md">
         <div className="custom_container container">
-          <h2 className="ff_rubik fw-bold fs_4xl pt_43 mb-0 text-center color_whitefc">
+          <h2 className="ff_rubik fw-bold fs_4xl mb-0 text-center color_whitefc">
             Awesome <span className="color_blueod">Pricing Plan</span>
           </h2>
-          <p className="ff_rubik fw-normal fs_1x8l color_whitefc text-center mb-0 pb_43 mw_647 me-auto ms-auto pt-4">
+          <p className="ff_rubik fw-normal fs_1x8l color_whitefc text-center mb-0 pb_43 pb_9_xsm mw_647 me-auto ms-auto pt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
-          <Row className="py_25 justify-content-center align-items-center position-relative z-1 top_bottom_zigzag_img">
+          <Row className="justify-content-center align-items-center position-relative z-1 top_bottom_zigzag_img">
             {Pricing.map((plan) => {
               return (
                 <Col lg={4} md={6} key={plan.id} className="py_15">
-                  <div className="pricing_customer_box hover_box_pricing p_32">
-                    <div className="d-flex justify-content-between align-items-center">
+                  <div className="pricing_customer_box hover_box_pricing p_32 text-sm-start text-center">
+                    <div className="d-flex justify-content-center align-items-center hover_between">
                       <img
                         src={plan.imgicon}
                         alt="starter image"
@@ -38,7 +38,7 @@ const PricingPlan = () => {
                         {plan.button}
                       </button>
                     </div>
-                    <div className="py-5">
+                    <div className="py-sm-5 py_25_xsm">
                       <p className="mb-0 fw-semibold ff_rubik fs_2x5l text-white">
                         {plan.heading}
                       </p>
@@ -51,25 +51,25 @@ const PricingPlan = () => {
                         <p className="ff_inter fw-bold fs_1x6l color_grayf9 mb-0">
                           {plan.include}
                         </p>
-                        <div className="pt_14 d-flex align-items-center">
+                        <div className="pt_14 d-flex align-items-center justify-content-center justify-content-sm-start">
                           <img src={plan.rightimgicon} alt="right icon" />
                           <p className="mb-0 ps-2 ff_inter fs_1x6l fw-medium color_grayf9">
                             {plan.allbasic}
                           </p>
                         </div>
-                        <div className="pt_14 d-flex align-items-center">
+                        <div className="pt_14 d-flex align-items-center justify-content-center justify-content-sm-start">
                           <img src={plan.rightimgicon} alt="right icon" />
                           <p className="mb-0 ps-2 ff_inter fs_1x6l fw-medium color_grayf9">
                             {plan.contacts}
                           </p>
                         </div>
-                        <div className="pt_14 d-flex align-items-center">
+                        <div className="pt_14 d-flex align-items-center justify-content-center justify-content-sm-start">
                           <img src={plan.rightimgicongray} alt="right icon" />
                           <p className="mb-0 ps-2 ff_inter hover_white fs_1x6l fw-medium pricing_box_secondary_color">
                             {plan.normalsupport}
                           </p>
                         </div>
-                        <div className="pt_14 d-flex align-items-center">
+                        <div className="pt_14 d-flex align-items-center justify-content-center justify-content-sm-start">
                           <img src={plan.rightimgicongray} alt="right icon" />
                           <p className="mb-0 ps-2 ff_inter hover_white fs_1x6l fw-medium pricing_box_secondary_color">
                             {plan.mobileapp}
@@ -94,9 +94,12 @@ const PricingPlan = () => {
               );
             })}
           </Row>
-          <div className="d-sm-flex justify-content-center pt_43 d-none">
+          <div className="d-sm-flex justify-content-center pt_43 d-none mt-md-4">
             <button className="quote_button border-0 ff_inter fs_1x8l text-white fw-semibold">
-              Get a Quote <span className="pl_10"><img src={ImgArrowRight} alt="arrow right " /></span>
+              Get a Quote{" "}
+              <span className="pl_10">
+                <img src={ImgArrowRight} alt="arrow right " />
+              </span>
             </button>
           </div>
         </div>

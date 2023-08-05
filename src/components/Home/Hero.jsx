@@ -6,7 +6,7 @@ import { ViewArrow } from "../common/Icons";
 import heroImg from "../../assets/images/svg/hero_img.svg";
 export const Hero = () => {
   return (
-    <div className="hero_bg h_1200_lg pb_300_lg pb_200 min-vh-100-custom d-flex flex-column justify-content-center">
+    <div className="hero_bg h_970_lg pb_300_lg pb_200 min-vh-100-custom d-flex flex-column justify-content-center">
       <MyNav />
       <Container className="custom_container flex-grow-1 d-flex">
         <Row className="align-items-lg-center align-items-start pt_28_lg">
@@ -49,10 +49,10 @@ export const Hero = () => {
           <Col
             lg={6}
             xs={12}
-            className=" d-flex justify-content-start h_300_xsm pt_48_lg"
+            className="d-flex justify-content-lg-start justify-content-center h_300_xsm pt_48_lg"
           >
             <span>
-              <img src={heroImg} alt="heroImg" className="w-100" />
+              <img src={heroImg} alt="heroImg" className="w-100 mx_865_lg" />
             </span>
           </Col>
         </Row>

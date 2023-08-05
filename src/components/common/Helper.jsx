@@ -3,7 +3,6 @@ import starterbusinessenterpriseimgsecond from "../../assets/images/webp/starter
 import righticon from "../../assets/images/webp/righticon.webp";
 import righticongray from "../../assets/images/webp/righticongray.webp";
 import clientstars from "../../assets/images/webp/5Stars.webp";
-import california from "../../assets/images/webp/california.webp";
 import profileimg1 from "../../assets/images/webp/customer_img1.webp";
 import profileimg2 from "../../assets/images/webp/customer_img2.webp";
 import profileimg3 from "../../assets/images/webp/customer_img3.webp";

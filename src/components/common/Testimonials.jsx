@@ -6,7 +6,7 @@ import trustimg from "../../assets/images/webp/testimonial_trustpilot_img.webp";
 import stars from "../../assets/images/webp/testimonial_stars.webp";
 import goodicon from "../../assets/images/webp/testimonial_good_img.webp";
 import arrowleftslider from "../../assets/images/webp/arrow-left-slider.webp";
-const Testimonials = () => {
+const Testimonials = ({ space_add }) => {
   var settings = {
     dots: false,
     infinite: true,
@@ -54,21 +54,21 @@ const Testimonials = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="custom_container my-5">
-        <p className="ff_rubik fs_1x8l fw-normal pb-1 text-center mb-0 color_blue00 text-uppercase letter_s3">
+      <div className={`custom_container my-sm-5 ${space_add}`}>
+        <p className="ff_rubik fs_1x8l fw-normal pt_34 pb-1 text-center mb-0 color_blue00 text-uppercase letter_s3">
           testimonials
         </p>
         <h2 className="text-center mb-0 pt-2 ff_rubik fs_4xl fw-bold text-white">
           What Our Clients Say About Us
         </h2>
 
-        <Slider {...settings} className="pt_45" ref={first}>
+        <Slider {...settings} className="pt_45 pt_21_xsm" ref={first}>
           {Clients.map((say) => {
             return (
               <div lg={3} md={4} key={say.id} className="px_5">
                 <div className="pricing_customer_box px_20_py_12">
                   <img src={say.fivestarts} alt="five stars" />
-                  <p className="py_34 mb-0 ff_opensans fs_1x5l fw-normal color_gray80">
+                  <p className="py_34 pt_21_xsm mb-0 ff_opensans fs_1x5l fw-normal color_gray80">
                     {say.customerpara}
                   </p>
                   <div className="d-flex align-items-center">
@@ -90,7 +90,7 @@ const Testimonials = () => {
             );
           })}
         </Slider>
-        <div className="pt_38 d-flex d-lg-none justify-content-center align-items-center">
+        <div className="pt_38 pt_21_xsm d-flex d-lg-none justify-content-center align-items-center">
           <div
             onClick={() => first.current.slickPrev()}
             className="arrow_box d-flex justify-content-center align-items-center mx-2"
@@ -108,7 +108,7 @@ const Testimonials = () => {
             />
           </div>
         </div>
-        <div className="d-flex justify-content-between align-items-center pt-5 mt-1 mw_750 ms-auto me-auto">
+        <div className="d-flex justify-content-between align-items-center pt-sm-5 pt_38 mt-sm-1 mw_750 ms-auto me-auto">
           <div className="mw_230 text-center">
             <img
               src={friendlyimg}
