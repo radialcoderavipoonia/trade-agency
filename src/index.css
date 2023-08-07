@@ -100,8 +100,6 @@
   background-color: var(--clr-whiteFF);
   display: block;
 }
-
-
 .location_img_bottom {
   bottom: -140px;
   left: 200px;
@@ -163,11 +161,9 @@
 .lh_normal {
   line-height: normal;
 }
-
 .lh_70 {
   line-height: 70px;
 }
-
 .lh_33px {
   line-height: 33px;
 }
@@ -548,9 +544,6 @@
   background: rgba(132, 160, 232, 0.1);
   padding: 10px 22px;
 }
-
-/* button  */
-
 /* color  */
 .pricing_box_secondary_color {
   color: #6e6e71 !important;
@@ -719,7 +712,6 @@
 .slick-arrow {
   display: none !important;
 }
-
 .slick-track {
   display: flex;
   flex-wrap: wrap;
