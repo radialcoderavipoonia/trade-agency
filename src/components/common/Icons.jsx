@@ -373,5 +373,3 @@ export const Linkin_logo = () => {
     </div>
   );
 };
-
-

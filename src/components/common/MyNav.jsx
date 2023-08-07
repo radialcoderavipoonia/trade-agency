@@ -1,4 +1,5 @@
 import React from "react";
+import more_arrow from '../../assets/images/svg/more_arrow.svg'
 import { ImCross } from "react-icons/im";
 import { Container } from "react-bootstrap";
 import {
@@ -74,6 +75,16 @@ const MyNav = () => {
                       GAME HOSTING
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      // to="/product"
+                      className="hover_line position-relative ff_rubik fs_1x8l fw-bold text-white my_15_xl"
+                      onClick={clickshow}
+                    >
+                      More
+                      <img src={more_arrow} alt="more arrow" className="more_arrow ms-2" />
+                    </Link>
+                  </li>
                 </ul>
                 <div className=" d-flex align-items-center">
                   <span className="fb_img">
@@ -104,7 +115,11 @@ const MyNav = () => {
                     </a>
                   </span>
                   <span className="ms_8">
-                    <a href="https://in.linkedin.com/" target="_blank" className="nav_fb">
+                    <a
+                      href="https://in.linkedin.com/"
+                      target="_blank"
+                      className="nav_fb"
+                    >
                       <NavIn />
                     </a>
                   </span>

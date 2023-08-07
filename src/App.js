@@ -5,7 +5,10 @@ import { ProductPage } from "./Pages/ProductPage";
 import { Route, Routes } from "react-router-dom";
 import BackToTop from "./components/common/BackToTop";
 import Preloader from "./components/common/Preloader";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  AOS.init();
   return (
     <>
       <BackToTop />

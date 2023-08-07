@@ -223,7 +223,10 @@
     linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%), #ff604b;
   padding: 16px 44px;
 }
-
+.more_arrow{
+  height: 10px !important;
+  width: 10px !important;
+}
 /* height  */
 .h_16 {
   height: 16px;
