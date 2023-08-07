@@ -77,22 +77,22 @@ const MyNav = () => {
                 </ul>
                 <div className=" d-flex align-items-center">
                   <span className="fb_img">
-                    <a href="#">
+                    <a href="#" className="nav_fb">
                       <Facebook />
                     </a>
                   </span>
                   <span className="ms_8">
-                    <a href="#">
+                    <a href="#" className="nav_fb">
                       <Instagram />
                     </a>
                   </span>
                   <span className="ms_8">
-                    <a href="#">
+                    <a href="#" className="nav_fb">
                       <Tweeter />
                     </a>
                   </span>
                   <span className="ms_8">
-                    <a href="#">
+                    <a href="#" className="nav_fb">
                       <NavIn />
                     </a>
                   </span>

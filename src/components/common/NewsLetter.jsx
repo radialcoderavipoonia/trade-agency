@@ -22,7 +22,7 @@ const NewsLetter = () => {
                 className="pl_12 ff_inter fs_1x6l fw-normal bg-transparent border-0 outline_none increased-width"
               />
             </div>
-            <button className="sumbit_button_placeholder border-0 ff_rubik fs_1x4l fw-medium text-white">
+            <button className="sumbit_button_placeholder ff_rubik fs_1x4l fw-medium text-white bg_popular_button border_1_transparent">
               Submit
             </button>
           </div>
