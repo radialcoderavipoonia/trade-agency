@@ -104,7 +104,11 @@ const PricingPlan = () => {
           </div>
         </div>
         <div className="position-absolute right_-16 bottom_-26 d-xl-block d-none">
-          <img src={sideimgpricingplan} alt="pricing plan side img" />
+          <img
+            src={sideimgpricingplan}
+            alt="pricing plan side img"
+            className="mw_770 mw_578_xxxl"
+          />
         </div>
       </section>
     </>

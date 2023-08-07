@@ -53,7 +53,12 @@
 }
 
 .bg_gradient {
-  background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), var(--clr-blue28);
+  background: linear-gradient(
+      27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    var(--clr-blue28);
 }
 
 .hero_bg {
@@ -64,9 +69,11 @@
 }
 
 .bg_popular_button {
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     var(--clr-blue28);
 }
 
@@ -102,7 +109,7 @@
 }
 .location_img_bottom {
   bottom: -140px;
-  left: 200px;
+  left: 9%;
   width: 290px;
 }
 
@@ -110,7 +117,6 @@
   background-color: var(--bg-black21);
   padding: 22px 8px 22px 0px;
   outline: none;
-
 }
 
 .email_input_parent {
@@ -129,7 +135,7 @@
   height: 48px;
   border-radius: 50%;
   background-color: var(--clr-blue026);
-  transition: 0.6s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .product_img_nav {
@@ -180,6 +186,7 @@
   padding: 18px 40px;
   background: var(--bg-black1d);
   box-shadow: 0px 25px 43px 0px rgba(10, 131, 247, 0.25);
+  transition: all 0.2s linear;
 }
 
 .login_btn_open {
@@ -189,9 +196,11 @@
 
 .quote_button {
   border-radius: 90px;
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     var(--clr-blue28);
   padding: 18px 35px;
 }
@@ -206,9 +215,11 @@
 
 .sumbit_button_placeholder {
   border-radius: 5px;
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%), #ff604b;
   padding: 16px 44px;
 }
@@ -254,7 +265,9 @@
 .w_40 {
   width: 40px;
 }
-
+.mw_770{
+  max-width: 770px;
+}
 .mw_457 {
   max-width: 457px;
 }
@@ -504,6 +517,7 @@
   background: #111116 !important;
   box-shadow: 8px 24px 96px 0px rgba(68, 77, 163, 0.08) !important;
   height: 100%;
+  transition: all 0.3s linear;
 }
 
 .border_official_button {
@@ -595,6 +609,16 @@
 .app_icon_circel:hover {
   background-color: var(--clr-whiteFF);
 }
+.login_btn:hover {
+  background-color: white !important;
+  color: var(--clr-blue0D) !important;
+}
+.pricing_customer_box:hover {
+  transform: scale(0.9);
+}
+.login_btn:hover svg path {
+  fill: var(--clr-blue0D) !important;
+}
 .nav_fb svg {
   transition: 0.4s linear;
 }
@@ -626,7 +650,7 @@
 }
 
 .hover_card_line::before {
-  content: '';
+  content: "";
   background: var(--clr-blue2F7);
   width: 50%;
   height: 100%;
@@ -641,16 +665,25 @@
 .hover_card_line:hover::before {
   left: 250%;
 }
-
+.hover_bg_card {
+  transition: all 0.3s linear;
+}
 .hover_card_line:hover,
 .hover_card_line:active {
   color: var(--clr-whiteFF);
   box-shadow: 0px -1px 10px 0 var(--clr-blue2F7);
+  transition: all 0.3s linear;
 }
-
-
+.hover_bg_card:hover {
+  transform: scale(0.9);
+}
 .border_official_button:hover {
-  background: linear-gradient(27deg, rgba(0, 63, 243, 0.8) 0%, rgba(48, 156, 255, 0.8) 100%), var(--clr-blue28);
+  background: linear-gradient(
+      27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    var(--clr-blue28);
 }
 
 .bg_popular_button:hover {
@@ -659,10 +692,13 @@
 }
 
 .hover_box_pricing:hover .border_started_button {
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
-    linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%), var(--bg-black1d);
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%),
+    var(--bg-black1d);
   border: 1px solid transparent;
 }
 
@@ -671,9 +707,11 @@
 }
 
 .pp_button:hover {
-  background: linear-gradient(27deg,
-      rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%);
+  background: linear-gradient(
+    27deg,
+    rgba(0, 63, 243, 0.8) 0%,
+    rgba(48, 156, 255, 0.8) 100%
+  );
   color: var(--clr-whiteFF) !important;
 }
 
@@ -729,7 +767,7 @@
 :focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
 }
-.border_1_transparent{
+.border_1_transparent {
   border: 1px solid transparent !important;
 }
 .placeholder input {
@@ -831,8 +869,6 @@
   border: 2px solid var(--clr-whiteFF) !important;
 }
 
-
-
 .animation_preloader {
   animation: preloaderani 2.5s linear infinite;
 }
@@ -857,13 +893,12 @@
 /* nesting */
 footer ul li a {
   position: relative;
-  transition: 0.6s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 footer ul li a:hover {
   color: var(--clr-blue0F4) !important;
 }
-
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1920px) {
   .min-vh-100-custom {
@@ -877,10 +912,18 @@ footer ul li a:hover {
   }
 }
 
-@media (max-width:1400px) {
+@media (max-width: 1400px) {
   .mt_10_xxl {
     margin-top: 10px !important;
   }
+  .location_img_bottom {
+    bottom: -140px;
+    left: 8% !important;
+    width: 200px !important;
+  }
+  .mw_578_xxxl {
+    max-width: 578px !important;
+}
 }
 
 @media (max-width: 1200px) {
@@ -919,7 +962,11 @@ footer ul li a:hover {
   .fb_img svg path:first-child {
     fill: #000000;
   }
-
+  .location_img_bottom {
+    bottom: -140px;
+    left: 4% !important;
+    width: 290px;
+  }
   .py_30_xl {
     padding: 30px 0;
   }
@@ -958,7 +1005,11 @@ footer ul li a:hover {
   .pb_300_lg {
     padding-bottom: 300px;
   }
-
+  .location_img_bottom {
+    bottom: -140px;
+    left: 2% !important;
+    width: 190px !important;
+  }
   .w_100_lg {
     width: 100% !important;
   }
@@ -985,11 +1036,17 @@ footer ul li a:hover {
 
   .btn_clr_newsletter {
     border-radius: 5px;
-    background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%), #FF604B;
+    background: linear-gradient(
+        27deg,
+        rgba(0, 63, 243, 0.8) 0%,
+        rgba(48, 156, 255, 0.8) 100%
+      ),
+      linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%),
+      #ff604b;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .hover_box_pricing:hover {
     transform: translateY(0px);
   }
@@ -1010,10 +1067,6 @@ footer ul li a:hover {
 
   .h_300_xsm {
     height: 300px;
-  }
-
-  .nav_show {
-    width: 100%;
   }
 
   .mw_50_xsm {
@@ -1038,6 +1091,7 @@ footer ul li a:hover {
 
   .nav_show {
     width: 100%;
+    border-radius: 0 0 20px 20px !important;
   }
 
   .mw_50_xsm {

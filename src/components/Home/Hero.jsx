@@ -30,19 +30,25 @@ export const Hero = () => {
             </p>
             <div className=" d-flex align-items-center justify-content-center justify-content-lg-start mt_31 mt_10_lg">
               <div className="view_hero_circle rounded-circle bg_voilet00c"></div>
-              <p className="text-white ff_rubik fs_2xl fw-medium lh_normal mb-0 view_transform">
-                View Projects
+              <p className="ff_rubik fs_2xl fw-medium lh_normal mb-0 view_transform">
+                <a href="#" className="text-white">
+                  View Projects
+                </a>
                 <span className=" ms_10">
-                  <ViewArrow />
+                  <a href="#">
+                    <ViewArrow />
+                  </a>
                 </span>
               </p>
             </div>
             <div className="d-lg-flex d-none flex-column justify-content-center align-items-center">
               <span>
-                <img src={scrool} alt="scrool" className="w-100" />
+                <a href="#footer">
+                  <img src={scrool} alt="scrool" className="w-100" />
+                </a>
               </span>
-              <p className=" text-white ff_inter fs_2xl fw-medium mb-0 letter_s2 rotate_90 mt_31">
-                Scroll
+              <p className="ff_inter fs_2xl fw-medium mb-0 letter_s2 rotate_90 mt_31">
+                <a href="#" className="text-white"> Scroll</a>
               </p>
             </div>
           </Col>

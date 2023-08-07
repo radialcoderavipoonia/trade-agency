@@ -14,7 +14,13 @@ const ChooseUs = () => {
           <Row className="pt_28 pt_9_xsm position-relative z-1 align-items-center justify-content-between">
             {Choose.map((us) => {
               return (
-                <Col lg={4} sm={6} xs={12} key={us.id} className="pt_17 ">
+                <Col
+                  lg={4}
+                  sm={6}
+                  xs={12}
+                  key={us.id}
+                  className="pt_17 hover_bg_card"
+                >
                   <div className={`p_40  ${us.background}`}>
                     <p className="ff_inter fs_2x2l fw-semibold text-white mb-0">
                       {us.headingchoosecard}
@@ -23,12 +29,16 @@ const ChooseUs = () => {
                       {us.parachoosecard}
                     </p>
                     <div className="d-flex justify-content-between align-items-center pt_40">
-                      <img src={us.messageicon} alt="message icon image" />
+                      <img
+                        src={us.messageicon}
+                        alt="message icon image"
+                        className="pointer"
+                      />
                       <div className="d-flex align-items-center">
-                        <p className="mb-0 ff_inter fs_1x5l fw-bold text-white pe-1">
+                        <p className="mb-0 ff_inter fs_1x5l text-white pointer fw-bold pe-1">
                           {us.explore}
                         </p>
-                        <span className="ps-3">{us.explorearrow}</span>
+                        <span className="ps-3 pointer">{us.explorearrow}</span>
                       </div>
                     </div>
                   </div>

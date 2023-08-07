@@ -5,7 +5,7 @@ import { Facebook_logo, Insta_logo, Linkin_logo, Twitter_logo } from "./Icons";
 const MyFooter = () => {
   return (
     <>
-      <footer className="py-lg-5 py-3">
+      <footer id="footer" className="py-lg-5 py-3">
         <div className="custom_container">
           <Row>
             <Col lg={6}>
@@ -27,25 +27,29 @@ const MyFooter = () => {
                 <div>
                   <div className="d-flex align-items-center justify-content-center justify-content-lg-start gap-2 pt-4 mt-3">
                     <a
-                      href="#"
+                      href="https://www.facebook.com/login/"
+                      target="_blank"
                       className="app_icon_circel d-flex align-items-center justify-content-center footer_app"
                     >
                       <Facebook_logo />
                     </a>
                     <a
-                      href="#"
+                      href="https://www.instagram.com/"
+                      target="_blank"
                       className="app_icon_circel d-flex align-items-center justify-content-center footer_app"
                     >
                       <Insta_logo />
                     </a>
                     <a
-                      href="#"
+                      href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+                      target="_blank"
                       className="app_icon_circel d-flex align-items-center justify-content-center footer_app"
                     >
                       <Twitter_logo />
                     </a>
                     <a
-                      href="#"
+                      href="https://in.linkedin.com/"
+                      target="_blank"
                       className="app_icon_circel d-flex align-items-center justify-content-center footer_app"
                     >
                       <Linkin_logo />
@@ -54,8 +58,8 @@ const MyFooter = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={6} className="d-none d-lg-block">
-              <div className="d-flex justify-content-between">
+            <Col lg={6} className="d-none d-sm-block">
+              <div className="d-flex justify-content-between pt-lg-0 pt-4">
                 <ul className="p-0 m-0">
                   <li className="fw-medium ff_rubik text-white fs_1x8l">
                     Company
