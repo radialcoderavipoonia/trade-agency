@@ -21,14 +21,14 @@ export const Hero = () => {
                 Hosting
               </p>
             </div>
-            <p className="ff_rubik text-white fs_6xl fw-bold lh_70 mb-0 mt_31 mt_10_lg text-lg-start text-center">
+            <p className="ff_rubik text-white lh_normal_xsm fs_6xl fw-bold lh_70 mb-0 mt_31 mt_10_lg mt_10_xsm text-lg-start text-center">
               <span className="d-lg-block">Discord</span> Bot Hosting
             </p>
-            <p className=" ff_rubik text-white mt_10_lg mt_31 mb-0 fw-normal fs_2x2l lh_33 text-lg-start text-center">
+            <p className=" ff_rubik text-white mt_10_lg mt_31 mb-0 fw-normal fs_2x2l mt_10_xsm lh_33 text-lg-start text-center">
               Instantly Deploy Minecraft, Rust, CSGO & More Game Servers in 8
               Locations Globally.
             </p>
-            <div className=" d-flex align-items-center justify-content-center justify-content-lg-start mt_31 mt_10_lg">
+            <div className=" d-flex align-items-center justify-content-center justify-content-lg-start mt_31 mt_10_lg mt_10_xsm">
               <div className="view_hero_circle rounded-circle bg_voilet00c"></div>
               <p className="ff_rubik fs_2xl fw-medium lh_normal mb-0 view_transform">
                 <a href="#" className="text-white">
@@ -48,7 +48,10 @@ export const Hero = () => {
                 </a>
               </span>
               <p className="ff_inter fs_2xl fw-medium mb-0 letter_s2 rotate_90 mt_31">
-                <a href="#" className="text-white"> Scroll</a>
+                <a href="#" className="text-white">
+                  {" "}
+                  Scroll
+                </a>
               </p>
             </div>
           </Col>

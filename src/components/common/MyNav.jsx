@@ -23,7 +23,7 @@ const MyNav = () => {
   }
   return (
     <>
-      <div className="pt_64 flex-grow-0 pt_12_lg">
+      <div className="pt_64 flex-grow-0 pt_12_xl">
         <Container className=" custom_container">
           <div className=" d-flex justify-content-between d-xl-none align-items-center">
             <Link
@@ -82,7 +82,11 @@ const MyNav = () => {
                       onClick={clickshow}
                     >
                       More
-                      <img src={more_arrow} alt="more arrow" className="more_arrow ms-2" />
+                      <img
+                        src={more_arrow}
+                        alt="more arrow"
+                        className="more_arrow ms-2"
+                      />
                     </Link>
                   </li>
                 </ul>
