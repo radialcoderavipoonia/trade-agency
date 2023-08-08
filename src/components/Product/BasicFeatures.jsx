@@ -23,7 +23,7 @@ const BasicFeatures = () => {
                     <div className="d-flex align-items-center">
                       <img
                         src={basic.featurescardimg}
-                        alt="features card images" className="pointer"
+                        alt="features card images"className="pointer"
                       />
                       <p className="mb-0 ps-3 pointer ff_inter fs_1x7l fw-semibold text-white ">
                         {basic.featurepara}

@@ -23,9 +23,9 @@ const MyNav = () => {
   }
   return (
     <>
-      <div className="pt_64 flex-grow-0 pt_12_lg">
-        <Container className=" custom_container">
-          <div className=" d-flex justify-content-between d-xl-none align-items-center">
+      <div className="pt_64 flex-grow-0 pt_12_xl pt_16_xxl">
+        <Container className="custom_container">
+          <div className="d-flex justify-content-between d-xl-none align-items-center">
             <Link
               to="/"
               className="mb-0 ff_oswald fs_2x5l text-white fw-semibold lh_normal pointer"
@@ -42,7 +42,7 @@ const MyNav = () => {
           {/* nav */}
           <div className={`nav_show ${NavShow ? "" : "ps-0 showw"}`}>
             <div className="h-100 position-relative">
-              <div className=" d-flex align-items-xl-center align-items-start flex-xl-row flex-column justify-content-center justify-content-xl-between">
+              <div className="d-flex align-items-xl-center align-items-start flex-xl-row flex-column justify-content-center justify-content-xl-between">
                 <Link
                   to="/"
                   className="d-xl-block mb-0 d-none ff_oswald fs_2x5l text-white fw-semibold lh_normal"
@@ -82,16 +82,20 @@ const MyNav = () => {
                       onClick={clickshow}
                     >
                       More
-                      <img src={more_arrow} alt="more arrow" className="more_arrow ms-2" />
+                      <img
+                        src={more_arrow}
+                        alt="more arrow"
+                        className="more_arrow ms-2"
+                      />
                     </Link>
                   </li>
                 </ul>
-                <div className=" d-flex align-items-center">
-                  <span className="fb_img">
+                <div className="d-flex align-items-center">
+                  <span className="fb_img ">
                     <a
                       href="https://www.facebook.com/login/"
                       target="_blank"
-                      className="nav_fb"
+                      className=" nav_icon_circel d-flex justify-content-center align-items-center"
                     >
                       <Facebook />
                     </a>
@@ -100,32 +104,32 @@ const MyNav = () => {
                     <a
                       href="https://www.instagram.com/"
                       target="_blank"
-                      className="nav_fb"
+                      className="  nav_icon_circel d-flex justify-content-center align-items-center"
                     >
                       <Instagram />
                     </a>
                   </span>
-                  <span className="ms_8">
+                  <span className="ms_8 ">
                     <a
                       href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
                       target="_blank"
-                      className="nav_fb"
+                      className=" nav_icon_circel d-flex justify-content-center align-items-center"
                     >
                       <Tweeter />
                     </a>
                   </span>
-                  <span className="ms_8">
+                  <span className="ms_8 ">
                     <a
                       href="https://in.linkedin.com/"
                       target="_blank"
-                      className="nav_fb"
+                      className=" nav_icon_circel d-flex justify-content-center align-items-center"
                     >
                       <NavIn />
                     </a>
                   </span>
                   <button className="text-white d-xl-block d-none fs_2xl fw-bold lh_normal ff_rubik login_btn rounded-pill border-0 ms_20">
-                    <LoginBtnIcon />
-                    Login
+                    <LoginBtnIcon/>
+                    <span className="ps-2">Login</span>
                   </button>
                 </div>
               </div>

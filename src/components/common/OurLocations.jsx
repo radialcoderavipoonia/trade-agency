@@ -11,7 +11,7 @@ const OurLocations = ({ remove_img }) => {
           <h2 className="fw-bold fs_4xl ff_rubik text-white mb-0 pt-4 mt-2">
             Our <span className="color_blue0d6"> Locations</span>
           </h2>
-          <p className=" ff_inter fs_1x8l text-white fw-normal mb-0 mt-2 pt-1 pt-sm-0 mt-sm-3">
+          <p className="ff_inter fs_1x8l text-white fw-normal mb-0 mt-2 pt-1 pt-sm-0 mt-sm-3">
             Sparked offers hosting all around the world
           </p>
           <Row className="pt_20 mb-2 pb-lg-5 pb-4">
@@ -42,7 +42,7 @@ const OurLocations = ({ remove_img }) => {
             <h2 className="fw-bold fs_4xl ff_rubik text-white mb-0 pt-4">
               Our <span className="color_blue0d6"> Locations</span>
             </h2>
-            <p className=" ff_inter fs_1x8l text-white fw-normal mb-0 mt-2 pt-1 pt-sm-0 mt-sm-3">
+            <p className="ff_inter fs_1x8l text-white fw-normal mb-0 mt-2 pt-1 pt-sm-0 mt-sm-3">
               Sparked offers hosting all around the world
             </p>
             <Row className="pt_20 pb-lg-5 pb-4 ">
@@ -72,7 +72,7 @@ const OurLocations = ({ remove_img }) => {
           alt="Our_location_bottom"
         />
         <div className="custom_container pt-sm-5">
-          <div className="mt-sm-5 py-sm-5"></div>
+          <div className="mt-xxl-5 py-sm-3"></div>
           <div>
             <img
               className="w-100 py-5 mt-sm-5 map"
