@@ -216,7 +216,7 @@
 }
 
 .bg_popular_button {
-  transition: 0.4s linear;
+  transition: 0.3s linear;
 }
 
 .border_official_button {
@@ -225,7 +225,8 @@
 
 .sumbit_button_placeholder {
   border-radius: 5px;
-  background: linear-gradient(27deg,
+  background-image: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
       rgba(48, 156, 255, 0.8) 100%),
     linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%), #ff604b;
@@ -536,7 +537,7 @@
   background: #111116 !important;
   box-shadow: 8px 24px 96px 0px rgba(68, 77, 163, 0.08) !important;
   height: 100%;
-  transition: all 0.3s linear;
+  transition: all 0.2s linear;
 }
 
 .border_official_button {
@@ -579,7 +580,7 @@
 }
 
 /* color  */
-.pricing_box_secondary_color {
+.pricing_box_color {
   color: #6e6e71 !important;
 }
 
@@ -587,26 +588,26 @@
 .top_bottom_zigzag_img::after {
   content: "";
   position: absolute;
-  top: -15%;
-  right: -16%;
-  background-image: url("./assets/images/webp/pricingplan_giggaz_top.webp");
+  top: -20%;
+  right: -18%;
+  background-image: url("./assets/images/png/pricingplan_giggaz_bottom.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 451px;
-  height: 226px;
+  height: 266px;
   z-index: -1;
 }
 
 .top_bottom_zigzag_img::before {
   content: "";
   position: absolute;
-  bottom: 6%;
+  bottom: 2%;
   left: -6%;
-  background-image: url("./assets/images/webp/pricingplan_giggaz_bottom.webp");
+  background-image: url("./assets/images/png/pricingplan_giggaz_bottom.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 451px;
-  height: 226px;
+  height: 266px;
   z-index: -1;
 }
 
@@ -636,7 +637,7 @@
 }
 
 .pricing_customer_box:hover {
-  transform: scale(0.9);
+  transform: scale(0.97);
 }
 
 .login_btn:hover svg path {
@@ -676,11 +677,11 @@
 .hover_card_line:hover {
   color: var(--clr-whiteFF);
   box-shadow: 0px -1px 10px 0 var(--clr-blue2F7);
-  transition: all 0.3s linear;
+  transition: all 0.2s linear;
 }
 
 .hover_bg_card:hover {
-  transform: scale(0.9);
+  transform: scale(0.96);
 }
 
 .border_official_button:hover {
@@ -704,10 +705,6 @@
   border: 1px solid transparent;
 }
 
-.hover_box_pricing:hover .pp_button {
-  display: block !important;
-}
-
 .pp_button:hover {
   background: linear-gradient(27deg,
       rgba(0, 63, 243, 0.8) 0%,
@@ -722,10 +719,10 @@
 .hover_box_pricing:hover .hover_none {
   display: none !important;
 }
-
+/* 
 .hover_box_pricing:hover .hover_white {
   color: var(--clr-whiteFF) !important;
-}
+} */
 
 .hover_box_pricing:hover .hover_between {
   justify-content: space-between !important;
@@ -783,6 +780,7 @@
 
 .placeholder {
   background-color: transparent !important;
+  opacity: 1 !important;
 }
 
 .increased-width {
@@ -822,10 +820,6 @@
 }
 
 /* animation  */
-.animation_preloader_2 {
-  animation: preloader 2.5s linear alternate;
-  position: relative;
-}
 
 .transform_top_location {
   transform: translateY(200px);
@@ -855,16 +849,6 @@
   transform: translateX(-50%);
 }
 
-@keyframes preloader {
-  0% {
-    left: -100%;
-  }
-
-  100% {
-    left: 100%;
-  }
-}
-
 @keyframes topanimation {
   0% {
     transform: rotate(-90deg) translateX(0%) scale(0.9);
@@ -879,39 +863,84 @@
   }
 }
 
-.border_preloader {
-  border: 2px solid var(--clr-whiteFF) !important;
-}
-
-.animation_preloader {
-  animation: preloaderani 2.5s linear infinite;
-}
-
-@keyframes preloaderani {
-  0% {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(0.8);
-  }
-}
-
-.animation_preloader_2 {
-  animation: preloader 2.5s linear alternate;
-  position: relative;
-}
 
 /* nesting */
 footer ul li a {
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 footer ul li a:hover {
   color: var(--clr-blue0F4) !important;
+}
+/* preloader  */
+
+.centerBike {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 26px;
+  margin-left: -12px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+#loop {
+  height: 100px;
+  width: 100px;
+  border: #0062FF solid 4px;
+  border-radius: 200px;
+}
+
+#loop:before {
+  background:  linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), linear-gradient(0deg, #2898FF 0%, #2898FF 100%), #FF604B;
+  content: "";
+  display: block;
+  height: 4px;
+  left: -100px;
+  position: relative;
+  top: 100px;
+  width: 300px;
+}
+
+#bike-wrapper {
+  height: 108px;
+  width: 108px;
+  animation: drive 3s linear infinite;
+}
+
+#bike {
+  height: 24px;
+  width: 25px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/133687/motorbike.png");
+}
+
+@keyframes drive {
+  0% {
+    margin-left: -364px;
+    opacity: 0;
+  }
+  33.33% {
+    transform: rotate(0deg);
+    margin-left: -50px;
+    opacity: 1;
+  }
+  66.66% {
+    transform: rotate(-360deg);
+    margin-left: -50px;
+    opacity: 1;
+  }
+  100% {
+    margin-left: 264px;
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
 }
 
 /* responsive */
