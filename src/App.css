@@ -40,30 +40,35 @@
   --fs-1x8l: 18px;
   --fs-2xl: 20px;
   --fs-2x2l: 22px;
-  --fs-2x4l: 24px;  
+  --fs-2x4l: 24px;
   --fs-2x5l: 25px;
   --fs-3x2l: 32px;
   --fs-4xl: 40px;
   --fs-6xl: 60px;
   --bg-black: #131318;
+  --bg-black1d: #1d1d27;
+  --bg-black21: #212132;
   --bg-voilet00C: #00cdfa;
   --clr-lightgreenA4: #A4D6C5;
   --clr-darkgrayB2B: #b2b8c8;
   --clr-whiteFB: #fbfbfb;
   --clr-whiteFE: #FEFEFF;
+  --clr-whiteFF: #FFFF;
   --clr-whiteFC: #FCFCFF;
   --clr-blue0D: #0D6EFD;
-  --clr-whiteFE:#FEFEFF;
-   --clr-whiteFC:#FCFCFF;
-  --clr-blue0D:#0D6EFD;
-  --clr-blue0062:#0062FF;
+  --clr-blue28: #2898ff;
+  --clr-whiteFE: #FEFEFF;
+  --clr-whiteFC: #FCFCFF;
+  --clr-blue0D: #0D6EFD;
+  --clr-blue0062: #0062FF;
   --clr-grayF9: #f9f9f9;
   --clr-gray9A: #9A9EA6;
   --clr-gray80: #808C95;
   --clr-blue0D6: #0d6efd;
   --clr-blue2F7: #2f7fee;
-  --clr-blue00:#0062FF;
+  --clr-blue00: #0062FF;
   --clr-blue0F4: #0f4bfd;
+  --clr-blue026: #0268FF;
   --clr-lightgreen8B: #8BA3B7;
   --clr-whiteEA: #EAEEF1;
   --clr-whiteC6: #c6c6c7;
@@ -121,10 +126,12 @@
 .fs_6xl {
   font-size: var(--fs-6xl);
 }
+
 /* font weight  */
-.fw_300{
+.fw_300 {
   font-weight: 300;
 }
+
 /* color  */
 .color_blue0d6 {
   color: var(--clr-blue0D6);
@@ -145,9 +152,11 @@
 .color_blue2f7 {
   color: var(--clr-blue2F7);
 }
-.color_blue00{
+
+.color_blue00 {
   color: var(--clr-blue00);
 }
+
 .color_grayf9 {
   color: var(--clr-grayF9);
 }
@@ -160,9 +169,10 @@
   color: var(--clr-gray9A);
 }
 
-.color_blue0062{
-  color: var( --clr-blue0062);
+.color_blue0062 {
+  color: var(--clr-blue0062);
 }
+
 .color_whitefc {
   color: var(--clr-whiteFC);
 }
@@ -198,4 +208,34 @@
 
 .bg_voilet00c {
   background-color: var(--bg-voilet00C);
+}
+
+/* responsive */
+@media (max-width:992px) {
+  :root {
+    --fs-6xl: 50px;
+  }
+}
+
+@media (max-width:768px) {
+  :root {
+    --fs-4xl: 32px;
+    --fs-6xl: 30px;
+  }
+}
+
+@media (max-width:576px) {
+  :root {
+    --fs-1x4l: 14px;
+    --fs-1x5l: 14px;
+    --fs-1x6l: 15px;
+    --fs-1x8l: 14px;
+    --fs-2xl: 18px;
+    --fs-2x2l: 19px;
+    --fs-2x4l: 24px;
+    --fs-2x5l: 22px;
+    --fs-3x2l: 32px;
+    --fs-4xl: 20px;
+    --fs-6xl: 20px;
+  }
 }
