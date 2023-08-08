@@ -131,7 +131,7 @@ const Testimonials = ({ space_add }) => {
               alt="stars image"
               className="py-3 w-100 mw_50_xsm mw_127"
             />
-            <p className=" mb-0 ff_opensans fs_1x6l fw-normal color_whiteea">
+            <p className="mb-0 ff_opensans fs_1x6l fw-normal color_whiteea">
               <span className="fw-bold">4.6 out of 5 stars</span> from 8.6k
               reviews
             </p>

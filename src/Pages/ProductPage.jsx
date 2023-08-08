@@ -11,14 +11,14 @@ import footer_bg from '../assets/images/png/bgfooter.png'
 export const ProductPage = () => {
   return (
     <div className="bg_img_main overflow-hidden position-relative">
-      <div className=" position-absolute bottom-0 w-100">
+      <div className="position-absolute bottom-0 w-100">
         <img
           src={footer_bg}
           alt="footer bg"
           className="w-100 mx_1920 h_1100 object-fit-cover"
         />
       </div>
-      <div className=" position-relative z-1">
+      <div className="position-relative z-1">
         <ProductNav />
         <BasicFeatures />
         <Modpack />

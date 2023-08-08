@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Modpack } from "../common/Helper";
-import modpacktopimg from "../../assets/images/webp/pricingplan_giggaz_top.webp"
-import getstartedarrow from "../../assets/images/webp/arrow-right.webp"
+import modpacktopimg from "../../assets/images/webp/pricingplan_giggaz_top.webp";
+import getstartedarrow from "../../assets/images/webp/arrow-right.webp";
 
 const ModPack = () => {
   return (
@@ -44,7 +44,8 @@ const ModPack = () => {
                       </button>
                     </div>
                     <button className="ff_inter  w-100 fs_1x6l fw-bold bg-transparent border_official_button py_16_px_32 text-white text-center br_10">
-                      {pre.getstarted}{" "}
+                      {pre.getstarted}
+                      {""}
                       <span className="ps-1">
                         <img src={getstartedarrow} alt="get started arrow" />
                       </span>

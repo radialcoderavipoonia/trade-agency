@@ -6,14 +6,10 @@ export const ProductNav = () => {
   return (
     <div className="product_nav position-relative">
       <MyNav />
-      <Container className=" custom_container">
-        <div className=" d-flex justify-content-start align-items-center">
+      <Container className="custom_container">
+        <div className="d-flex justify-content-start align-items-center">
           <span className="position-absolute product_img_nav">
-            <img
-              src={host}
-              alt="host"
-              className="w-100"
-            />
+            <img src={host} alt="host" className="w-100" />
           </span>
         </div>
       </Container>
