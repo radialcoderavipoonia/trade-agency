@@ -1,13 +1,6 @@
 import React from "react";
-<<<<<<< HEAD:src/components/GameHosting.jsx
-// import { Facebook, Insta } from "./Helper";
-// import { Facebook, Insta } from "./common/Helper";
-import Growth_img from "../assets/images/webp/game_hosting_costomer_growth_img.webp";
-const GameHosting = () => {
-=======
 import Growth_img from "../../assets/images/webp/game_hosting_costomer_growth_img.webp";
 const GameHosting = ({ backShadow, margin_add }) => {
->>>>>>> ff016dee04764bda83a66ab1ffa4217863fa54be:src/components/common/GameHosting.jsx
   return (
     <>
       <section className={`pt-xl-5 pt-sm-2 mt_-10_xsm position-relative ${margin_add}`}>

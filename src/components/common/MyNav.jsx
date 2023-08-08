@@ -23,7 +23,7 @@ const MyNav = () => {
   }
   return (
     <>
-      <div className="pt_64 flex-grow-0 pt_12_xl">
+      <div className="pt_64 flex-grow-0 pt_12_xl pt_16_xxl">
         <Container className="custom_container">
           <div className="d-flex justify-content-between d-xl-none align-items-center">
             <Link
@@ -128,8 +128,8 @@ const MyNav = () => {
                     </a>
                   </span>
                   <button className="text-white d-xl-block d-none fs_2xl fw-bold lh_normal ff_rubik login_btn rounded-pill border-0 ms_20">
-                    <LoginBtnIcon />
-                    Login
+                    <LoginBtnIcon/>
+                    <span className="ps-2">Login</span>
                   </button>
                 </div>
               </div>

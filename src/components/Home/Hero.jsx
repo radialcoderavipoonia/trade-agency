@@ -29,8 +29,8 @@ export const Hero = () => {
               Locations Globally.
             </p>
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start mt_31 mt_10_lg mt_10_xsm">
-              <div className="view_hero_circle rounded-circle bg_voilet00c"></div>
-              <p className="ff_rubik fs_2xl fw-medium lh_normal mb-0 view_transform">
+              <div className=" rounded-circle bg_voilet00c"></div>
+              <p className="ff_rubik fs_2xl ps-5 fw-medium lh_normal mb-0 view_transform position-relative view_hero_circle pointer">
                 <a href="#" className="text-white">
                   View Projects
                 </a>
@@ -41,14 +41,14 @@ export const Hero = () => {
                 </span>
               </p>
             </div>
-            <div className="d-lg-flex d-none flex-column justify-content-center align-items-center">
+            <div className="d-lg-flex d-none flex-column justify-content-center align-items-center pointer">
               <span>
                 <a href="#footer">
-                  <img src={scrool} alt="scrool" className="w-100" />
+                  <img className="scroll_h" src={scrool} alt="scrool" height={80} />
                 </a>
               </span>
               <p className="ff_inter fs_2xl fw-medium mb-0 letter_s2 rotate_90 mt_31">
-                <a href="#" className="text-white">
+                <a href="#footer" className="text-white">
                   Scroll
                 </a>
               </p>
