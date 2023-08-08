@@ -43,7 +43,7 @@ const PricingPlan = () => {
                         {plan.heading}
                       </p>
                       <p className="pt-3 ff_inter fw-normal fs_1x6l color_whitefb mb-0">
-                        Lorem ipsum dolor sit amet, consect{" "}
+                        Lorem ipsum dolor sit amet, consect{""}
                         <span className="d-lg-block"></span> etur adipiscing
                         elit.
                       </p>
@@ -98,7 +98,7 @@ const PricingPlan = () => {
             <button className="quote_button ff_inter fs_1x8l text-white fw-semibold bg_popular_button border_1_transparent">
               Get a Quote
               <span className="pl_10">
-                <img src={ImgArrowRight} alt="arrow right " />
+                <img src={ImgArrowRight} alt="arrow right" />
               </span>
             </button>
           </div>
