@@ -786,10 +786,12 @@
   color: var(--clr-gray9A);
   background: var(--bg-black21) !important;
 }
+.placeholder {
+  background-color: transparent !important;
+}
 
 .increased-width {
   width: 500px !important;
-  /* Adjust the width value as needed */
 }
 
 .background_gameProduct {
@@ -815,6 +817,10 @@
 
 .z_111111 {
   z-index: 111111;
+}
+/* opacity  */
+.opacity_012 {
+  opacity: 0.4;
 }
 
 /* animation  */
