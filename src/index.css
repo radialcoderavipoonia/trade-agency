@@ -786,6 +786,7 @@
   color: var(--clr-gray9A);
   background: var(--bg-black21) !important;
 }
+
 .placeholder {
   background-color: transparent !important;
 }
@@ -818,6 +819,7 @@
 .z_111111 {
   z-index: 111111;
 }
+
 /* opacity  */
 .opacity_012 {
   opacity: 0.4;
@@ -926,6 +928,12 @@ footer ul li a:hover {
 @media (max-width: 1920px) {
   .hero_bg {
     background-size: cover;
+  }
+}
+
+@media (max-width: 1600px) {
+  .w_100_1600 {
+    width: 100% !important;
   }
 }
 

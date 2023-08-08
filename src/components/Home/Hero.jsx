@@ -60,7 +60,7 @@ export const Hero = () => {
             className="d-flex justify-content-lg-start justify-content-center h_300_xsm pt_48_lg"
           >
             <span>
-              <img src={heroImg} alt="heroImg" className="w-100 mx_865_lg" />
+              <img src={heroImg} alt="heroImg" className="mx_865_lg w_100_1600" />
             </span>
           </Col>
         </Row>
