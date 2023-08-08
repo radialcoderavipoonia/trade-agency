@@ -30,7 +30,7 @@ export const Hero = () => {
             </p>
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start mt_31 mt_10_lg mt_10_xsm">
               <div className=" rounded-circle bg_voilet00c"></div>
-              <p className="ff_rubik fs_2xl ps-5 fw-medium lh_normal mb-0 view_transform position-relative view_hero_circle pointer">
+              <p className="ff_rubik fs_2xl ps-5 fw-medium lh_normal mb-0 view_transform position-relative view_hero_circle pointer mt-3 mt-lg-0">
                 <a href="#" className="text-white">
                   View Projects
                 </a>
@@ -41,7 +41,7 @@ export const Hero = () => {
                 </span>
               </p>
             </div>
-            <div className="d-lg-flex d-none flex-column justify-content-center align-items-center pointer">
+            <div className="d-lg-flex d-none flex-column justify-content-center align-items-center pointer mt-lg-5">
               <span>
                 <a href="#footer">
                   <img className="scroll_h" src={scrool} alt="scrool" height={80} />
@@ -59,8 +59,8 @@ export const Hero = () => {
             xs={12}
             className="d-flex justify-content-lg-start justify-content-center h_300_xsm pt_48_lg"
           >
-            <span>
-              <img src={heroImg} alt="heroImg" className="w-100 mx_865_lg" />
+            <span className="pb-lg-5">
+              <img src={heroImg} alt="heroImg" className="hero_img_w" />
             </span>
           </Col>
         </Row>

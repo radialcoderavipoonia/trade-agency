@@ -526,6 +526,10 @@
   margin-right: 5px;
 }
 
+.fs_17 {
+  font-size: 17px;
+}
+
 /* boxes  */
 .pricing_customer_box {
   border-radius: 15px;
@@ -555,9 +559,9 @@
 }
 
 /* border  */
-.border_started_button {
+/* .border_started_button {
   border: 1px solid #0e4bfe;
-}
+} */
 
 /* border radius  */
 .br_45 {
@@ -639,18 +643,28 @@
   fill: var(--clr-blue0D) !important;
 }
 
-.nav_fb svg {
-  transition: 0.4s linear;
+.nav_icon_circel {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #1A63DF;
+  transition: 0.3s ease-in-out;
 }
 
-.nav_fb:hover svg {
+.nav_icon_circel:hover svg {
   transform: scale(1.1);
 }
 
+.nav_icon_circel:hover path {
+  fill: #206dfd;
+}
+.nav_icon_circel:hover{
+  background-color: white;
+  transform: translateY(-3px);
+}
 .app_icon_circel:hover path {
   fill: var(--clr-blue026);
 }
-
 .footer_app:hover {
   transform: translateY(-3px);
 }
@@ -766,6 +780,7 @@
   background: var(--bg-black21) !important;
 }
 
+
 .placeholder {
   background-color: transparent !important;
 }
@@ -802,6 +817,8 @@
 /* opacity  */
 .opacity_012 {
   opacity: 0.4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 /* animation  */
@@ -904,6 +921,16 @@ footer ul li a:hover {
   }
 }
 
+@media (max-width: 1800px) {
+  .hero_bg {
+    background-size: cover;
+  }
+
+  .hero_img_w {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1400px) {
   .mt_10_xxl {
     margin-top: 10px !important;
@@ -911,10 +938,6 @@ footer ul li a:hover {
 
   .scroll_h {
     height: 50px !important;
-  }
-
-  .hero_bg {
-    background-size: cover;
   }
 
   .location_img_bottom {
@@ -1073,9 +1096,6 @@ footer ul li a:hover {
 }
 
 @media (max-width: 576px) {
-  .hero_bg {
-    background-size: cover;
-  }
 
   .h_300_xsm {
     height: 300px;
@@ -1168,5 +1188,19 @@ footer ul li a:hover {
 
   .pt_23_xsm {
     padding-top: 23px !important;
+  }
+
+  .fs_17 {
+    font-size: 6px;
+  }
+
+  .game_hosting_white_circel {
+    width: 6px;
+    height: 6px;
+  }
+
+  .game_hosting_input_bg {
+    padding: 5px;
+    border-radius: 3px;
   }
 }
