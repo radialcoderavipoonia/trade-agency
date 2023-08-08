@@ -14,17 +14,23 @@ const NewsLetter = () => {
         </p>
         <div className="newletter_box mx-2 mt_32 br_10">
           <div className="d-flex justify-content-between align-items-center">
-            <div className="d-flex align-items-center placeholder">
-              <img src={newslettericon} alt="newsletter icon" />
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="pl_12 ff_inter fs_1x6l fw-normal bg-transparent border-0 outline_none increased-width"
-              />
-            </div>
-            <button className="sumbit_button_placeholder ff_rubik fs_1x4l fw-medium text-white bg_popular_button border_1_transparent">
-              Submit
-            </button>
+            <form className="d-flex align-items-center placeholder">
+              <div>
+                <img src={newslettericon} alt="newsletter icon" />
+                <input
+                  type="Email"
+                  placeholder="Enter your email"
+                  required
+                  className="pl_12 ff_inter fs_1x6l fw-normal bg-transparent border-0 outline_none increased-width"
+                />
+              </div>
+              <button
+                type="sumbit"
+                className="sumbit_button_placeholder ff_rubik fs_1x4l fw-medium text-white bg_popular_button border_1_transparent"
+              >
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </div>

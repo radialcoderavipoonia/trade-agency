@@ -18,7 +18,7 @@ const BackToTop = () => {
       <Container>
         <div className="z_10 position-relative">
           <img
-            height={60}
+            height={50}
             onClick={() => onTop()}
             className={
               first

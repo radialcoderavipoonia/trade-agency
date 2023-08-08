@@ -223,7 +223,7 @@
     linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%), #ff604b;
   padding: 16px 44px;
 }
-.more_arrow{
+.more_arrow {
   height: 10px !important;
   width: 10px !important;
 }
@@ -268,7 +268,7 @@
 .w_40 {
   width: 40px;
 }
-.mw_770{
+.mw_770 {
   max-width: 770px;
 }
 .mw_457 {
@@ -779,10 +779,12 @@
   color: var(--clr-gray9A);
   background: var(--bg-black21) !important;
 }
+.placeholder {
+  background-color: transparent !important;
+}
 
 .increased-width {
   width: 500px !important;
-  /* Adjust the width value as needed */
 }
 
 .background_gameProduct {
@@ -808,6 +810,10 @@
 
 .z_111111 {
   z-index: 111111;
+}
+/* opacity  */
+.opacity_012 {
+  opacity: 0.4;
 }
 
 /* animation  */
@@ -926,7 +932,7 @@ footer ul li a:hover {
   }
   .mw_578_xxxl {
     max-width: 578px !important;
-}
+  }
 }
 
 @media (max-width: 1200px) {
