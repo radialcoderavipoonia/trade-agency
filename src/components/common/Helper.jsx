@@ -37,7 +37,6 @@ export const Pricing = [
   {
     id: 1,
     imgicon: starterbusinessenterpriseimg,
-    imgiconsecond: starterbusinessenterpriseimgsecond,
     heading: "Starter",
     button: "POPULAR PLAN",
     include: "Whats Included :",
@@ -51,11 +50,13 @@ export const Pricing = [
     spanmonth: "/ Month",
     getstartedbutton: "Get Started",
     nocreditcard: "No credit card required",
+    pricing_box_secondary_color: "pricing_box_color",
+    pricing_box_secondary_white_color: "pricing_box_color",
+    popularbtn: "d-none",
   },
   {
     id: 2,
-    imgicon: starterbusinessenterpriseimg,
-    imgiconsecond: starterbusinessenterpriseimgsecond,
+    imgicon: starterbusinessenterpriseimgsecond,
     heading: "Business",
     button: "POPULAR PLAN",
     include: "Whats Included :",
@@ -69,11 +70,13 @@ export const Pricing = [
     spanmonth: "/ Month",
     getstartedbutton: "Get Started",
     nocreditcard: "No credit card required",
+    pricing_box_secondary_color: "text-white",
+    pricing_box_secondary_white_color: "text-white",
+    popularbtn: "d-block",
   },
   {
     id: 3,
     imgicon: starterbusinessenterpriseimg,
-    imgiconsecond: starterbusinessenterpriseimgsecond,
     heading: "Enterprise",
     button: "POPULAR PLAN",
     include: "Whats Included :",
@@ -87,6 +90,9 @@ export const Pricing = [
     spanmonth: "/ Month",
     getstartedbutton: "Get Started",
     nocreditcard: "No credit card required",
+    pricing_box_secondary_color: "text-white",
+    pricing_box_secondary_white_color: "pricing_box_color",
+    popularbtn: "d-none",
   },
 ];
 export const Clients = [

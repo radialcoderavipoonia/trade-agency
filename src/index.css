@@ -562,7 +562,7 @@
   padding: 10px 22px;
 }
 /* color  */
-.pricing_box_secondary_color {
+.pricing_box_color {
   color: #6e6e71 !important;
 }
 
@@ -570,26 +570,26 @@
 .top_bottom_zigzag_img::after {
   content: "";
   position: absolute;
-  top: -15%;
-  right: -16%;
-  background-image: url("./assets/images/webp/pricingplan_giggaz_top.webp");
+  top: -20%;
+  right: -18%;
+  background-image: url("./assets/images/png/pricingplan_giggaz_bottom.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 451px;
-  height: 226px;
+  height: 266px;
   z-index: -1;
 }
 
 .top_bottom_zigzag_img::before {
   content: "";
   position: absolute;
-  bottom: 6%;
+  bottom: 2%;
   left: -6%;
-  background-image: url("./assets/images/webp/pricingplan_giggaz_bottom.webp");
+  background-image: url("./assets/images/png/pricingplan_giggaz_bottom.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 451px;
-  height: 226px;
+  height: 266px;
   z-index: -1;
 }
 
@@ -675,10 +675,10 @@
 .hover_card_line:active {
   color: var(--clr-whiteFF);
   box-shadow: 0px -1px 10px 0 var(--clr-blue2F7);
-  transition: all 0.3s linear;
+  transition: all 0.2s linear;
 }
 .hover_bg_card:hover {
-  transform: scale(0.9);
+  transform: scale(0.96);
 }
 .border_official_button:hover {
   background: linear-gradient(
@@ -705,10 +705,6 @@
   border: 1px solid transparent;
 }
 
-.hover_box_pricing:hover .pp_button {
-  display: block !important;
-}
-
 .pp_button:hover {
   background: linear-gradient(
     27deg,
@@ -725,10 +721,10 @@
 .hover_box_pricing:hover .hover_none {
   display: none !important;
 }
-
+/* 
 .hover_box_pricing:hover .hover_white {
   color: var(--clr-whiteFF) !important;
-}
+} */
 
 .hover_box_pricing:hover .hover_between {
   justify-content: space-between !important;

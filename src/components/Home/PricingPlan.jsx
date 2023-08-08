@@ -27,14 +27,8 @@ const PricingPlan = () => {
                       <img
                         src={plan.imgicon}
                         alt="starter image"
-                        className="d-block hover_none"
                       />
-                      <img
-                        src={plan.imgiconsecond}
-                        alt="image icon second"
-                        className="d-none hover_block"
-                      />
-                      <button className="pp_button br_45 border-0 fw-bold ff_inter fs_1x2l color_blue0d6 d-none">
+                      <button className={`pp_button  br_45 border-0 fw-bold ff_inter fs_1x2l color_blue0d6  ${plan.popularbtn}`}>
                         {plan.button}
                       </button>
                     </div>
@@ -65,13 +59,17 @@ const PricingPlan = () => {
                         </div>
                         <div className="pt_14 d-flex align-items-center justify-content-center justify-content-sm-start">
                           <img src={plan.rightimgicongray} alt="right icon" />
-                          <p className="mb-0 ps-2 ff_inter hover_white fs_1x6l fw-medium pricing_box_secondary_color">
+                          <p
+                            className={`mb-0 ps-2 ff_inter hover_white fs_1x6l fw-medium ${plan.pricing_box_secondary_color}`}
+                          >
                             {plan.normalsupport}
                           </p>
                         </div>
                         <div className="pt_14 d-flex align-items-center justify-content-center justify-content-sm-start">
                           <img src={plan.rightimgicongray} alt="right icon" />
-                          <p className="mb-0 ps-2 ff_inter hover_white fs_1x6l fw-medium pricing_box_secondary_color">
+                          <p
+                            className={`mb-0 ps-2 ff_inter hover_white fs_1x6l fw-medium ${plan.pricing_box_secondary_white_color}`}
+                          >
                             {plan.mobileapp}
                           </p>
                         </div>
