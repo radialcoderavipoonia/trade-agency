@@ -1066,10 +1066,6 @@ footer ul li a:hover {
     border-radius: 20px 0px 20px 20px;
   }
 
-  .fb_img svg path:first-child {
-    fill: #000000;
-  }
-
   .location_img_bottom {
     bottom: -140px;
     left: 4% !important;
