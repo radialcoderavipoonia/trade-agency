@@ -20,7 +20,7 @@ const Testimonials = ({ space_add }) => {
         settings: {
           slidesToShow: 3.001,
           slidesToScroll: 3,
-          infinite: true,         
+          infinite: true,
         },
       },
       {
@@ -28,14 +28,13 @@ const Testimonials = ({ space_add }) => {
         settings: {
           slidesToShow: 2.001,
           slidesToScroll: 2,
-          infinite: true,        
+          infinite: true,
         },
       },
       {
         breakpoint: 576,
         settings: {
           slidesToShow: 1.00202,
-    
           slidesToScroll: 1,
         },
       },

@@ -53,7 +53,8 @@ export const Pricing = [
     pricing_box_secondary_color: "pricing_box_color",
     pricing_box_secondary_white_color: "pricing_box_color",
     popularbtn: "d-none",
-    aos:"fade-right",
+    aos: "fade-right",
+    between: "justify_content_xsm_center",
   },
   {
     id: 2,
@@ -74,7 +75,8 @@ export const Pricing = [
     pricing_box_secondary_color: "text-white",
     pricing_box_secondary_white_color: "text-white",
     popularbtn: "d-block",
-    aos:"fade-up",
+    aos: "fade-up",
+    between:"justify-content-between"
   },
   {
     id: 3,
@@ -95,7 +97,8 @@ export const Pricing = [
     pricing_box_secondary_color: "text-white",
     pricing_box_secondary_white_color: "pricing_box_color",
     popularbtn: "d-none",
-    aos:"fade-left",
+    aos: "fade-left",
+    between: "justify_content_xsm_center",
   },
 ];
 export const Clients = [
