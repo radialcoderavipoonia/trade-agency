@@ -53,6 +53,7 @@ export const Pricing = [
     pricing_box_secondary_color: "pricing_box_color",
     pricing_box_secondary_white_color: "pricing_box_color",
     popularbtn: "d-none",
+    aos:"fade-right",
   },
   {
     id: 2,
@@ -73,6 +74,7 @@ export const Pricing = [
     pricing_box_secondary_color: "text-white",
     pricing_box_secondary_white_color: "text-white",
     popularbtn: "d-block",
+    aos:"fade-up",
   },
   {
     id: 3,
@@ -93,6 +95,7 @@ export const Pricing = [
     pricing_box_secondary_color: "text-white",
     pricing_box_secondary_white_color: "pricing_box_color",
     popularbtn: "d-none",
+    aos:"fade-left",
   },
 ];
 export const Clients = [
