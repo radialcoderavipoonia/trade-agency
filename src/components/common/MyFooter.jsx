@@ -67,7 +67,7 @@ const MyFooter = () => {
                   <li className="mt-3 pt-1">
                     <a
                       href="#"
-                      className="fw-normal ff_dmsans fs_1x5l text-white "
+                      className="fw-normal ff_dmsans fs_1x5l text-white pointer"
                     >
                       About
                     </a>

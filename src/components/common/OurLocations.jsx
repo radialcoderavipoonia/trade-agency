@@ -73,7 +73,7 @@ const OurLocations = ({ remove_img }) => {
         />
         <div className="custom_container pt-sm-5">
           <div className="mt-xxl-5 py-sm-3"></div>
-          <div>
+          <div  data-aos="zoom-in">
             <img
               className="w-100 py-5 mt-sm-5 map"
               src={Map_Img}

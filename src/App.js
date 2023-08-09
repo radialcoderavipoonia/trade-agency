@@ -5,10 +5,16 @@ import { ProductPage  } from "./Pages/ProductPage";
 import { Route, Routes } from "react-router-dom";
 import BackToTop from "./components/common/BackToTop";
 import Preloader from "./components/common/Preloader";
-import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
+import Aos from "aos";
 function App() {
-  AOS.init();
+  useEffect(() => {
+    Aos.init({
+      once: true,
+      duration: 1200,
+    });
+  }, []);
   return (
     <>
       <BackToTop />
