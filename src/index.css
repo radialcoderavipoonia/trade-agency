@@ -212,6 +212,9 @@
       rgba(48, 156, 255, 0.8) 100%),
     var(--clr-blue28);
   padding: 18px 35px;
+  background-size: 103% 103%;
+  background-position: center;
+  margin: 2px;
 }
 
 .bg_popular_button {
@@ -229,6 +232,9 @@
       rgba(48, 156, 255, 0.8) 100%),
     linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%), #ff604b;
   padding: 16px 44px;
+  background-size: 103% 103%;
+  background-position: center;
+  margin: 2px;
 }
 
 .more_arrow {
@@ -682,7 +688,7 @@
 }
 
 .hover_bg_card:hover {
-  transform: scale(0.96);
+  transform: scale(0.98);
 }
 
 .border_official_button:hover {

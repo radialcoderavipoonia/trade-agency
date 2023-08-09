@@ -11,25 +11,31 @@ const PricingPlan = () => {
     <>
       <section className="position-relative mt_-50_md">
         <div className="custom_container container">
-          <h2 className="ff_rubik fw-bold fs_4xl mb-0 text-center color_whitefc">
-            Awesome <span className="color_blueod">Pricing Plan</span>
-          </h2>
-          <p className="ff_rubik fw-normal fs_1x8l color_whitefc text-center mb-0 pb_43 pb_9_xsm mw_647 me-auto ms-auto pt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
-            facilisi donec egestas egestas pellentesque magna.
-          </p>
+          <div data-aos="fade-down">
+            <h2 className="ff_rubik fw-bold fs_4xl mb-0 text-center color_whitefc">
+              Awesome <span className="color_blueod">Pricing Plan</span>
+            </h2>
+            <p className="ff_rubik fw-normal fs_1x8l color_whitefc text-center mb-0 pb_43 pb_9_xsm mw_647 me-auto ms-auto pt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
+              facilisi donec egestas egestas pellentesque magna.
+            </p>
+          </div>
           <Row className="justify-content-center align-items-center position-relative z-1 top_bottom_zigzag_img">
             {Pricing.map((plan) => {
               return (
-                <Col lg={4} md={6} key={plan.id} className="py_15">
+                <Col
+                  lg={4}
+                  md={6}
+                  key={plan.id}
+                  className="py_15"
+                  data-aos={`${plan.aos}`}
+                >
                   <div className="pricing_customer_box hover_box_pricing p_32 text-sm-start text-center position-relative hover_card_line overflow-hidden">
-                    <div className={`d-flex  align-items-center ${plan.between}`}>
-                      <img
-                        src={plan.imgicon}
-                        alt="starter image"
-
-                      />
-                      <button className={`pp_button br_45 border-0 fw-bold ff_inter fs_1x2l color_blue0d6  ${plan.popularbtn}`}>
+                    <div className="d-flex justify-content-center justify-content-sm-between align-items-center hover_between">
+                      <img src={plan.imgicon} alt="starter image" />
+                      <button
+                        className={`pp_button  br_45 border-0 fw-bold ff_inter fs_1x2l color_blue0d6  ${plan.popularbtn}`}
+                      >
                         {plan.button}
                       </button>
                     </div>
@@ -93,7 +99,7 @@ const PricingPlan = () => {
               );
             })}
           </Row>
-          <div className="d-sm-flex justify-content-center pt_43 d-none mt-md-4">
+          <div className="d-sm-flex justify-content-center pt_43 d-none mt-md-4" data-aos="fade-up">
             <button className="quote_button ff_inter fs_1x8l text-white fw-semibold bg_popular_button border_1_transparent">
               Get a Quote
               <span className="pl_10">
