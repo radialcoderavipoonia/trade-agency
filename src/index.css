@@ -936,6 +936,7 @@ footer ul li a:hover {
     opacity: 0;
   }
 }
+
 /* responsive */
 @media (min-width: 1200px) and (max-width: 1920px) {
   .min-vh-100-custom {
