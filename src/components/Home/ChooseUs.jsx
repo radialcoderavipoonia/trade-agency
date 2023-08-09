@@ -19,7 +19,7 @@ const ChooseUs = () => {
                   sm={6}
                   xs={12}
                   key={us.id}
-                  className="pt_17 hover_bg_card"
+                  className="pt_17 hover_bg_card "
                 >
                   <div className={`p_40  ${us.background}`}>
                     <p className="ff_inter fs_2x2l fw-semibold text-white mb-0">

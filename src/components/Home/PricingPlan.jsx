@@ -23,12 +23,13 @@ const PricingPlan = () => {
               return (
                 <Col lg={4} md={6} key={plan.id} className="py_15">
                   <div className="pricing_customer_box hover_box_pricing p_32 text-sm-start text-center position-relative hover_card_line overflow-hidden">
-                    <div className="d-flex justify-content-center justify-content-sm-between align-items-center hover_between">
+                    <div className={`d-flex  align-items-center ${plan.between}`}>
                       <img
                         src={plan.imgicon}
                         alt="starter image"
+
                       />
-                      <button className={`pp_button  br_45 border-0 fw-bold ff_inter fs_1x2l color_blue0d6  ${plan.popularbtn}`}>
+                      <button className={`pp_button br_45 border-0 fw-bold ff_inter fs_1x2l color_blue0d6  ${plan.popularbtn}`}>
                         {plan.button}
                       </button>
                     </div>
