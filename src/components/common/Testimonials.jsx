@@ -66,7 +66,7 @@ const Testimonials = ({ space_add }) => {
           {Clients.map((say) => {
             return (
               <div lg={3} md={4} key={say.id} className="px_5 ">
-                <div className="pricing_customer_box px_20_py_12 position-relative hover_card_line overflow-hidden">
+                <div className="pricing_customer_box px_20_py_12 ">
                   <img src={say.fivestarts} alt="five stars" />
                   <p className="py_34 pt_21_xsm mb-0 ff_opensans fs_1x5l fw-normal color_gray80">
                     {say.customerpara}

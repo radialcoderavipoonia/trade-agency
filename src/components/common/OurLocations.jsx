@@ -72,7 +72,7 @@ const OurLocations = ({ remove_img }) => {
           alt="Our_location_bottom"
         />
         <div className="custom_container pt-sm-5">
-          <div className="mt-sm-5 py-sm-5"></div>
+          <div className="mt-xxl-5 py-sm-3"></div>
           <div>
             <img
               className="w-100 py-5 mt-sm-5 map"

@@ -1,4 +1,5 @@
 import React from "react";
+import preloadergif from "../../assets/images/gif/1f4555564e5c44214b475148585dc537.gif";
 
 const Preloader = () => {
   setTimeout(() => {
@@ -7,20 +8,16 @@ const Preloader = () => {
   }, 2500);
   return (
     <>
-      <section className="bg_img_main">
-        <div className="none">
-          <div className="bg_img_main text-center d-flex flex-column align-items-center justify-content-center start-0 top-0  w-100 z_111111 min-vh-100 position-fixed ">
-            <div className="animation_preloader d-flex justify-content-center">
-              <p className="ff_rubik fs_4xl fw-bold text-white mb-0">
-                Web Design
-              </p>
-            </div>
-            <div className="w-50 border_preloader rounded-pill overflow-hidden mt-4">
-              <div className="w_60 h_30 bg_gradient animation_preloader_2"></div>
+      <div className="none">
+        <div className="bg_img_main text-center d-flex flex-column align-items-center justify-content-center start-0 top-0  w-100 z_111111 min-vh-100 position-fixed ">
+          <div className="animation_preloader d-flex justify-content-center">
+            <div id="loop" class="center"></div>
+            <div id="bike-wrapper" class="center">
+              <div id="bike" class="centerBike"></div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };
