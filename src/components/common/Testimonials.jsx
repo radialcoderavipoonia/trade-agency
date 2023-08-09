@@ -18,35 +18,25 @@ const Testimonials = ({ space_add }) => {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 3.001,
           slidesToScroll: 3,
-          infinite: true,
-          dots: false,
-          arrow: false,
-          centerMode: true,
-          centerPadding: "10px",
+          infinite: true,         
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 2.001,
           slidesToScroll: 2,
-          infinite: true,
-          dots: false,
-          arrow: false,
-          centerMode: true,
-          centerPadding: "10px",
+          infinite: true,        
         },
       },
       {
         breakpoint: 576,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.00202,
+    
           slidesToScroll: 1,
-          arrow: false,
-          centerMode: true,
-          centerPadding: "10px",
         },
       },
     ],
@@ -62,34 +52,36 @@ const Testimonials = ({ space_add }) => {
           What Our Clients Say About Us
         </h2>
 
-        <Slider {...settings} className="pt_45 pt_21_xsm" ref={first}>
-          {Clients.map((say) => {
-            return (
-              <div lg={3} md={4} key={say.id} className="px_5 ">
-                <div className="pricing_customer_box px_20_py_12 ">
-                  <img src={say.fivestarts} alt="five stars" />
-                  <p className="py_34 pt_21_xsm mb-0 ff_opensans fs_1x5l fw-normal color_gray80">
-                    {say.customerpara}
-                  </p>
-                  <div className="d-flex align-items-center">
-                    <img src={say.customersimg} alt="custoemrs images" />
-                    <div className="pl_12">
-                      <p className="ff_opensans fs_1x6l fw-semibold color_lightgreena4 mb-0 ">
-                        {say.customername}
-                      </p>
-                      <div className="d-flex pt-1 align-items-center">
-                        <span>{say.verified}</span>
-                        <p className="mb-0 ps-2 ff_opensans fs_1x4l fw-normal color_lightgreen8b">
-                          {say.verifiedcustomer}
+        <div className="custom_container container overflow-x-hidden my-4">
+          <Slider {...settings} className="pt_45 pt_21_xsm  " ref={first}>
+            {Clients.map((say) => {
+              return (
+                <div lg={3} md={4} key={say.id} className="px_5 ">
+                  <div className="pricing_customer_box mx-lg-0 mx-2 px_20_py_12 ">
+                    <img src={say.fivestarts} alt="five stars" />
+                    <p className="py_34 pt_21_xsm mb-0 ff_opensans fs_1x5l fw-normal color_gray80">
+                      {say.customerpara}
+                    </p>
+                    <div className="d-flex align-items-center">
+                      <img src={say.customersimg} alt="custoemrs images" />
+                      <div className="pl_12">
+                        <p className="ff_opensans fs_1x6l fw-semibold color_lightgreena4 mb-0 ">
+                          {say.customername}
                         </p>
+                        <div className="d-flex pt-1 align-items-center">
+                          <span>{say.verified}</span>
+                          <p className="mb-0 ps-2 ff_opensans fs_1x4l fw-normal color_lightgreen8b">
+                            {say.verifiedcustomer}
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
-        </Slider>
+              );
+            })}
+          </Slider>
+        </div>
         <div className="pt_38 pt_21_xsm d-flex d-lg-none justify-content-center align-items-center">
           <div
             onClick={() => first.current.slickPrev()}
