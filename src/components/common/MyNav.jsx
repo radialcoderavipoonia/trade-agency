@@ -60,7 +60,7 @@ const MyNav = () => {
                   <li>
                     <Link
                       to="/"
-                      className="hover_line position-relative ff_rubik fs_1x8l fw-bold text-white me_40"
+                      className="hover_line overflow-hidden position-relative ff_rubik fs_1x8l fw-bold text-white me_40"
                       onClick={clickshow}
                     >
                       MINECRAFT HOSTING
@@ -69,7 +69,7 @@ const MyNav = () => {
                   <li>
                     <Link
                       to="/product"
-                      className="hover_line position-relative ff_rubik fs_1x8l fw-bold text-white me_40 my_15_xl"
+                      className="hover_line overflow-hidden position-relative ff_rubik fs_1x8l fw-bold text-white me_40 my_15_xl"
                       onClick={clickshow}
                     >
                       GAME HOSTING
@@ -78,7 +78,7 @@ const MyNav = () => {
                   <li>
                     <div class="dropdown">
                       <span
-                        className="hover_line pointer position-relative ff_rubik fs_1x8l fw-bold text-white my_15_xl"
+                        className="pointer ff_rubik fs_1x8l fw-bold text-white my_15_xl"
                         onClick={clickshow}
                       >
                         More
@@ -92,14 +92,14 @@ const MyNav = () => {
                         <div className=" d-flex flex-column">
                           <Link
                             to="/"
-                            className="hover_line text-nowrap position-relative ff_rubik fs_1x8l fw-bold text-white me_40"
+                            className="text-nowrap ff_rubik fs_1x8l fw-bold text-white me_40"
                             onClick={clickshow}
                           >
                             MINECRAFT HOSTING
                           </Link>
                           <Link
                             to="/product"
-                            className="hover_line text-nowrap position-relative ff_rubik fs_1x8l fw-bold text-white me_40 my_15_xl"
+                            className="text-nowrap ff_rubik fs_1x8l fw-bold text-white me_40 my_15_xl"
                             onClick={clickshow}
                           >
                             GAME HOSTING
