@@ -225,8 +225,7 @@
 
 .sumbit_button_placeholder {
   border-radius: 5px;
-  background-image: linear-gradient(
-      27deg,
+  background: linear-gradient(27deg,
       rgba(0, 63, 243, 0.8) 0%,
       rgba(48, 156, 255, 0.8) 100%),
     linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%), #ff604b;
@@ -560,9 +559,9 @@
 }
 
 /* border  */
-/* .border_started_button {
+.border_started_button {
   border: 1px solid #0e4bfe;
-} */
+}
 
 /* border radius  */
 .br_45 {
@@ -637,7 +636,7 @@
 }
 
 .pricing_customer_box:hover {
-  transform: scale(0.97);
+  transform: scale(0.98);
 }
 
 .login_btn:hover svg path {
@@ -659,13 +658,16 @@
 .nav_icon_circel:hover path {
   fill: #206dfd;
 }
-.nav_icon_circel:hover{
+
+.nav_icon_circel:hover {
   background-color: white;
   transform: translateY(-3px);
 }
+
 .app_icon_circel:hover path {
   fill: var(--clr-blue026);
 }
+
 .footer_app:hover {
   transform: translateY(-3px);
 }
@@ -703,6 +705,9 @@
     linear-gradient(0deg, var(--clr-blue28) 0%, var(--clr-blue28) 100%),
     var(--bg-black1d);
   border: 1px solid transparent;
+  background-size: 103% 103%;
+  background-position: center;
+  margin: 2px;
 }
 
 .pp_button:hover {
@@ -719,6 +724,7 @@
 .hover_box_pricing:hover .hover_none {
   display: none !important;
 }
+
 /* 
 .hover_box_pricing:hover .hover_white {
   color: var(--clr-whiteFF) !important;
@@ -873,6 +879,7 @@ footer ul li a {
 footer ul li a:hover {
   color: var(--clr-blue0F4) !important;
 }
+
 /* preloader  */
 
 .centerBike {
@@ -899,7 +906,7 @@ footer ul li a:hover {
 }
 
 #loop:before {
-  background:  linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), linear-gradient(0deg, #2898FF 0%, #2898FF 100%), #FF604B;
+  background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), linear-gradient(0deg, #2898FF 0%, #2898FF 100%), #FF604B;
   content: "";
   display: block;
   height: 4px;
@@ -926,16 +933,19 @@ footer ul li a:hover {
     margin-left: -364px;
     opacity: 0;
   }
+
   33.33% {
     transform: rotate(0deg);
     margin-left: -50px;
     opacity: 1;
   }
+
   66.66% {
     transform: rotate(-360deg);
     margin-left: -50px;
     opacity: 1;
   }
+
   100% {
     margin-left: 264px;
     transform: rotate(-360deg);
