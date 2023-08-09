@@ -2,7 +2,14 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Modpack } from "../common/Helper";
 import modpacktopimg from "../../assets/images/png/pricingplan_giggaz_bottom.png";
+<<<<<<< HEAD
 import getstartedarrow from "../../assets/images/webp/arrow-right.webp";
+=======
+import getstartedarrow from "../../assets/images/webp/arrow-right.webp"
+// import modpacktopimg from "../../assets/images/webp/pricingplan_giggaz_top.webp";
+// import getstartedarrow from "../../assets/images/webp/arrow-right.webp";
+
+>>>>>>> 7da309513119b7bcfd6ac72e28cd4f7bd16a2d75
 const ModPack = () => {
   return (
     <>

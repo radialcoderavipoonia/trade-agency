@@ -159,7 +159,6 @@
   height: 12px;
   width: 12px;
 }
-
 /* letter space */
 .letter_s3 {
   letter-spacing: 3px;
@@ -768,8 +767,6 @@
 .slick-track {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -12px;
-  margin-right: -12px;
   flex-direction: row;
 }
 
@@ -1247,5 +1244,8 @@ footer ul li a:hover {
   .game_hosting_input_bg {
     padding: 5px;
     border-radius: 3px;
+  }
+  .justify_content_xsm_center{
+    justify-content: center;
   }
 }
