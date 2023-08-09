@@ -1,5 +1,5 @@
 import React from "react";
-import more_arrow from '../../assets/images/svg/more_arrow.svg'
+import more_arrow from "../../assets/images/svg/more_arrow.svg";
 import { ImCross } from "react-icons/im";
 import { Container } from "react-bootstrap";
 import {
@@ -76,18 +76,37 @@ const MyNav = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      // to="/product"
-                      className="hover_line position-relative ff_rubik fs_1x8l fw-bold text-white my_15_xl"
-                      onClick={clickshow}
-                    >
-                      More
-                      <img
-                        src={more_arrow}
-                        alt="more arrow"
-                        className="more_arrow ms-2"
-                      />
-                    </Link>
+                    <div class="dropdown">
+                      <span
+                        className="hover_line pointer position-relative ff_rubik fs_1x8l fw-bold text-white my_15_xl"
+                        onClick={clickshow}
+                      >
+                        More
+                        <img
+                          src={more_arrow}
+                          alt="more arrow"
+                          className="more_arrow ms-2"
+                        />
+                      </span>
+                      <div class="dropdown-content translate-middle-x position-absolute start-50">
+                        <div className=" d-flex flex-column">
+                          <Link
+                            to="/"
+                            className="hover_line text-nowrap position-relative ff_rubik fs_1x8l fw-bold text-white me_40"
+                            onClick={clickshow}
+                          >
+                            MINECRAFT HOSTING
+                          </Link>
+                          <Link
+                            to="/product"
+                            className="hover_line text-nowrap position-relative ff_rubik fs_1x8l fw-bold text-white me_40 my_15_xl"
+                            onClick={clickshow}
+                          >
+                            GAME HOSTING
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
                   </li>
                 </ul>
                 <div className="d-flex align-items-center">
@@ -128,7 +147,7 @@ const MyNav = () => {
                     </a>
                   </span>
                   <button className="text-white d-xl-block d-none fs_2xl fw-bold lh_normal ff_rubik login_btn rounded-pill border-0 ms_20">
-                    <LoginBtnIcon/>
+                    <LoginBtnIcon />
                     <span className="ps-2">Login</span>
                   </button>
                 </div>
