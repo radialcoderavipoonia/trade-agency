@@ -122,9 +122,22 @@
   border-radius: 10px;
 }
 
-.view_hero_circle {
+.view_hero_circle::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  left: 30px;
+  top: -70%;
+  z-index: -1;
   height: 55px;
   width: 55px;
+  background-color: var(--bg-voilet00C);
+  transition: 0.4s linear;
+}
+
+.view_hero_circle:hover::after {
+  border-radius: 10px !important;
+  width: 100% !important;
 }
 
 .app_icon_circel {
@@ -185,7 +198,7 @@
   padding: 18px 40px;
   background: var(--bg-black1d);
   box-shadow: 0px 25px 43px 0px rgba(10, 131, 247, 0.25);
-  transition: all 0.2s linear;
+  transition: all 0.4s linear;
 }
 
 .login_btn_open {
@@ -642,45 +655,11 @@
   transform: translateY(-3px);
 }
 
-.hover_line:hover::after {
-  width: 100%;
-  left: 0;
-}
-
-.hover_line::after {
-  content: "";
-  position: absolute;
-  height: 3px;
-  width: 0;
-  background: var(--clr-whiteFB);
-  bottom: -6px;
-  left: 50%;
-  transition: 0.6s ease-in-out;
-}
-
-.hover_card_line::before {
-  content: "";
-  background: var(--clr-blue2F7);
-  width: 50%;
-  height: 100%;
-  left: -145%;
-  top: 0%;
-  opacity: 0.2;
-  transform: skew(45deg);
-  position: absolute;
-  transition: 0.6s ease-in-out;
-}
-
-.hover_card_line:hover::before {
-  left: 250%;
-}
-
 .hover_bg_card {
   transition: all 0.3s linear;
 }
 
-.hover_card_line:hover,
-.hover_card_line:active {
+.hover_card_line:hover {
   color: var(--clr-whiteFF);
   box-shadow: 0px -1px 10px 0 var(--clr-blue2F7);
   transition: all 0.3s linear;
@@ -942,6 +921,14 @@ footer ul li a:hover {
     margin-top: 10px !important;
   }
 
+  .scroll_h {
+    height: 50px !important;
+  }
+
+  .hero_bg {
+    background-size: cover;
+  }
+
   .location_img_bottom {
     bottom: -140px;
     left: 8% !important;
@@ -950,6 +937,10 @@ footer ul li a:hover {
 
   .mw_578_xxxl {
     max-width: 578px !important;
+  }
+
+  .pt_16_xxl {
+    padding-top: 16px !important;
   }
 }
 
@@ -983,7 +974,7 @@ footer ul li a:hover {
     justify-content: center;
     align-items: center;
     background-color: #111116 !important;
-    border-radius: 20px;
+    border-radius: 20px 0px 20px 20px;
   }
 
   .fb_img svg path:first-child {
@@ -1019,7 +1010,7 @@ footer ul li a:hover {
 
   .location_img_bottom {
     bottom: -140px;
-    left: 2%;
+    left: 2%; 
     max-width: 290px;
   }
 
